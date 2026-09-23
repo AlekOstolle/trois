@@ -1,0 +1,1420 @@
+<!doctype html>
+<html lang="fr" data-view="artists">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Trois</title>
+<meta name="theme-color" content="#E4E7E2">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Trois">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600&family=Spectral:ital,wght@0,400;0,500;1,400&display=swap">
+<style>
+:root {
+  --wall: #E4E7E2;
+  --card: #F6F6F2;
+  --ink: #1E2320;
+  --muted: #5B635C;
+  --line: #CDD2CA;
+  --accent: #9C2F3A;
+  --on-accent: #FFFFFF;
+  --tab-bg: rgba(246, 246, 242, .92);
+  --sw-contemporain: #2F45A0;
+  --sw-moderne: #2E6B58;
+  --sw-ancien: #A06A22;
+  --serif: "Spectral", Georgia, "Times New Roman", serif;
+  --sans: "Schibsted Grotesk", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --wall: #1A1D1B;
+    --card: #232724;
+    --ink: #E6E8E2;
+    --muted: #A1A89F;
+    --line: #3A403B;
+    --accent: #E07A83;
+    --on-accent: #1A1D1B;
+    --tab-bg: rgba(35, 39, 36, .92);
+    --sw-contemporain: #8FA2F0;
+    --sw-moderne: #7FC3AE;
+    --sw-ancien: #D9A860;
+    color-scheme: dark;
+  }
+}
+/* Le soir : la page passe à la nuit */
+html[data-view="stories"] {
+  --wall: #141B2D;
+  --card: #1D2740;
+  --ink: #ECE6D6;
+  --muted: #A3ABBE;
+  --line: #2F3B58;
+  --accent: #E8A94A;
+  --on-accent: #141B2D;
+  --tab-bg: rgba(29, 39, 64, .92);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html {
+  background: var(--wall);
+  -webkit-text-size-adjust: 100%;
+  transition: background-color .6s ease;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--wall);
+  color: var(--ink);
+  font-family: var(--serif);
+  transition: background-color .6s ease, color .6s ease;
+}
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: calc(env(safe-area-inset-top, 0px) + 28px) 16px calc(env(safe-area-inset-bottom, 0px) + 104px);
+}
+a { color: inherit; }
+button { font: inherit; color: inherit; cursor: pointer; }
+:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; border-radius: 4px; }
+
+/* En-tête */
+.masthead { margin: 0 4px 22px; }
+.masthead .date {
+  font-family: var(--sans);
+  font-size: .85rem;
+  color: var(--muted);
+  margin: 0 0 6px;
+}
+.masthead h1 {
+  margin: 0;
+  font-weight: 400;
+  font-style: italic;
+  font-size: clamp(2.3rem, 11vw, 3.1rem);
+  line-height: 1;
+  letter-spacing: -.02em;
+}
+.masthead .note {
+  font-family: var(--sans);
+  font-size: .85rem;
+  color: var(--muted);
+  margin: 10px 0 0;
+}
+.masthead .note:empty { display: none; }
+
+/* Cartes */
+.card {
+  background: var(--card);
+  border-radius: 10px;
+  padding: 20px 18px 14px;
+  margin: 0 0 16px;
+  transition: background-color .6s ease;
+}
+.era {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 12px;
+  font-family: var(--sans);
+  font-size: .8rem;
+  font-weight: 500;
+  color: var(--muted);
+}
+.swatch { width: 12px; height: 12px; border-radius: 2px; background: var(--muted); flex: none; }
+[data-era="contemporain"] .swatch { background: var(--sw-contemporain); }
+[data-era="moderne"] .swatch { background: var(--sw-moderne); }
+[data-era="ancien"] .swatch { background: var(--sw-ancien); }
+
+.card h2 {
+  margin: 0 0 6px;
+  font-weight: 500;
+  font-size: clamp(1.7rem, 7.6vw, 2.2rem);
+  line-height: 1.08;
+  letter-spacing: -.015em;
+}
+.card .meta {
+  margin: 0 0 14px;
+  font-family: var(--sans);
+  font-size: .88rem;
+  line-height: 1.4;
+  color: var(--muted);
+}
+.bio {
+  position: relative;
+  max-height: calc(1.58em * 7);
+  overflow: hidden;
+  font-size: 1.02rem;
+  line-height: 1.58;
+}
+.bio.clamped {
+  -webkit-mask-image: linear-gradient(#000 62%, transparent);
+          mask-image: linear-gradient(#000 62%, transparent);
+}
+.bio.open { max-height: none; -webkit-mask-image: none; mask-image: none; }
+.bio p { margin: 0 0 .6em; }
+.bio p:last-child { margin-bottom: 0; }
+.more {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 4px 0;
+  background: none;
+  border: 0;
+  font-family: var(--sans);
+  font-size: .88rem;
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--line);
+}
+.more[hidden] { display: none; }
+
+/* Œuvres */
+.works {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: 18px;
+  margin: 18px -18px 0;
+  padding: 0 18px 6px;
+  scrollbar-width: none;
+}
+.works::-webkit-scrollbar { display: none; }
+.work {
+  flex: 0 0 auto;
+  margin: 0;
+  scroll-snap-align: start;
+  max-width: 82%;
+}
+.work button {
+  display: block;
+  padding: 0;
+  border: 0;
+  background: var(--line);
+  cursor: zoom-in;
+}
+.work img {
+  display: block;
+  height: 210px;
+  width: auto;
+  min-width: 140px;
+  max-width: 100%;
+  object-fit: cover;
+}
+.work figcaption {
+  width: 0;
+  min-width: 100%;
+  margin-top: 7px;
+  font-family: var(--sans);
+  font-size: .78rem;
+  line-height: 1.35;
+  color: var(--muted);
+}
+.work figcaption i {
+  font-family: var(--serif);
+  font-size: .95rem;
+  color: var(--ink);
+}
+.nowork {
+  margin: 16px 0 0;
+  font-family: var(--sans);
+  font-size: .85rem;
+  color: var(--muted);
+}
+
+/* Histoires : image en tête */
+.lead {
+  display: block;
+  width: calc(100% + 36px);
+  margin: -20px -18px 16px;
+  padding: 0;
+  border: 0;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  aspect-ratio: 16 / 10;
+  background: var(--line);
+  cursor: zoom-in;
+}
+.lead img { display: block; width: 100%; height: 100%; object-fit: cover; }
+
+/* Actions */
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 18px;
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  font-family: var(--sans);
+  font-size: .9rem;
+}
+.actions a {
+  text-decoration: underline;
+  text-decoration-color: var(--line);
+  text-underline-offset: 3px;
+}
+.keep {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 15px 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: transparent;
+  font-weight: 500;
+  transition: background-color .2s, border-color .2s, color .2s;
+}
+.keep svg { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 1.8; }
+.keep[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.keep[aria-pressed="true"] svg { fill: currentColor; }
+.keep.pop svg { animation: pop .3s ease; }
+@keyframes pop { 50% { transform: scale(1.3); } }
+
+/* Chargement et erreurs */
+.sk { background: var(--line); border-radius: 4px; animation: pulse 1.4s ease-in-out infinite; }
+.sk-title { height: 30px; width: 70%; margin: 4px 0 14px; }
+.sk-line { height: 12px; width: 100%; margin: 0 0 10px; }
+.sk-line.short { width: 55%; }
+.sk-img { height: 150px; width: 100%; margin: 14px 0 6px; }
+@keyframes pulse { 50% { opacity: .45; } }
+.status { font-family: var(--sans); font-size: .9rem; color: var(--muted); margin: 6px 0 0; }
+.status.backup { margin: -6px 0 14px; font-size: .82rem; }
+.retry {
+  margin-top: 12px;
+  padding: 8px 16px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: transparent;
+  font-family: var(--sans);
+  font-weight: 500;
+}
+
+/* Favoris */
+.group-title {
+  margin: 26px 4px 10px;
+  font-family: var(--sans);
+  font-size: .9rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+.row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 8px;
+  padding: 10px;
+  background: var(--card);
+  border-radius: 10px;
+}
+.row .thumb {
+  width: 64px;
+  height: 64px;
+  flex: none;
+  border-radius: 6px;
+  object-fit: cover;
+  background: var(--line);
+}
+.row .txt { flex: 1; min-width: 0; }
+.row .txt a {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.row .txt p {
+  margin: 3px 0 0;
+  font-family: var(--sans);
+  font-size: .8rem;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.row .remove {
+  flex: none;
+  padding: 8px 10px;
+  border: 0;
+  background: none;
+  font-family: var(--sans);
+  font-size: .82rem;
+  color: var(--muted);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.empty { margin: 8px 4px; font-size: 1.05rem; line-height: 1.55; color: var(--muted); }
+.export { margin: 22px 4px 0; }
+
+/* Barre d'onglets */
+.tabbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  padding: 6px 12px calc(env(safe-area-inset-bottom, 0px) + 6px);
+  background: var(--tab-bg);
+  -webkit-backdrop-filter: blur(14px);
+          backdrop-filter: blur(14px);
+  border-top: 1px solid var(--line);
+  transition: background-color .6s ease;
+}
+.tabbar button {
+  flex: 1;
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  padding: 6px 0;
+  border: 0;
+  border-radius: 8px;
+  background: none;
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: .74rem;
+  font-weight: 500;
+}
+.tabbar button[aria-selected="true"] { color: var(--ink); }
+.tabbar svg { width: 23px; height: 23px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+
+/* Visionneuse */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: calc(env(safe-area-inset-top, 0px) + 56px) 14px calc(env(safe-area-inset-bottom, 0px) + 20px);
+  background: rgba(8, 10, 12, .95);
+  color: #EDEDE8;
+}
+.lightbox[hidden] { display: none; }
+.lightbox img { max-width: 100%; max-height: 74vh; object-fit: contain; }
+.lightbox .cap {
+  max-width: 34rem;
+  margin: 14px 0 0;
+  font-family: var(--sans);
+  font-size: .85rem;
+  line-height: 1.45;
+  text-align: center;
+}
+.lightbox .cap i { font-family: var(--serif); font-size: 1rem; }
+.lightbox .close {
+  position: absolute;
+  top: calc(env(safe-area-inset-top, 0px) + 10px);
+  right: 10px;
+  padding: 10px 14px;
+  border: 0;
+  background: none;
+  color: #EDEDE8;
+  font-family: var(--sans);
+  font-size: .95rem;
+  font-weight: 500;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+</style>
+</head>
+<body>
+<main>
+  <section id="view-artists" class="view" role="tabpanel" aria-labelledby="tab-artists">
+    <header class="masthead">
+      <p class="date"></p>
+      <h1>Trois artistes</h1>
+      <p class="note"></p>
+    </header>
+    <div class="cards"></div>
+  </section>
+
+  <section id="view-stories" class="view" role="tabpanel" aria-labelledby="tab-stories" hidden>
+    <header class="masthead">
+      <p class="date"></p>
+      <h1>Trois histoires</h1>
+      <p class="note"></p>
+    </header>
+    <div class="cards"></div>
+  </section>
+
+  <section id="view-saved" class="view" role="tabpanel" aria-labelledby="tab-saved" hidden>
+    <header class="masthead">
+      <h1>Favoris</h1>
+    </header>
+    <div class="saved"></div>
+  </section>
+</main>
+
+<nav class="tabbar" role="tablist" aria-label="Sections">
+  <button type="button" id="tab-artists" role="tab" aria-controls="view-artists" aria-selected="true" data-view="artists">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.3 5.3l1.4 1.4M17.3 17.3l1.4 1.4M5.3 18.7l1.4-1.4M17.3 6.7l1.4-1.4"/></svg>
+    Artistes
+  </button>
+  <button type="button" id="tab-stories" role="tab" aria-controls="view-stories" aria-selected="false" data-view="stories">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+    Histoires
+  </button>
+  <button type="button" id="tab-saved" role="tab" aria-controls="view-saved" aria-selected="false" data-view="saved">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.2a4.3 4.3 0 0 1 7.5 2.6C19.5 15.4 12 20 12 20z"/></svg>
+    Favoris
+  </button>
+</nav>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image agrandie" hidden>
+  <button class="close" type="button">Fermer</button>
+  <img alt="">
+  <p class="cap"></p>
+</div>
+
+<script>
+(() => {
+'use strict';
+
+/* ============================================================
+   CONTEMPORAIN : jeunes artistes des Beaux-Arts de Paris.
+   Un robot GitHub (beauxarts.py) lit chaque nuit « L'Atlas » du site
+   de l'école (prix et bourses des étudiants et jeunes diplômés)
+   et écrit data/beauxarts.json. L'app prend chaque matin
+   l'artiste le plus récent pas encore vu.
+   ============================================================ */
+
+/* ============================================================
+   MODERNE ET ANCIEN : sélection en direct sur Wikidata
+   Chaque mois, l'app interroge Wikidata : tous les artistes référencés
+   par Getty ULAN ou Artsy, avec un article Wikipédia FR ou EN,
+   et dont la notoriété est entre WIKIS_MIN et WIKIS_MAX.
+   Notoriété = nombre de sites Wikimedia qui ont une page sur l'artiste
+   (surtout des Wikipédia en différentes langues ; Picasso dépasse 150).
+   ============================================================ */
+const WIKIS_MIN = 2;
+const WIKIS_MAX = 25;
+const CONTEMPORAIN_DES = 1980;  // Wikidata, en secours : né en 1980 ou après = contemporain
+const MODERNE_AVANT = 1935;     // moderne : né de 1815 à 1934
+const MODERNE_DES = 1815;       // ancien : né avant 1815 (nés de 1935 à 1979 : ignorés)
+
+/* ============================================================
+   LISTES DE SECOURS (artistes) — utilisées seulement si Wikidata
+   ne répond pas. La carte l'indique alors.
+   Format : "Titre Wikipédia FR" ou "Titre FR|Titre EN".
+   ============================================================ */
+
+const CONTEMPORAIN = [
+  "Salman Toor", "Njideka Akunyili Crosby", "Toyin Ojih Odutola", "Jordan Casteel", "Amoako Boafo",
+  "Michael Armitage", "Claire Tabouret", "Tala Madani", "Firelei Báez", "Simon Stålenhag",
+  "Neïl Beloufa", "Julien Creuzet", "Jadé Fadojutimi", "Flora Yukhnovich", "Ewa Juszkiewicz",
+  "Anna Weyant", "Tschabalala Self", "Christina Quarles", "Avery Singer", "Loie Hollowell",
+  "Marguerite Humeau", "Apolonia Sokol", "Kudzanai-Violet Hwami", "Cristina BanBan", "Rachel Jones",
+  "Jean Claracq", "Nathanaëlle Herbelin", "Doron Langberg", "Emma Webster", "Ambera Wellmann"
+];
+
+const MODERNE = [
+  "Léon Spilliaert", "Vilhelm Hammershøi", "Fernand Khnopff", "Jean Delville", "Félix Vallotton",
+  "Léon Bonvin", "Jules Bastien-Lepage", "Eugène Carrière", "Louis Janmot", "Carlos Schwabe",
+  "Alphonse Osbert", "Lucien Lévy-Dhurmer", "Henri Rivière", "Henri-Edmond Cross", "Théo van Rysselberghe",
+  "Akseli Gallen-Kallela", "Hugo Simberg", "Helene Schjerfbeck", "Nikolai Astrup", "Harald Sohlberg",
+  "Peder Severin Krøyer", "Anna Ancher", "Laurits Andersen Ring|L. A. Ring", "Eugène Jansson", "Ivan Bilibine|Ivan Bilibin",
+  "Mikalojus Konstantinas Čiurlionis", "Nicolas Roerich|Nicholas Roerich", "Arkhip Kouïndji|Arkhip Kuindzhi", "Isaac Levitan", "Mikhaïl Vroubel|Mikhail Vrubel",
+  "Zinaïda Serebriakova|Zinaida Serebriakova", "Kouzma Petrov-Vodkine|Kuzma Petrov-Vodkin", "Pavel Filonov", "Kawase Hasui", "Hiroshi Yoshida",
+  "Tsukioka Yoshitoshi", "Kobayashi Kiyochika", "Ohara Koson", "Kawanabe Kyōsai", "Emma Kunz",
+  "Agnes Pelton", "Charles Burchfield", "Florine Stettheimer", "Romaine Brooks", "John Atkinson Grimshaw",
+  "Richard Dadd", "Edward Robert Hughes", "Evelyn De Morgan", "Simeon Solomon", "Austin Osman Spare",
+  "Sidney Sime", "Harry Clarke", "Kay Nielsen", "John Bauer|John Bauer (illustrator)", "Ivan Albright",
+  "Pavel Tchelitchew", "Leonor Fini", "Remedios Varo", "Leonora Carrington", "Kay Sage",
+  "Dorothea Tanning", "Clovis Trouille", "Pierre Roy", "Christian Schad", "Rudolf Schlichter",
+  "Franz Radziwill", "Anton Räderscheidt", "Jeanne Mammen", "Lotte Laserstein", "Felice Casorati",
+  "Antonio Donghi", "Cagnaccio di San Pietro", "George Ault", "Rockwell Kent", "Hugh Ferriss",
+  "Chesley Bonestell", "Albert Robida", "Alfred Kubin", "Josef Sudek", "Claude Cahun",
+  "Séraphine Louis", "Adolf Wölfli", "Augustin Lesage", "Aloïse Corbaz", "Henry Darger",
+  "Madge Gill", "Louis Soutter", "Gaston Chaissac", "Francis Gruber", "André Devambez",
+  "Henri Le Sidaner", "Paul Sérusier", "Charles Filiger", "Jan Mankes", "Carel Willink",
+  "Pyke Koch", "Léon Frédéric", "Xavier Mellery", "William Degouve de Nuncques", "Jacek Malczewski",
+  "Olga Boznańska", "Julio Romero de Torres", "José Gutiérrez Solana", "Albert Welti", "Giovanni Segantini",
+  "Gaetano Previati", "Giuseppe Pellizza da Volpedo", "Max Klinger", "Richard Gerstl", "Albin Egger-Lienz",
+  "Paula Modersohn-Becker", "Marianne von Werefkin", "Heinrich Vogeler", "Tom Thomson", "Lawren Harris",
+  "Emily Carr", "Clarice Beckett", "Tarsila do Amaral", "Amrita Sher-Gil", "Pan Yuliang",
+  "Sanyu", "Mahmoud Saïd", "Osman Hamdi Bey", "Vassili Verechtchaguine|Vasily Vereshchagin", "Martin Johnson Heade",
+  "Ralph Albert Blakelock", "Albert Pinkham Ryder", "Elihu Vedder", "Henry Ossawa Tanner", "Horace Pippin",
+  "Bill Traylor", "Beauford Delaney", "Gerda Wegener", "František Drtikol", "Karl Blossfeldt",
+  "Rodolphe Bresdin", "Charles Meryon"
+];
+
+const ANCIEN = [
+  "Joachim Wtewael", "Hans Baldung", "Albrecht Altdorfer", "Wolf Huber", "Urs Graf",
+  "Niklaus Manuel Deutsch|Niklaus Manuel", "Pontormo", "Rosso Fiorentino", "Domenico Beccafumi", "Piero di Cosimo",
+  "Carlo Crivelli", "Cosmè Tura", "Francesco del Cossa", "Ercole de' Roberti", "Vittore Carpaccio",
+  "Lorenzo Lotto", "Giovanni Battista Moroni", "Sofonisba Anguissola", "Lavinia Fontana", "Fede Galizia",
+  "François de Nomé", "Jacques Callot", "Lubin Baugin", "Sébastien Stoskopff", "Jacques Linard",
+  "Louise Moillon", "Laurent de La Hyre", "Valentin de Boulogne", "Nicolas Tournier", "Trophime Bigot",
+  "Jean-Baptiste Oudry", "Jean-Étienne Liotard", "Hubert Robert", "Jean-Pierre Houël", "Louis-Léopold Boilly",
+  "Jean-Jacques Lequeu", "Étienne-Louis Boullée", "Giovanni Battista Piranesi", "Johann Heinrich Füssli|Henry Fuseli", "Joseph Wright of Derby",
+  "George Stubbs", "John Martin (peintre)|John Martin (painter)", "Samuel Palmer", "Carl Gustav Carus", "Johan Christian Dahl",
+  "Christen Købke", "Philipp Otto Runge", "Georg Friedrich Kersting", "Anne Vallayer-Coster", "Adélaïde Labille-Guiard",
+  "Rachel Ruysch", "Maria Sibylla Merian", "Clara Peeters", "Adriaen Coorte", "Pieter Claesz",
+  "Willem Kalf", "Samuel van Hoogstraten", "Carel Fabritius", "Pieter Jansz Saenredam|Pieter Jansz. Saenredam", "Hendrick Avercamp",
+  "Hercules Seghers|Hercules Segers", "Adam Elsheimer", "Roelant Savery", "Herri met de Bles", "Joachim Patinier|Joachim Patinir",
+  "Jan Gossaert", "Hugo van der Goes", "Dirk Bouts", "Geertgen tot Sint Jans", "Petrus Christus",
+  "Robert Campin", "Simon Marmion", "Enguerrand Quarton", "Barthélemy d'Eyck", "Jean Hey",
+  "Nicolas Froment", "Josse Lieferinxe", "Stefan Lochner", "Konrad Witz", "Michael Pacher",
+  "Martin Schongauer", "Veit Stoss", "Tilman Riemenschneider", "Giovanni di Paolo", "Sassetta",
+  "Paolo Uccello", "Juan de Flandes", "Bartolomé Bermejo", "Luis de Morales", "Juan Sánchez Cotán",
+  "Juan de Valdés Leal", "Juan van der Hamen", "Luis Meléndez|Luis Egidio Meléndez", "Josefa de Óbidos", "Nuno Gonçalves",
+  "Itō Jakuchū", "Soga Shōhaku", "Nagasawa Rosetsu", "Maruyama Ōkyo", "Utagawa Kuniyoshi",
+  "Katsushika Ōi", "Sesshū Tōyō", "Hasegawa Tōhaku", "Tawaraya Sōtatsu", "Bada Shanren",
+  "Shitao", "Gong Xian", "Fan Kuan", "Guo Xi", "Ma Yuan",
+  "Kamāl ud-Dīn Behzād", "Reza Abbasi", "Ustad Mansur", "Théophane le Grec|Theophanes the Greek", "Alessandro Magnasco",
+  "Giacomo Ceruti", "Evaristo Baschenis", "Pietro Longhi", "Rosalba Carriera", "Bernardo Bellotto",
+  "Louis-Jean Desprez|Louis Jean Desprez", "Pierre-Henri de Valenciennes", "Constance Mayer", "Marie-Denise Villers", "J. J. Grandville",
+  "Jan van Kessel l'Ancien|Jan van Kessel the Elder", "Joris Hoefnagel", "Jacopo Ligozzi", "Giovanna Garzoni", "Jean Bourdichon",
+  "Frères de Limbourg|Limbourg brothers", "Jean Pucelle", "Villard de Honnecourt", "Wenzel Jamnitzer", "Hans Vredeman de Vries",
+  "Lorenz Stöer"
+];
+
+/* ============================================================
+   HISTOIRES — liste de départ, puis l'app pioche dans
+   « Wikipedia:Unusual articles ». "-|Titre EN" = article en anglais.
+   ============================================================ */
+const HISTOIRES = [
+  "Épidémie de danse de 1518|Dancing plague of 1518", "Inondation de mélasse de Boston|Great Molasses Flood",
+  "Catastrophe du lac Nyos|Lake Nyos disaster", "Guerre des émeus|Emu War", "Phineas Gage|Phineas Gage",
+  "Hiroo Onoda|Hiroo Onoda", "Mary Celeste|Mary Celeste", "Incident du col Dyatlov|Dyatlov Pass incident",
+  "Signal Wow!|Wow! signal", "Manuscrit de Voynich|Voynich manuscript", "Enfants verts de Woolpit|Green children of Woolpit",
+  "Bête du Gévaudan|Beast of Gévaudan", "Mécanisme d'Anticythère|Antikythera mechanism",
+  "Réacteur nucléaire naturel d'Oklo|Natural nuclear fission reactor", "Affaire Taman Shud|Tamam Shud case",
+  "Femme d'Isdal|Isdal Woman", "Grande Puanteur|Great Stink", "Tulipomanie|Tulip mania", "Kaspar Hauser|Kaspar Hauser",
+  "Opération Mincemeat|Operation Mincemeat", "Projet Habakkuk|Project Habakkuk",
+  "Projet Orion (propulsion)|Project Orion (nuclear propulsion)", "Bombe à chauves-souris|Bat bomb",
+  "Projet Pigeon|Project Pigeon", "Acoustic Kitty|Acoustic Kitty", "Starfish Prime|Starfish Prime",
+  "Opération Plumbbob|Operation Plumbbob", "-|Kentucky meat shower", "Explosion de Halifax|Halifax Explosion",
+  "Incendie de la mine de Centralia|Centralia mine fire", "Cratère de Darvaza|Darvaza gas crater",
+  "Lac Karatchaï|Lake Karachay", "Accident de Goiânia|Goiânia accident", "Demon core|Demon core",
+  "Eben Byers|Eben Byers", "Ötzi|Ötzi", "Homme de Tollund|Tollund Man", "Derinkuyu|Derinkuyu underground city",
+  "Grotte de Movile|Movile Cave", "Grotte des cristaux de Naica|Cave of the Crystals", "Île Bouvet|Bouvet Island",
+  "Île de Clipperton|Clipperton Island", "Bir Tawil|Bir Tawil", "Baarle-Hertog|Baarle-Hertog",
+  "Principauté de Sealand|Principality of Sealand", "Île des Faisans|Pheasant Island",
+  "Guerre du Football|Football War", "Guerre du Seau|War of the Bucket", "Guerre des Pâtisseries|Pastry War",
+  "Guerre anglo-zanzibarite|Anglo-Zanzibar War", "Guerre du Cochon|Pig War (1859)",
+  "Bataille de Karánsebes|Battle of Karánsebes", "Bataille de Los Angeles|Battle of Los Angeles",
+  "-|London Beer Flood", "Affaire des poisons|Affair of the Poisons", "Chevalier d'Éon|Chevalier d'Éon",
+  "Concile cadavérique|Cadaver Synod", "Procès d'animaux|Animal trial", "Topsy (éléphant)|Topsy (elephant)",
+  "Unsinkable Sam|Unsinkable Sam", "Wojtek (ours)|Wojtek (bear)", "Mike le poulet sans tête|Mike the Headless Chicken",
+  "Hans le Malin|Clever Hans", "Turc mécanique|Mechanical Turk", "Canard digérateur|Digesting Duck",
+  "Automates Jaquet-Droz|Jaquet-Droz automata", "-|Clock of the Long Now", "-|Oxford Electric Bell",
+  "Expérience de la goutte de poix|Pitch drop experiment", "Ampoule centenaire|Centennial Light",
+  "Crâne de cristal|Crystal skull", "Homme de Piltdown|Piltdown Man", "Géant de Cardiff|Cardiff Giant",
+  "Fées de Cottingley|Cottingley Fairies", "Grande Peur|Great Fear", "Foudre en boule|Ball lightning",
+  "Lumières de Hessdalen|Hessdalen lights", "Grand smog de Londres|Great Smog of London",
+  "Année sans été|Year Without a Summer", "Tempête solaire de 1859|Carrington Event", "-|Hodges meteorite",
+  "Kosmos 954|Kosmos 954", "Forage sg-3 de Kola|Kola Superdeep Borehole", "Citadelle de Kowloon|Kowloon Walled City",
+  "Whittier (Alaska)|Whittier, Alaska", "Gunkanjima|Hashima Island",
+  "Catacombes des Capucins de Palerme|Capuchin Catacombs of Palermo", "Rosalia Lombardo|Rosalia Lombardo",
+  "-|Oliver Cromwell's head", "Tarrare|Tarrare", "Michel Lotito|Michel Lotito", "Roy Sullivan|Roy Sullivan",
+  "Tsutomu Yamaguchi|Tsutomu Yamaguchi", "Violet Jessop|Violet Jessop", "Juliane Koepcke|Juliane Koepcke",
+  "Vesna Vulović|Vesna Vulović", "Zheng Yi Sao|Ching Shih", "Grace O'Malley|Grace O'Malley",
+  "Jeanne de Clisson|Jeanne de Clisson", "James Barry (chirurgien)|James Barry (surgeon)", "Hugh Glass|Hugh Glass",
+  "Jack Churchill|Jack Churchill", "Wilhelm Voigt|Wilhelm Voigt", "Victor Lustig|Victor Lustig",
+  "Ferdinand Waldo Demara|Ferdinand Waldo Demara", "George Psalmanazar|George Psalmanazar",
+  "Princesse Caraboo|Princess Caraboo", "Joshua Abraham Norton|Emperor Norton", "Gregor MacGregor|Gregor MacGregor",
+  "Essex (baleinier)|Essex (ship)", "Expédition Franklin|Franklin's lost expedition",
+  "-|Andrée's Arctic balloon expedition", "Colonie de Roanoke|Roanoke Colony", "D. B. Cooper|D. B. Cooper",
+  "Vol 19|Flight 19", "Arbre du Ténéré|Tree of Ténéré", "Pando (arbre)|Pando (tree)",
+  "Greyfriars Bobby|Greyfriars Bobby", "-|Old Tom (orca)", "Baleine 52 Hertz|52-hertz whale",
+  "Épidémie de rire du Tanganyika|Tanganyika laughter epidemic", "Syndrome de Paris|Paris syndrome",
+  "Opération Northwoods|Operation Northwoods", "Projet Stargate|Stargate Project", "Station de nombres|Numbers station",
+  "UVB-76|UVB-76", "Disque d'or de Voyager|Voyager Golden Record", "Message d'Arecibo|Arecibo message",
+  "-|Long-time nuclear waste warning messages", "Onkalo|Onkalo spent nuclear fuel repository",
+  "Cercueil de sûreté|Safety coffin"
+];
+
+/* ============================================================ */
+
+const ARTIST_HOUR = 6;   // nouveaux artistes à 6 h
+const STORY_HOUR = 18;   // nouvelles histoires à 18 h
+const P = 'trois:v1:';
+
+const ERAS = [
+  { key: 'contemporain', label: 'Contemporain', list: CONTEMPORAIN },
+  { key: 'moderne', label: 'Moderne', list: MODERNE },
+  { key: 'ancien', label: 'Ancien', list: ANCIEN },
+];
+const ERA = Object.fromEntries(ERAS.map(e => [e.key, e]));
+
+/* ---------- utilitaires ---------- */
+const $ = (s, r = document) => r.querySelector(s);
+const pad = n => String(n).padStart(2, '0');
+const mod = (a, n) => ((a % n) + n) % n;
+const cap = s => s ? s.charAt(0).toUpperCase() + s.slice(1) : s;
+
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(P + k); return v == null ? d : JSON.parse(v); } catch { return d; } },
+  set(k, v) { try { localStorage.setItem(P + k, JSON.stringify(v)); } catch {} },
+  del(k) { try { localStorage.removeItem(P + k); } catch {} },
+  keys() { const out = []; try { for (let i = 0; i < localStorage.length; i++) { const k = localStorage.key(i); if (k && k.startsWith(P)) out.push(k.slice(P.length)); } } catch {} return out; },
+};
+
+function el(tag, attrs, ...kids) {
+  const n = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs || {})) {
+    if (v == null || v === false) continue;
+    if (k === 'class') n.className = v;
+    else if (k === 'text') n.textContent = v;
+    else if (k.startsWith('on')) n.addEventListener(k.slice(2), v);
+    else n.setAttribute(k, v === true ? '' : v);
+  }
+  for (const k of kids.flat()) if (k != null && k !== false) n.append(k);
+  return n;
+}
+function icon(markup) {
+  const t = document.createElement('template');
+  t.innerHTML = markup.trim();
+  return t.content.firstChild;
+}
+const HEART = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.2a4.3 4.3 0 0 1 7.5 2.6C19.5 15.4 12 20 12 20z"/></svg>';
+
+function hashStr(s) { let h = 2166136261; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); } return h >>> 0; }
+function rng(seed) { return () => { seed = (seed + 0x6D2B79F5) | 0; let t = Math.imul(seed ^ (seed >>> 15), 1 | seed); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; }; }
+function shuffled(arr, seedStr) { const a = arr.slice(), r = rng(hashStr(seedStr)); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+
+/* Jour « éditorial » : les artistes changent à 6 h, les histoires à 18 h */
+function slot(hour) {
+  const d = new Date(Date.now() - hour * 3600e3);
+  return {
+    key: `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`,
+    num: Math.round(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) / 864e5),
+    date: d,
+  };
+}
+function startNum() {
+  let s = store.get('start', null);
+  if (typeof s !== 'number') { s = slot(0).num; store.set('start', s); }
+  return s;
+}
+
+async function getJSON(url, ms = 15000) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), ms);
+  try {
+    const r = await fetch(url, { signal: ctrl.signal });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    return await r.json();
+  } finally { clearTimeout(timer); }
+}
+const api = (lang, params) => `https://${lang}.wikipedia.org/w/api.php?` + new URLSearchParams({ format: 'json', formatversion: '2', origin: '*', ...params });
+
+function cleanExtract(s) {
+  return (s || '')
+    .replace(/\(\s*[,;:]?\s*\)/g, '')
+    .replace(/\[\d+\]/g, '')
+    .replace(/[ \t\u00A0]{2,}/g, ' ')
+    .replace(/ ([,.])/g, '$1')
+    .replace(/\n{2,}/g, '\n')
+    .trim();
+}
+function stripTags(html) {
+  if (!html) return '';
+  return (new DOMParser().parseFromString(html, 'text/html').body.textContent || '').replace(/\s+/g, ' ').trim();
+}
+const stripParen = t => t.replace(/\s*\([^)]*\)\s*$/, '');
+const yearOf = v => { const m = /^(-?\d{1,4})-/.exec(v || ''); return m ? parseInt(m[1], 10) : null; };
+
+/* ---------- Wikipédia ---------- */
+async function wikiPage(lang, title, wantFr = false) {
+  const params = {
+    action: 'query', redirects: '1', titles: title,
+    prop: 'extracts|pageprops|pageimages|info|description' + (wantFr ? '|langlinks' : ''),
+    exintro: '1', explaintext: '1',
+    ppprop: 'wikibase_item|disambiguation',
+    piprop: 'thumbnail', pithumbsize: '900',
+    inprop: 'url',
+  };
+  if (wantFr) params.lllang = 'fr';
+  const data = await getJSON(api(lang, params));
+  const pg = data && data.query && data.query.pages && data.query.pages[0];
+  if (!pg || pg.missing || pg.invalid) return null;
+  if (pg.pageprops && 'disambiguation' in pg.pageprops) return null;
+  const extract = cleanExtract(pg.extract);
+  if (extract.length < 40) return null;
+  return {
+    lang,
+    title: pg.title,
+    extract,
+    desc: pg.description || '',
+    qid: (pg.pageprops && pg.pageprops.wikibase_item) || null,
+    thumb: (pg.thumbnail && pg.thumbnail.source) || null,
+    url: pg.fullurl || `https://${lang}.wikipedia.org/wiki/${encodeURIComponent(pg.title.replace(/ /g, '_'))}`,
+    fr: (pg.langlinks && pg.langlinks[0] && pg.langlinks[0].title) || null,
+  };
+}
+
+const ART_RE = /peint|sculpt|artist|grav|dessin|photograph|illustr|céram|plasticien|vidéaste|orfèvr|enlumin|miniatur|painter|printmaker|engraver|draughts|drafts|potter|installation|mural|calligraph|lithograph|aquarel|watercolo|architect|goldsmith|mosa[iï]|tapiss/i;
+
+async function resolveArtist(entry) {
+  const [fr, en] = entry.split('|').map(s => s.trim());
+  const enT = en || fr;
+  const tries = [
+    ['fr', fr], ['fr', fr + ' (peintre)'], ['fr', fr + ' (artiste)'],
+    ['en', enT], ['en', enT + ' (painter)'], ['en', enT + ' (artist)'],
+  ];
+  const seen = new Set();
+  for (const [lang, t] of tries) {
+    const k = lang + t;
+    if (seen.has(k)) continue;
+    seen.add(k);
+    const p = await wikiPage(lang, t);
+    if (p && ART_RE.test(p.extract.slice(0, 500) + ' ' + p.desc)) return p;
+  }
+  return null;
+}
+
+/* ---------- Wikidata : dates + œuvres avec image ---------- */
+const fileFromFilePath = u => { const i = u.indexOf('Special:FilePath/'); if (i < 0) return null; try { return decodeURIComponent(u.slice(i + 17)).replace(/_/g, ' '); } catch { return null; } };
+const commonsThumb = (name, w) => `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(name)}?width=${w}`;
+const commonsPage = name => `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(name.replace(/ /g, '_'))}`;
+
+const sparql = q => 'https://query.wikidata.org/sparql?format=json&query=' + encodeURIComponent(q);
+
+/* Fiche d'un artiste : dates, titres Wikipédia, identifiant Artsy, œuvres avec image */
+async function wikidataArtist(qid) {
+  const out = { birth: null, death: null, fr: null, en: null, artsy: null, works: [] };
+  if (!/^Q\d+$/.test(qid || '')) return out;
+  const q = `SELECT ?b ?d ?frT ?enT ?artsy ?work ?workLabel ?img ?inc WHERE {
+  { wd:${qid} wdt:P569 ?b . }
+  UNION { wd:${qid} wdt:P570 ?d . }
+  UNION { ?fa schema:about wd:${qid} ; schema:isPartOf <https://fr.wikipedia.org/> ; schema:name ?frT . }
+  UNION { ?ea schema:about wd:${qid} ; schema:isPartOf <https://en.wikipedia.org/> ; schema:name ?enT . }
+  UNION { wd:${qid} wdt:P2042 ?artsy . }
+  UNION { SELECT ?work ?img ?inc WHERE { ?work wdt:P170 wd:${qid} ; wdt:P18 ?img . OPTIONAL { ?work wdt:P571 ?inc . } } LIMIT 80 }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "fr,en". }
+}`;
+  const data = await getJSON(sparql(q));
+  const rows = (data && data.results && data.results.bindings) || [];
+  const works = new Map();
+  for (const r of rows) {
+    if (r.b && out.birth == null) out.birth = yearOf(r.b.value);
+    if (r.d && out.death == null) out.death = yearOf(r.d.value);
+    if (r.frT && !out.fr) out.fr = r.frT.value;
+    if (r.enT && !out.en) out.en = r.enT.value;
+    if (r.artsy && !out.artsy) out.artsy = r.artsy.value;
+    if (r.work && r.img && !works.has(r.work.value)) {
+      const file = fileFromFilePath(r.img.value);
+      if (!file) continue;
+      const label = (r.workLabel && r.workLabel.value) || '';
+      works.set(r.work.value, {
+        title: /^Q\d+$/.test(label) ? '' : label,
+        year: r.inc ? yearOf(r.inc.value) : null,
+        img: commonsThumb(file, 520),
+        full: commonsThumb(file, 1600),
+        page: commonsPage(file),
+        file: file.toLowerCase(),
+      });
+    }
+  }
+  out.works = [...works.values()];
+  return out;
+}
+
+/* Réservoir du mois : un dixième de tous les artistes qui passent le filtre.
+   Le dixième change chaque mois (dernier chiffre de l'identifiant Wikidata). */
+const monthOf = s => s.date.getFullYear() * 12 + s.date.getMonth();
+const eraOfYear = y => y >= CONTEMPORAIN_DES ? 'contemporain' : (y >= MODERNE_AVANT ? null : (y >= MODERNE_DES ? 'moderne' : 'ancien'));
+const poolReady = m => { const c = store.get('pool', null); return !!(c && c.m === m && c.eras); };
+
+async function fetchPool(m) {
+  const cached = store.get('pool', null);
+  if (cached && cached.m === m && cached.eras) return cached.eras;
+  const digit = (m * 7) % 10;
+  const q = `SELECT ?a (MIN(YEAR(?b)) AS ?y) WHERE {
+  { ?a wdt:P245 [] . } UNION { ?a wdt:P2042 [] . }
+  FILTER(STRENDS(STR(?a), "${digit}"))
+  ?a wikibase:sitelinks ?sl .
+  FILTER(?sl >= ${WIKIS_MIN} && ?sl <= ${WIKIS_MAX})
+  ?a wdt:P569 ?b .
+  FILTER(isLiteral(?b))
+  FILTER EXISTS { ?art schema:about ?a ; schema:isPartOf ?w . VALUES ?w { <https://fr.wikipedia.org/> <https://en.wikipedia.org/> } }
+}
+GROUP BY ?a`;
+  const data = await getJSON(sparql(q), 80000);
+  const eras = { contemporain: [], moderne: [], ancien: [] };
+  for (const r of (data && data.results && data.results.bindings) || []) {
+    const qid = r.a && r.a.value.split('/').pop();
+    const y = r.y ? parseInt(r.y.value, 10) : NaN;
+    const e = isNaN(y) ? null : eraOfYear(y);
+    if (!/^Q\d+$/.test(qid || '') || !e) continue;
+    eras[e].push(qid);
+  }
+  if (eras.moderne.length >= 40 && eras.ancien.length >= 40) store.set('pool', { m, eras });
+  return eras;
+}
+let poolReq = null;
+function getPool(m) {
+  if (!poolReq || poolReq.m !== m) {
+    const p = fetchPool(m);
+    p.m = m;
+    p.catch(() => { if (poolReq === p) poolReq = null; });
+    poolReq = p;
+  }
+  return poolReq;
+}
+
+/* ---------- Images de l'article (secours) ---------- */
+const BAD_FILE = /logo|ic[oô]ne|icon|flag|drapeau|signature|blason|coat[ _]of[ _]arms|\bmap\b|carte|commons|wiki|symbol|portal|portail|question|stub|pictogram|nuvola|crystal_|edit-/i;
+function prettyFile(name) {
+  return name.replace(/\.[a-z0-9]+$/i, '').replace(/_/g, ' ').replace(/\s*-\s*(WGA\d+|Google Art Project)/gi, '').trim();
+}
+async function articleImages(lang, title) {
+  const data = await getJSON(api(lang, {
+    action: 'query', generator: 'images', titles: title, gimlimit: '50',
+    prop: 'imageinfo', iiprop: 'url|size|mime|extmetadata', iiurlwidth: '520',
+    iiextmetadatafilter: 'ObjectName', iiextmetadatalanguage: lang,
+  }));
+  const pages = (data && data.query && data.query.pages) || [];
+  return pages
+    .filter(p => {
+      const ii = p.imageinfo && p.imageinfo[0];
+      return ii && /^image\/(jpeg|png|webp)$/.test(ii.mime) && ii.width >= 300 && ii.height >= 200 && !BAD_FILE.test(p.title);
+    })
+    .map(p => {
+      const ii = p.imageinfo[0];
+      const name = p.title.replace(/^[^:]+:/, '');
+      let t = stripTags(ii.extmetadata && ii.extmetadata.ObjectName && ii.extmetadata.ObjectName.value);
+      if (!t || t.length > 120) t = prettyFile(name);
+      return {
+        title: t, year: null,
+        img: ii.thumburl || ii.url,
+        full: `https://${lang}.wikipedia.org/wiki/Special:FilePath/${encodeURIComponent(name)}?width=1600`,
+        page: ii.descriptionurl,
+        file: name.toLowerCase(),
+      };
+    });
+}
+
+/* ---------- Jeunes artistes des Beaux-Arts de Paris ---------- */
+async function beauxArtsData() {
+  const urls = [];
+  const host = location.hostname, repo = location.pathname.split('/').filter(Boolean)[0];
+  // fichier frais directement sur GitHub (mis à jour par le robot), sinon copie du site
+  if (host.endsWith('.github.io') && repo && !repo.includes('.')) {
+    urls.push(`https://raw.githubusercontent.com/${host.split('.')[0]}/${repo}/main/data/beauxarts.json`);
+  }
+  urls.push('data/beauxarts.json');
+  for (const u of urls) {
+    try {
+      const d = await getJSON(u);
+      if (d && Array.isArray(d.artists) && d.artists.length) return d.artists;
+    } catch (e) { /* essai suivant */ }
+  }
+  return null;
+}
+
+function youngCard(a) {
+  const born = a.born ? `${a.bornWord || 'Né'} en ${a.born}` : '';
+  const prize = [a.prize, a.collection].filter(Boolean).join(', ');
+  return {
+    type: 'artist', src: 'ba', era: 'contemporain',
+    id: 'ba:' + a.id, baId: a.id,
+    name: a.name,
+    desc: [born, prize].filter(Boolean).join('. '),
+    extract: a.bio || '', url: a.url, lang: 'fr',
+    works: (a.works || []).slice(0, 5).map(w => ({ title: '', cap: w.cap || '', year: null, img: w.img, full: w.img, page: a.url })),
+    hasWorks: true,
+    thumb: (a.works && a.works[0] && a.works[0].img) || null,
+  };
+}
+
+async function pickYoung() {
+  const list = await beauxArtsData();
+  if (!list) return null;
+  const seen = new Set(store.get('vus-ba', []));
+  const byYear = new Map();
+  for (const a of list) {
+    if (!a || !a.id || !a.name || !a.works || !a.works.length) continue;
+    const y = a.year || 0;
+    if (!byYear.has(y)) byYear.set(y, []);
+    byYear.get(y).push(a);
+  }
+  for (const y of [...byYear.keys()].sort((x, z) => z - x)) {   // les plus récents d'abord
+    const next = shuffled(byYear.get(y), 'ba-' + y).find(a => !seen.has(a.id));
+    if (next) return youngCard(next);
+  }
+  return null;   // tout vu : on passe à Wikidata
+}
+function markSeen(ids) {
+  if (!ids.length) return;
+  const seen = store.get('vus-ba', []);
+  for (const id of ids) if (!seen.includes(id)) seen.push(id);
+  store.set('vus-ba', seen);
+}
+
+/* ---------- Chargement d'un artiste ---------- */
+async function assembleArtist(page, wd, seed) {
+  const titled = shuffled(wd.works.filter(w => w.title), seed);
+  const untitled = shuffled(wd.works.filter(w => !w.title), seed);
+  let works = titled.concat(untitled).slice(0, 4);
+  if (works.length < 3) {
+    try {
+      const have = new Set(works.map(w => w.file));
+      const extra = (await articleImages(page.lang, page.title)).filter(w => !have.has(w.file));
+      works = works.concat(extra).slice(0, 4);
+    } catch (e) { /* on garde ce qu'on a */ }
+  }
+  const hasWorks = works.length > 0;
+  if (!works.length && page.thumb) works = [{ title: '', year: null, img: page.thumb, full: page.thumb, page: page.url }];
+  return {
+    type: 'artist',
+    id: page.lang + ':' + page.title,
+    name: stripParen(page.title),
+    desc: page.desc, birth: wd.birth, death: wd.death,
+    extract: page.extract,
+    url: page.url, lang: page.lang,
+    artsy: wd.artsy || null,
+    works, hasWorks,
+    thumb: (works[0] && works[0].img) || page.thumb || null,
+  };
+}
+
+async function loadArtistByQid(qid, seed) {
+  let wd;
+  try { wd = await wikidataArtist(qid); } catch (e) { return null; }
+  let page = null;
+  if (wd.fr) page = await wikiPage('fr', wd.fr);
+  if (!page && wd.en) page = await wikiPage('en', wd.en);
+  return page ? assembleArtist(page, wd, seed) : null;
+}
+
+async function loadArtistFromName(entry, seed) {
+  const page = await resolveArtist(entry);
+  if (!page) return null;
+  let wd = { birth: null, death: null, artsy: null, works: [] };
+  if (page.qid) { try { wd = await wikidataArtist(page.qid); } catch (e) { /* sans œuvres */ } }
+  return assembleArtist(page, wd, seed);
+}
+
+async function pickArtist(era, s) {
+  if (era.key === 'contemporain') {
+    const y = await pickYoung();
+    if (y) return y;
+  }
+  const m = monthOf(s);
+  let pool = null;
+  try { pool = (await getPool(m))[era.key]; } catch (e) { pool = null; }
+  if (pool && pool.length >= 10) {
+    const order = shuffled(pool, 'trois-' + era.key + '-' + m);
+    const day = s.date.getDate() - 1;   // 8 candidats réservés par jour : pas de doublon dans le mois
+    let first = null;
+    for (let t = 0; t < 6; t++) {
+      const a = await loadArtistByQid(order[mod(day * 8 + t, order.length)], s.key + era.key);
+      if (!a) continue;
+      a.era = era.key;
+      if (a.hasWorks) return a;     // on préfère un artiste avec au moins une image d'œuvre
+      if (!first) first = a;
+    }
+    if (first) return first;
+  }
+  // Secours : Wikidata n'a pas répondu
+  const order = shuffled(era.list, 'trois-' + era.key);
+  const n = order.length, i = mod(s.num - startNum(), n);
+  for (const t of [...new Set([i, mod(i + Math.floor(n / 2), n), mod(i + Math.floor(n / 3), n)])]) {
+    const a = await loadArtistFromName(order[t], s.key + era.key);
+    if (a) { a.era = era.key; a.backup = true; return a; }
+  }
+  return null;
+}
+
+/* ---------- Histoires ---------- */
+async function loadStory(entry) {
+  const [fr, en] = entry.split('|').map(x => (x && x.trim() !== '-') ? x.trim() : null);
+  let page = null;
+  if (fr) page = await wikiPage('fr', fr);
+  if (!page && en) {
+    const pe = await wikiPage('en', en, true);
+    if (pe && pe.fr) page = await wikiPage('fr', pe.fr);
+    if (!page) page = pe;
+  }
+  if (!page) return null;
+  return {
+    type: 'story',
+    id: page.lang + ':' + page.title,
+    name: page.title, desc: page.desc,
+    extract: page.extract, url: page.url, lang: page.lang,
+    thumb: page.thumb,
+  };
+}
+
+/* Après la liste maison, on pioche dans « Wikipedia:Unusual articles » (anglais, des centaines d'entrées) */
+async function unusualPool() {
+  const cached = store.get('unusual', null);
+  if (cached && Date.now() - cached.t < 30 * 864e5 && cached.list && cached.list.length) return cached.list;
+  try {
+    const sub = await getJSON(api('en', { action: 'query', list: 'allpages', apnamespace: '4', apprefix: 'Unusual articles/', aplimit: '40' }));
+    const titles = ['Wikipedia:Unusual articles'].concat(((sub.query && sub.query.allpages) || []).map(p => p.title)).slice(0, 50);
+    const out = new Set();
+    let cont = {};
+    for (let i = 0; i < 12; i++) {
+      const d = await getJSON(api('en', { action: 'query', prop: 'links', titles: titles.join('|'), plnamespace: '0', pllimit: 'max', ...cont }));
+      for (const pg of (d.query && d.query.pages) || []) for (const l of pg.links || []) out.add(l.title);
+      if (d.continue) cont = d.continue; else break;
+    }
+    const known = new Set(HISTOIRES.map(h => (h.split('|')[1] || '').trim()));
+    const list = [...out].filter(t => !/^List of/i.test(t) && !known.has(t)).map(t => '-|' + t);
+    if (list.length > 50) { store.set('unusual', { t: Date.now(), list }); return list; }
+  } catch (e) { /* hors ligne : on reste sur la liste maison */ }
+  return (cached && cached.list) || [];
+}
+
+async function storyEntries(s) {
+  const own = shuffled(HISTOIRES, 'trois-histoires');
+  const d = s.num - startNum();
+  let pool = own;
+  if (d >= 0 && d * 3 + 3 > own.length) {
+    const extra = await unusualPool();
+    if (extra.length) pool = own.concat(shuffled(extra, 'trois-insolites'));
+  }
+  const n = pool.length;
+  return { pool, n, base: mod(d * 3, n) };
+}
+
+/* ---------- Favoris ---------- */
+const savedList = () => store.get('favoris', []);
+const isSaved = id => savedList().some(x => x.id === id);
+function toggleSaved(item) {
+  let list = savedList();
+  if (list.some(x => x.id === item.id)) list = list.filter(x => x.id !== item.id);
+  else list.unshift({
+    id: item.id, type: item.type, name: item.name, desc: item.desc || '',
+    era: item.era || null, url: item.url, thumb: item.thumb || null, lang: item.lang, t: Date.now(),
+  });
+  store.set('favoris', list);
+  document.querySelectorAll('.keep').forEach(syncKeep);
+  if (state.view === 'saved') renderSaved();
+}
+function syncKeep(b) {
+  const on = isSaved(b.dataset.id);
+  b.setAttribute('aria-pressed', String(on));
+  b.querySelector('span').textContent = on ? 'Gardé' : 'Garder';
+}
+function keepButton(item) {
+  const b = el('button', { type: 'button', class: 'keep', 'data-id': item.id }, icon(HEART), el('span'));
+  syncKeep(b);
+  b.addEventListener('click', () => {
+    toggleSaved(item);
+    b.classList.remove('pop'); void b.offsetWidth; b.classList.add('pop');
+  });
+  return b;
+}
+
+/* ---------- Rendu ---------- */
+function bio(text) {
+  const box = el('div', { class: 'bio' }, text.split('\n').filter(Boolean).map(p => el('p', { text: p })));
+  const more = el('button', { type: 'button', class: 'more', hidden: true, text: 'Lire la suite' });
+  more.addEventListener('click', () => {
+    const open = box.classList.toggle('open');
+    box.classList.toggle('clamped', !open);
+    more.textContent = open ? 'Réduire' : 'Lire la suite';
+  });
+  return [box, more];
+}
+
+/* Mesure après affichage (une vue masquée n'a pas de hauteur) */
+function measureBios(reset) {
+  const root = $('#view-' + state.view);
+  if (!root) return;
+  if (reset) for (const box of root.querySelectorAll('.bio:not(.open)')) {
+    delete box.dataset.m; box.classList.remove('clamped'); box.nextElementSibling.hidden = true;
+  }
+  for (const box of root.querySelectorAll('.bio:not([data-m])')) {
+    if (!box.getClientRects().length) continue;
+    box.dataset.m = '1';
+    if (box.scrollHeight > box.clientHeight + 4) { box.classList.add('clamped'); box.nextElementSibling.hidden = false; }
+  }
+}
+const scheduleMeasure = () => requestAnimationFrame(() => measureBios(false));
+
+function metaLine(a) {
+  if (a.src === 'ba') return a.desc;
+  const dates = a.birth != null ? (a.death != null ? `${a.birth} – ${a.death}` : `${a.birth} –`) : '';
+  return [cap(a.desc), dates].filter(Boolean).join(', ');
+}
+
+function workFigure(w, artistName) {
+  const img = el('img', { src: w.img, alt: w.title || ('Œuvre de ' + artistName), loading: 'lazy', decoding: 'async' });
+  const fig = el('figure', { class: 'work', role: 'listitem' },
+    el('button', { type: 'button', 'aria-label': 'Agrandir ' + (w.title || 'l’image'), onclick: () => openLightbox(w, artistName) }, img),
+    w.cap ? el('figcaption', { text: w.cap })
+      : (w.title || w.year) ? el('figcaption', {}, w.title ? el('i', { text: w.title }) : null, w.year ? (w.title ? ', ' : '') + w.year : null) : null
+  );
+  img.addEventListener('error', () => fig.remove());
+  return fig;
+}
+
+function renderArtist(a) {
+  const era = ERA[a.era];
+  const links = a.src === 'ba' ? [
+    el('a', { href: a.url, target: '_blank', rel: 'noopener', text: 'Beaux-Arts de Paris' }),
+    el('a', { href: 'https://www.google.com/search?tbm=isch&q=' + encodeURIComponent(a.name + ' artiste'), target: '_blank', rel: 'noopener', text: 'Plus d’images' }),
+  ] : [
+    el('a', { href: a.url, target: '_blank', rel: 'noopener', text: a.lang === 'fr' ? 'Wikipédia' : 'Wikipédia (anglais)' }),
+    el('a', { href: 'https://artsandculture.google.com/search?q=' + encodeURIComponent(a.name), target: '_blank', rel: 'noopener', text: 'Google Arts & Culture' }),
+  ];
+  if (a.src !== 'ba' && a.artsy) links.push(el('a', { href: 'https://www.artsy.net/artist/' + encodeURIComponent(a.artsy), target: '_blank', rel: 'noopener', text: 'Artsy' }));
+  else if (a.src !== 'ba' && a.era !== 'ancien') links.push(el('a', { href: 'https://www.artsy.net/search?term=' + encodeURIComponent(a.name), target: '_blank', rel: 'noopener', text: 'Artsy' }));
+  return el('article', { class: 'card', 'data-era': a.era },
+    el('p', { class: 'era' }, el('span', { class: 'swatch', 'aria-hidden': 'true' }), era.label),
+    el('h2', { text: a.name }),
+    el('p', { class: 'meta', text: metaLine(a) }),
+    a.backup ? el('p', { class: 'status backup', text: 'Wikidata n’a pas répondu : artiste tiré de la liste de secours.' }) : null,
+    bio(a.extract),
+    a.works.length
+      ? el('div', { class: 'works', role: 'list', 'aria-label': 'Œuvres' }, a.works.map(w => workFigure(w, a.name)))
+      : el('p', { class: 'nowork', text: 'Aucune image d’œuvre en accès libre : voir les liens ci-dessous.' }),
+    el('div', { class: 'actions' }, keepButton(a), links)
+  );
+}
+
+function renderStory(s) {
+  return el('article', { class: 'card story' },
+    s.thumb ? el('button', { type: 'button', class: 'lead', 'aria-label': 'Agrandir l’image', onclick: () => openLightbox({ img: s.thumb, full: s.thumb, title: '', page: s.url }, s.name) },
+      el('img', { src: s.thumb, alt: '', loading: 'lazy', decoding: 'async', onerror: e => e.target.parentNode.remove() })) : null,
+    el('h2', { text: s.name }),
+    s.desc ? el('p', { class: 'meta', text: cap(s.desc) + (s.lang === 'fr' ? '' : ' (article en anglais)') })
+           : (s.lang === 'fr' ? null : el('p', { class: 'meta', text: 'Article en anglais' })),
+    bio(s.extract),
+    el('div', { class: 'actions' }, keepButton(s), el('a', { href: s.url, target: '_blank', rel: 'noopener', text: 'Lire l’article' }))
+  );
+}
+
+function skeleton(eraKey, text) {
+  const era = eraKey && ERA[eraKey];
+  return el('article', { class: 'card', 'data-era': eraKey || null, 'aria-busy': 'true' },
+    era ? el('p', { class: 'era' }, el('span', { class: 'swatch', 'aria-hidden': 'true' }), era.label) : el('div', { class: 'sk sk-img' }),
+    el('div', { class: 'sk sk-title' }), el('div', { class: 'sk sk-line' }), el('div', { class: 'sk sk-line' }), el('div', { class: 'sk sk-line short' }),
+    el('p', { class: 'status', text: text || 'Recherche en cours…' })
+  );
+}
+function messageCard(eraKey, text, retry) {
+  const era = eraKey && ERA[eraKey];
+  return el('article', { class: 'card', 'data-era': eraKey || null },
+    era ? el('p', { class: 'era' }, el('span', { class: 'swatch', 'aria-hidden': 'true' }), era.label) : null,
+    el('p', { class: 'status', text }),
+    retry ? el('button', { type: 'button', class: 'retry', onclick: retry, text: 'Réessayer' }) : null
+  );
+}
+const NET_ERR = 'Wikipédia ne répond pas. Vérifiez la connexion, puis réessayez.';
+
+function masthead(view, s, hour, label) {
+  const sec = $('#view-' + view);
+  $('.date', sec).textContent = cap(s.date.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long' }));
+  $('.note', sec).textContent = new Date().getHours() < hour ? label : '';
+}
+
+function pruneCache(prefix, keep) {
+  for (const k of store.keys()) if (k.startsWith(prefix) && k !== keep) store.del(k);
+}
+
+/* ---------- Vues ---------- */
+const state = { view: 'artists', aKey: null, sKey: null, aRun: 0, sRun: 0 };
+
+async function loadArtists(force) {
+  const s = slot(ARTIST_HOUR);
+  const run = ++state.aRun;
+  state.aKey = s.key;
+  masthead('artists', s, ARTIST_HOUR, 'Ce sont les artistes d’hier. Les suivants arrivent à 6 h.');
+  const wrap = $('#view-artists .cards');
+  const cacheKey = 'a3:' + s.key;
+  pruneCache('a:', null);    // anciennes versions
+  pruneCache('a2:', null);
+  const cached = !force && store.get(cacheKey, null);
+  if (Array.isArray(cached) && cached.length === 3) { wrap.replaceChildren(...cached.map(renderArtist)); scheduleMeasure(); return; }
+
+  const waitText = poolReady(monthOf(s))
+    ? 'Recherche sur Wikidata…'
+    : 'Recherche sur Wikidata. La première du mois peut prendre jusqu’à une minute.';
+  wrap.replaceChildren(...ERAS.map(e => skeleton(e.key, e.key === 'contemporain' ? 'Recherche aux Beaux-Arts de Paris…' : waitText)));
+  let failed = false;
+  const results = await Promise.all(ERAS.map((era, i) =>
+    pickArtist(era, s).then(
+      a => {
+        if (run !== state.aRun) return a;
+        wrap.children[i].replaceWith(a ? renderArtist(a) : messageCard(era.key, 'Aucun artiste trouvé pour ce créneau.', () => loadArtists(true)));
+        scheduleMeasure();
+        return a;
+      },
+      () => {
+        failed = true;
+        if (run === state.aRun) wrap.children[i].replaceWith(messageCard(era.key, NET_ERR, () => loadArtists(true)));
+        return null;
+      })
+  ));
+  if (run === state.aRun && !failed && results.every(Boolean)) {
+    if (!results.some(a => a.backup)) {
+      store.set(cacheKey, results);
+      markSeen(results.filter(a => a.baId).map(a => a.baId));
+    }
+    pruneCache('a3:', cacheKey);
+  }
+}
+
+async function loadStories(force) {
+  const s = slot(STORY_HOUR);
+  const run = ++state.sRun;
+  state.sKey = s.key;
+  masthead('stories', s, STORY_HOUR, 'Ce sont les histoires d’hier soir. Les suivantes arrivent à 18 h.');
+  const wrap = $('#view-stories .cards');
+  const cacheKey = 's:' + s.key;
+  const cached = !force && store.get(cacheKey, null);
+  if (Array.isArray(cached) && cached.length === 3) { wrap.replaceChildren(...cached.map(renderStory)); scheduleMeasure(); return; }
+
+  wrap.replaceChildren(skeleton(), skeleton(), skeleton());
+  let failed = false;
+  let pool, n, base;
+  try { ({ pool, n, base } = await storyEntries(s)); }
+  catch (e) { wrap.replaceChildren(messageCard(null, NET_ERR, () => loadStories(true))); return; }
+
+  const used = new Set();
+  const results = await Promise.all([0, 1, 2].map(async k => {
+    const cands = [base + k, base + k + Math.floor(n / 2), base + k + Math.floor(n / 3), base + k + Math.floor(2 * n / 3)].map(x => mod(x, n));
+    try {
+      for (const c of cands) {
+        if (used.has(c)) continue;
+        used.add(c);
+        const st = await loadStory(pool[c]);
+        if (st) {
+          if (run === state.sRun) { wrap.children[k].replaceWith(renderStory(st)); scheduleMeasure(); }
+          return st;
+        }
+      }
+      if (run === state.sRun) wrap.children[k].replaceWith(messageCard(null, 'Aucune histoire trouvée pour ce créneau.', () => loadStories(true)));
+      return null;
+    } catch (e) {
+      failed = true;
+      if (run === state.sRun) wrap.children[k].replaceWith(messageCard(null, NET_ERR, () => loadStories(true)));
+      return null;
+    }
+  }));
+  if (run === state.sRun && !failed && results.every(Boolean)) {
+    store.set(cacheKey, results);
+    pruneCache('s:', cacheKey);
+  }
+}
+
+function renderSaved() {
+  const wrap = $('#view-saved .saved');
+  const list = savedList();
+  if (!list.length) {
+    wrap.replaceChildren(el('p', { class: 'empty', text: 'Rien pour l’instant. Touchez « Garder » sur un artiste ou une histoire pour le retrouver ici.' }));
+    return;
+  }
+  const row = x => {
+    const sub = x.type === 'artist'
+      ? [ERA[x.era] ? ERA[x.era].label : '', cap(x.desc)].filter(Boolean).join(', ')
+      : cap(x.desc);
+    return el('div', { class: 'row' },
+      x.thumb ? el('img', { class: 'thumb', src: x.thumb, alt: '', loading: 'lazy', onerror: e => e.target.replaceWith(el('div', { class: 'thumb' })) }) : el('div', { class: 'thumb' }),
+      el('div', { class: 'txt' },
+        el('a', { href: x.url, target: '_blank', rel: 'noopener', text: x.name }),
+        sub ? el('p', { text: sub }) : null),
+      el('button', { type: 'button', class: 'remove', 'aria-label': 'Retirer ' + x.name + ' des favoris', text: 'Retirer', onclick: () => toggleSaved(x) })
+    );
+  };
+  const artists = list.filter(x => x.type === 'artist');
+  const stories = list.filter(x => x.type === 'story');
+  const exportBtn = el('button', { type: 'button', class: 'retry', text: 'Copier la liste' });
+  exportBtn.addEventListener('click', async () => {
+    const txt = list.map(x => `${x.name}\n${x.url}`).join('\n\n');
+    try { await navigator.clipboard.writeText(txt); exportBtn.textContent = 'Liste copiée'; }
+    catch { exportBtn.textContent = 'Copie impossible sur cet appareil'; }
+    setTimeout(() => { exportBtn.textContent = 'Copier la liste'; }, 2500);
+  });
+  wrap.replaceChildren(
+    artists.length ? el('h2', { class: 'group-title', text: `Artistes (${artists.length})` }) : null,
+    ...artists.map(row),
+    stories.length ? el('h2', { class: 'group-title', text: `Histoires (${stories.length})` }) : null,
+    ...stories.map(row),
+    el('div', { class: 'export' }, exportBtn)
+  );
+}
+
+function show(view) {
+  state.view = view;
+  document.documentElement.dataset.view = view;
+  for (const b of document.querySelectorAll('.tabbar button')) b.setAttribute('aria-selected', String(b.dataset.view === view));
+  for (const v of document.querySelectorAll('.view')) v.hidden = v.id !== 'view-' + view;
+  if (view === 'saved') renderSaved();
+  const wall = getComputedStyle(document.documentElement).getPropertyValue('--wall').trim();
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta && wall) meta.setAttribute('content', wall);
+  window.scrollTo(0, 0);
+  scheduleMeasure();
+}
+
+/* ---------- Visionneuse ---------- */
+const lb = $('#lightbox'), lbImg = $('img', lb), lbCap = $('.cap', lb), lbClose = $('.close', lb);
+let lastFocus = null;
+function openLightbox(w, who) {
+  lastFocus = document.activeElement;
+  lbImg.src = w.img;
+  lbImg.alt = w.title || who || '';
+  const token = {};
+  lb._token = token;
+  if (w.full && w.full !== w.img) {
+    const hi = new Image();
+    hi.onload = () => { if (!lb.hidden && lb._token === token) lbImg.src = hi.src; };
+    hi.src = w.full;
+  }
+  lbCap.replaceChildren(
+    w.cap ? w.cap : '',
+    w.cap && who ? el('br') : '',
+    w.title ? el('i', { text: w.title }) : '',
+    w.year ? (w.title ? ', ' : '') + w.year : '',
+    (w.title || w.year) && who ? el('br') : '',
+    who || '',
+    w.page ? el('br') : '',
+    w.page ? el('a', { href: w.page, target: '_blank', rel: 'noopener', text: 'Voir la source' }) : ''
+  );
+  lb.hidden = false;
+  document.body.style.overflow = 'hidden';
+  lbClose.focus();
+}
+function closeLightbox() {
+  lb.hidden = true;
+  lbImg.removeAttribute('src');
+  document.body.style.overflow = '';
+  if (lastFocus) lastFocus.focus();
+}
+lbClose.addEventListener('click', closeLightbox);
+lb.addEventListener('click', e => { if (e.target === lb || e.target === lbImg) closeLightbox(); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape' && !lb.hidden) closeLightbox(); });
+
+/* ---------- Démarrage ---------- */
+for (const b of document.querySelectorAll('.tabbar button')) b.addEventListener('click', () => show(b.dataset.view));
+
+const h = new Date().getHours();
+show(h >= STORY_HOUR || h < 5 ? 'stories' : 'artists');
+loadArtists();
+loadStories();
+
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState !== 'visible') return;
+  if (slot(ARTIST_HOUR).key !== state.aKey) loadArtists();
+  if (slot(STORY_HOUR).key !== state.sKey) loadStories();
+});
+
+if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => measureBios(true));
+
+if ('serviceWorker' in navigator && location.protocol === 'https:') {
+  navigator.serviceWorker.register('./sw.js').catch(() => {});
+}
+})();
+</script>
+</body>
+</html>
