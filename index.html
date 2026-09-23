@@ -474,7 +474,7 @@ button { font: inherit; color: inherit; cursor: pointer; }
 
 <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image agrandie" hidden>
   <button class="close" type="button">Fermer</button>
-  <img alt="">
+  <img alt="" referrerpolicy="no-referrer">
   <p class="cap"></p>
 </div>
 
@@ -483,12 +483,15 @@ button { font: inherit; color: inherit; cursor: pointer; }
 'use strict';
 
 /* ============================================================
-   CONTEMPORAIN : jeunes artistes des Beaux-Arts de Paris.
-   Un robot GitHub (beauxarts.py) lit chaque nuit « L'Atlas » du site
-   de l'école (prix et bourses des étudiants et jeunes diplômés)
-   et écrit data/beauxarts.json. L'app prend chaque matin
-   l'artiste le plus récent pas encore vu.
+   CONTEMPORAIN : le robot GitHub (robot.py) parcourt chaque nuit
+   les galeries d'art contemporain du CPGA, le Réseau documents
+   d'artistes, des prix et L'Atlas des Beaux-Arts de Paris, et écrit
+   data/contemporains/. Chaque matin, l'app alterne entre ces familles
+   de sources et prend l'artiste le plus jeune pas encore vu
+   (petit bonus pour les diplômés des Beaux-Arts de Paris).
    ============================================================ */
+const FAMILLES = ['beauxarts', 'galeries', 'dda', 'galeries', 'prix'];  // ordre de rotation (galeries 2 jours sur 5)
+const BONUS_BEAUX_ARTS = 8;       // en années : un diplômé des Beaux-Arts de Paris né en 1985 passe comme un né en 1993
 
 /* ============================================================
    MODERNE ET ANCIEN : sélection en direct sur Wikidata
@@ -500,9 +503,9 @@ button { font: inherit; color: inherit; cursor: pointer; }
    ============================================================ */
 const WIKIS_MIN = 2;
 const WIKIS_MAX = 25;
-const CONTEMPORAIN_DES = 1980;  // Wikidata, en secours : né en 1980 ou après = contemporain
+const CONTEMPORAIN_DES = 1960;  // Wikidata, en secours : né en 1960 ou après = contemporain
 const MODERNE_AVANT = 1935;     // moderne : né de 1815 à 1934
-const MODERNE_DES = 1815;       // ancien : né avant 1815 (nés de 1935 à 1979 : ignorés)
+const MODERNE_DES = 1815;       // ancien : né avant 1815 (nés de 1935 à 1959 : ignorés)
 
 /* ============================================================
    LISTES DE SECOURS (artistes) — utilisées seulement si Wikidata
@@ -899,61 +902,63 @@ async function articleImages(lang, title) {
     });
 }
 
-/* ---------- Jeunes artistes des Beaux-Arts de Paris ---------- */
-async function beauxArtsData() {
-  const urls = [];
+/* ---------- Contemporains : données du robot ---------- */
+const RAW = (() => {
   const host = location.hostname, repo = location.pathname.split('/').filter(Boolean)[0];
+  return host.endsWith('.github.io') && repo && !repo.includes('.')
+    ? `https://raw.githubusercontent.com/${host.split('.')[0]}/${repo}/main/` : null;
+})();
+async function dataFile(path) {
   // fichier frais directement sur GitHub (mis à jour par le robot), sinon copie du site
-  if (host.endsWith('.github.io') && repo && !repo.includes('.')) {
-    urls.push(`https://raw.githubusercontent.com/${host.split('.')[0]}/${repo}/main/data/beauxarts.json`);
-  }
-  urls.push('data/beauxarts.json');
-  for (const u of urls) {
-    try {
-      const d = await getJSON(u);
-      if (d && Array.isArray(d.artists) && d.artists.length) return d.artists;
-    } catch (e) { /* essai suivant */ }
+  for (const u of [RAW && RAW + path, path].filter(Boolean)) {
+    try { return await getJSON(u); } catch (e) { /* essai suivant */ }
   }
   return null;
 }
 
-function youngCard(a) {
-  const born = a.born ? `${a.bornWord || 'Né'} en ${a.born}` : '';
-  const prize = [a.prize, a.collection].filter(Boolean).join(', ');
+function contemporaryCard(r) {
+  const born = r.born ? `${r.bornWord || 'Né·e'} en ${r.born}` : '';
   return {
-    type: 'artist', src: 'ba', era: 'contemporain',
-    id: 'ba:' + a.id, baId: a.id,
-    name: a.name,
-    desc: [born, prize].filter(Boolean).join('. '),
-    extract: a.bio || '', url: a.url, lang: 'fr',
-    works: (a.works || []).slice(0, 5).map(w => ({ title: '', cap: w.cap || '', year: null, img: w.img, full: w.img, page: a.url })),
+    type: 'artist', src: 'c', era: 'contemporain',
+    id: 'c:' + r.id, cId: r.id,
+    name: r.name,
+    desc: [born, r.note].filter(Boolean).join('. '),
+    srcName: r.srcName || '',
+    extract: r.bio || '', url: r.url, lang: 'fr',
+    works: (r.works || []).slice(0, 5).map(w => ({ title: '', cap: w.cap || '', year: null, img: w.img, full: w.img, page: r.url })),
     hasWorks: true,
-    thumb: (a.works && a.works[0] && a.works[0].img) || null,
+    thumb: (r.works && r.works[0] && r.works[0].img) || null,
   };
 }
 
-async function pickYoung() {
-  const list = await beauxArtsData();
-  if (!list) return null;
-  const seen = new Set(store.get('vus-ba', []));
-  const byYear = new Map();
-  for (const a of list) {
-    if (!a || !a.id || !a.name || !a.works || !a.works.length) continue;
-    const y = a.year || 0;
-    if (!byYear.has(y)) byYear.set(y, []);
-    byYear.get(y).push(a);
+async function pickContemporary(s) {
+  const idx = await dataFile('data/contemporains/index.json');
+  if (!idx || !Array.isArray(idx.artists) || !idx.artists.length) return null;
+  const seen = new Set(store.get('vus-c', []));
+  const unseen = idx.artists.filter(a => a && a.id && !seen.has(a.id));
+  const prio = a => (a.b || 1978) + (a.ba ? BONUS_BEAUX_ARTS : 0);   // les plus jeunes d'abord
+  for (let k = 0; k < FAMILLES.length; k++) {
+    const fam = FAMILLES[mod(s.num + k, FAMILLES.length)];
+    let pool = unseen.filter(a => a.f === fam);
+    if (!pool.length) continue;
+    if (fam === 'galeries') {   // une galerie différente chaque fois
+      const gals = [...new Set(pool.map(a => a.s))].sort();
+      const g = shuffled(gals, 'gal-' + s.key)[0];
+      pool = pool.filter(a => a.s === g);
+    }
+    const order = shuffled(pool, 'c-' + s.key).sort((x, z) => prio(z) - prio(x));
+    for (const c of order.slice(0, 4)) {
+      const r = await dataFile(`data/contemporains/a/${c.id}.json`);
+      if (r && r.works && r.works.length) return contemporaryCard(r);
+    }
   }
-  for (const y of [...byYear.keys()].sort((x, z) => z - x)) {   // les plus récents d'abord
-    const next = shuffled(byYear.get(y), 'ba-' + y).find(a => !seen.has(a.id));
-    if (next) return youngCard(next);
-  }
-  return null;   // tout vu : on passe à Wikidata
+  return null;   // rien de neuf : on passe à Wikidata
 }
 function markSeen(ids) {
   if (!ids.length) return;
-  const seen = store.get('vus-ba', []);
+  const seen = store.get('vus-c', []);
   for (const id of ids) if (!seen.includes(id)) seen.push(id);
-  store.set('vus-ba', seen);
+  store.set('vus-c', seen);
 }
 
 /* ---------- Chargement d'un artiste ---------- */
@@ -1002,8 +1007,8 @@ async function loadArtistFromName(entry, seed) {
 
 async function pickArtist(era, s) {
   if (era.key === 'contemporain') {
-    const y = await pickYoung();
-    if (y) return y;
+    const c = await pickContemporary(s);
+    if (c) return c;
   }
   const m = monthOf(s);
   let pool = null;
@@ -1141,13 +1146,13 @@ function measureBios(reset) {
 const scheduleMeasure = () => requestAnimationFrame(() => measureBios(false));
 
 function metaLine(a) {
-  if (a.src === 'ba') return a.desc;
+  if (a.src === 'c') return a.desc;
   const dates = a.birth != null ? (a.death != null ? `${a.birth} – ${a.death}` : `${a.birth} –`) : '';
   return [cap(a.desc), dates].filter(Boolean).join(', ');
 }
 
 function workFigure(w, artistName) {
-  const img = el('img', { src: w.img, alt: w.title || ('Œuvre de ' + artistName), loading: 'lazy', decoding: 'async' });
+  const img = el('img', { src: w.img, alt: w.title || ('Œuvre de ' + artistName), loading: 'lazy', decoding: 'async', referrerpolicy: 'no-referrer' });
   const fig = el('figure', { class: 'work', role: 'listitem' },
     el('button', { type: 'button', 'aria-label': 'Agrandir ' + (w.title || 'l’image'), onclick: () => openLightbox(w, artistName) }, img),
     w.cap ? el('figcaption', { text: w.cap })
@@ -1159,15 +1164,15 @@ function workFigure(w, artistName) {
 
 function renderArtist(a) {
   const era = ERA[a.era];
-  const links = a.src === 'ba' ? [
-    el('a', { href: a.url, target: '_blank', rel: 'noopener', text: 'Beaux-Arts de Paris' }),
+  const links = a.src === 'c' ? [
+    el('a', { href: a.url, target: '_blank', rel: 'noopener', text: a.srcName || 'Voir la source' }),
     el('a', { href: 'https://www.google.com/search?tbm=isch&q=' + encodeURIComponent(a.name + ' artiste'), target: '_blank', rel: 'noopener', text: 'Plus d’images' }),
   ] : [
     el('a', { href: a.url, target: '_blank', rel: 'noopener', text: a.lang === 'fr' ? 'Wikipédia' : 'Wikipédia (anglais)' }),
     el('a', { href: 'https://artsandculture.google.com/search?q=' + encodeURIComponent(a.name), target: '_blank', rel: 'noopener', text: 'Google Arts & Culture' }),
   ];
-  if (a.src !== 'ba' && a.artsy) links.push(el('a', { href: 'https://www.artsy.net/artist/' + encodeURIComponent(a.artsy), target: '_blank', rel: 'noopener', text: 'Artsy' }));
-  else if (a.src !== 'ba' && a.era !== 'ancien') links.push(el('a', { href: 'https://www.artsy.net/search?term=' + encodeURIComponent(a.name), target: '_blank', rel: 'noopener', text: 'Artsy' }));
+  if (a.src !== 'c' && a.artsy) links.push(el('a', { href: 'https://www.artsy.net/artist/' + encodeURIComponent(a.artsy), target: '_blank', rel: 'noopener', text: 'Artsy' }));
+  else if (a.src !== 'c' && a.era !== 'ancien') links.push(el('a', { href: 'https://www.artsy.net/search?term=' + encodeURIComponent(a.name), target: '_blank', rel: 'noopener', text: 'Artsy' }));
   return el('article', { class: 'card', 'data-era': a.era },
     el('p', { class: 'era' }, el('span', { class: 'swatch', 'aria-hidden': 'true' }), era.label),
     el('h2', { text: a.name }),
@@ -1239,7 +1244,7 @@ async function loadArtists(force) {
   const waitText = poolReady(monthOf(s))
     ? 'Recherche sur Wikidata…'
     : 'Recherche sur Wikidata. La première du mois peut prendre jusqu’à une minute.';
-  wrap.replaceChildren(...ERAS.map(e => skeleton(e.key, e.key === 'contemporain' ? 'Recherche aux Beaux-Arts de Paris…' : waitText)));
+  wrap.replaceChildren(...ERAS.map(e => skeleton(e.key, e.key === 'contemporain' ? 'Recherche dans les galeries et les écoles…' : waitText)));
   let failed = false;
   const results = await Promise.all(ERAS.map((era, i) =>
     pickArtist(era, s).then(
@@ -1258,7 +1263,7 @@ async function loadArtists(force) {
   if (run === state.aRun && !failed && results.every(Boolean)) {
     if (!results.some(a => a.backup)) {
       store.set(cacheKey, results);
-      markSeen(results.filter(a => a.baId).map(a => a.baId));
+      markSeen(results.filter(a => a.cId).map(a => a.cId));
     }
     pruneCache('a3:', cacheKey);
   }
@@ -1319,7 +1324,7 @@ function renderSaved() {
       ? [ERA[x.era] ? ERA[x.era].label : '', cap(x.desc)].filter(Boolean).join(', ')
       : cap(x.desc);
     return el('div', { class: 'row' },
-      x.thumb ? el('img', { class: 'thumb', src: x.thumb, alt: '', loading: 'lazy', onerror: e => e.target.replaceWith(el('div', { class: 'thumb' })) }) : el('div', { class: 'thumb' }),
+      x.thumb ? el('img', { class: 'thumb', src: x.thumb, alt: '', loading: 'lazy', referrerpolicy: 'no-referrer', onerror: e => e.target.replaceWith(el('div', { class: 'thumb' })) }) : el('div', { class: 'thumb' }),
       el('div', { class: 'txt' },
         el('a', { href: x.url, target: '_blank', rel: 'noopener', text: x.name }),
         sub ? el('p', { text: sub }) : null),
@@ -1368,6 +1373,7 @@ function openLightbox(w, who) {
   lb._token = token;
   if (w.full && w.full !== w.img) {
     const hi = new Image();
+    hi.referrerPolicy = 'no-referrer';
     hi.onload = () => { if (!lb.hidden && lb._token === token) lbImg.src = hi.src; };
     hi.src = w.full;
   }
