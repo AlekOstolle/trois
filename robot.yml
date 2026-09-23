@@ -1,5 +1,5 @@
 # À créer sur GitHub sous le nom exact : .github/workflows/robot.yml
-name: Robot contemporains
+name: Robot du jour
 
 on:
   schedule:
@@ -12,7 +12,7 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 55
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -28,6 +28,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Rien de neuf"
           else
-            git commit -m "Robot contemporains : mise à jour"
+            git commit -m "Cartes du jour"
             git push
           fi

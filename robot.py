@@ -1,47 +1,42 @@
 """
-Robot « contemporains » de l'app Trois.
+Robot de l'app Trois : chaque nuit, il va chercher sur le web les cartes du jour.
 
-Chaque nuit (GitHub Actions), il parcourt des sources d'art contemporain et enregistre
-des fiches d'artistes (nom, année de naissance, bio, images d'œuvres) dans data/contemporains/.
+  - Contemporain : exploration en direct. Il tire une source au hasard (une galerie de l'annuaire
+    du CPGA, L'Atlas des Beaux-Arts de Paris, le Réseau documents d'artistes, un prix), lit sa
+    liste d'artistes et choisit un artiste jamais proposé, de préférence jeune.
+  - Moderne et ancien : Wikidata et Wikipédia.
+  - Histoires : Wikipédia (liste HISTOIRES de index.html, puis « Unusual articles »).
 
-Sources :
-  - galeries      : toutes les galeries « contemporain » de l'annuaire du Comité professionnel
-                    des galeries d'art (CPGA). Pour chaque galerie, le robot trouve son site,
-                    sa page « Artistes », puis les fiches de ses artistes.
-  - beauxarts     : L'Atlas des Beaux-Arts de Paris (prix et bourses des étudiants et jeunes diplômés).
-  - dda           : Réseau documents d'artistes (plus de 800 artistes en régions).
-  - prix          : prix et fondations qui repèrent de jeunes artistes (liste SOURCES ci-dessous).
-
-Il respecte robots.txt, attend 1 seconde entre deux pages d'un même site, et ne lit qu'un
-nombre limité de nouvelles fiches par nuit : la base grossit un peu chaque nuit.
-Ajouter une source = ajouter une ligne dans SOURCES.
+Pas de base de données : il écrit seulement data/jour/AAAA-MM-JJ.json (les 3 derniers jours)
+et data/vus.json (ce qui a déjà été proposé, pour ne jamais se répéter).
+Il respecte robots.txt et attend 1 seconde entre deux pages d'un même site.
 """
 import json
 import os
+import random
 import re
 import sys
 import time
 import unicodedata
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta
 from urllib import robotparser
-from urllib.parse import urljoin, urlparse
+from urllib.parse import quote, urljoin, urlparse
+from zoneinfo import ZoneInfo
 
 import requests
 from bs4 import BeautifulSoup
 
 # ------------------------------------------------------------------ RÉGLAGES
-MIN_BORN = 1955              # artistes nés avant cette année : ignorés (quand l'année est connue)
-MAX_NEW_PAGES = 180          # nouvelles fiches lues par nuit, toutes sources confondues
-MAX_NEW_PER_SOURCE = 8       # par source et par nuit (pour varier)
-GALLERIES_PER_NIGHT = 80     # galeries du CPGA explorées par nuit (les autres les nuits suivantes)
-INDEX_REFRESH_DAYS = 7       # relecture des listes d'artistes
-GALLERY_REFRESH_DAYS = 30    # relecture des fiches galerie du CPGA
-RETRY_REJECTED_DAYS = 90
-TIME_BUDGET_S = 40 * 60
+MIN_BORN = 1955              # contemporain : artistes nés avant cette année ignorés (quand l'année est connue)
+BONUS_BEAUX_ARTS = 8         # en années : un diplômé des Beaux-Arts de Paris né en 1985 compte comme un né en 1993
+FAMILLES = ["beauxarts", "galeries", "dda", "galeries", "prix"]   # rotation quotidienne (galeries 2 jours sur 5)
+WIKIS_MIN, WIKIS_MAX = 2, 25 # moderne et ancien : notoriété (nombre de sites Wikimedia)
+MODERNE_DES, MODERNE_AVANT = 1815, 1935
+TIME_BUDGET_S = 12 * 60
+KEEP_DAYS = 3
 
-# type "list" : une page qui liste les artistes (index) + motif des adresses de fiches (regex sur le chemin).
-# Le robot lit aussi le plan du site (sitemap) pour trouver les fiches que l'index ne montre pas.
+# Sources du contemporain. type "list" : page qui liste les artistes + motif des adresses de fiches.
 SOURCES = [
     {"key": "atlas", "name": "Beaux-Arts de Paris", "family": "beauxarts", "type": "atlas",
      "index": "https://beauxartsparis.fr/fr/latlas"},
@@ -58,11 +53,6 @@ SOURCES = [
     {"key": "cpga", "name": "Galeries du CPGA", "family": "galeries", "type": "cpga",
      "index": "https://www.comitedesgaleriesdart.com/galeries/?specialites=contemporain"},
 ]
-
-DATA = os.path.join("data", "contemporains")
-ADIR = os.path.join(DATA, "a")
-INDEX = os.path.join(DATA, "index.json")
-STATE = os.path.join("data", "robot-state.json")
 
 UA_TOKEN = "TroisBot"
 UA = f"Mozilla/5.0 (compatible; {UA_TOKEN}/1.0; +https://github.com/{os.environ.get('GITHUB_REPOSITORY', '')})"
@@ -519,7 +509,396 @@ def find_artist_index(site):
     return {"index": None, "artlogic": False}
 
 
-# ------------------------------------------------------------------ état et fichiers
+
+
+# ------------------------------------------------------------------ API Wikimedia (pas de robots.txt : faites pour les programmes)
+def api_json(url, params=None, timeout=30):
+    if out_of_time():
+        return None
+    dom = urlparse(url).netloc
+    wait = 1.0 - (time.time() - _last_hit.get(dom, 0))
+    if wait > 0:
+        time.sleep(wait)
+    _last_hit[dom] = time.time()
+    try:
+        r = session.get(url, params=params, timeout=timeout)
+        if r.status_code != 200:
+            log("  API", r.status_code, url[:80])
+            return None
+        return r.json()
+    except Exception as e:
+        log("  API erreur", type(e).__name__, url[:80])
+        return None
+
+
+def sparql(q, timeout=90):
+    return api_json("https://query.wikidata.org/sparql", {"format": "json", "query": q}, timeout)
+
+
+def wp(lang, **params):
+    return api_json(f"https://{lang}.wikipedia.org/w/api.php",
+                    {"format": "json", "formatversion": "2", **params})
+
+
+def year_of(v):
+    m = re.match(r"^(-?\d{1,4})-", v or "")
+    return int(m.group(1)) if m else None
+
+
+def clean_extract(s):
+    s = re.sub(r"\(\s*[,;:]?\s*\)", "", s or "")
+    s = re.sub(r"\[\d+\]", "", s)
+    s = re.sub(r"[ \t\u00a0]{2,}", " ", s)
+    s = re.sub(r" ([,.])", r"\1", s)
+    return re.sub(r"\n{2,}", "\n", s).strip()
+
+
+def wiki_page(lang, title, want_fr=False):
+    prop = "extracts|pageprops|pageimages|info|description" + ("|langlinks" if want_fr else "")
+    params = dict(action="query", redirects="1", titles=title, prop=prop, exintro="1", explaintext="1",
+                  ppprop="wikibase_item|disambiguation", piprop="thumbnail", pithumbsize="900", inprop="url")
+    if want_fr:
+        params["lllang"] = "fr"
+    d = wp(lang, **params)
+    pages = (d or {}).get("query", {}).get("pages") or []
+    if not pages:
+        return None
+    pg = pages[0]
+    if pg.get("missing") or pg.get("invalid") or "disambiguation" in (pg.get("pageprops") or {}):
+        return None
+    ext = clean_extract(pg.get("extract"))
+    if len(ext) < 40:
+        return None
+    return {
+        "lang": lang, "title": pg["title"], "extract": ext, "desc": pg.get("description") or "",
+        "qid": (pg.get("pageprops") or {}).get("wikibase_item"),
+        "thumb": (pg.get("thumbnail") or {}).get("source"),
+        "url": pg.get("fullurl") or f"https://{lang}.wikipedia.org/wiki/{quote(pg['title'].replace(' ', '_'))}",
+        "fr": ((pg.get("langlinks") or [{}])[0]).get("title"),
+    }
+
+
+def commons(name, w):
+    return f"https://commons.wikimedia.org/wiki/Special:FilePath/{quote(name)}?width={w}"
+
+
+def wd_artist(qid):
+    q = f"""SELECT ?b ?d ?frT ?enT ?artsy ?work ?workLabel ?img ?inc WHERE {{
+  {{ wd:{qid} wdt:P569 ?b . }}
+  UNION {{ wd:{qid} wdt:P570 ?d . }}
+  UNION {{ ?fa schema:about wd:{qid} ; schema:isPartOf <https://fr.wikipedia.org/> ; schema:name ?frT . }}
+  UNION {{ ?ea schema:about wd:{qid} ; schema:isPartOf <https://en.wikipedia.org/> ; schema:name ?enT . }}
+  UNION {{ wd:{qid} wdt:P2042 ?artsy . }}
+  UNION {{ SELECT ?work ?img ?inc WHERE {{ ?work wdt:P170 wd:{qid} ; wdt:P18 ?img . OPTIONAL {{ ?work wdt:P571 ?inc . }} }} LIMIT 80 }}
+  SERVICE wikibase:label {{ bd:serviceParam wikibase:language "fr,en". }}
+}}"""
+    d = sparql(q, 40)
+    if not d:
+        return None
+    out = {"birth": None, "death": None, "fr": None, "en": None, "artsy": None, "works": []}
+    seen = set()
+    for r in d.get("results", {}).get("bindings", []):
+        g = lambda k: r.get(k, {}).get("value")
+        if g("b") and out["birth"] is None:
+            out["birth"] = year_of(g("b"))
+        if g("d") and out["death"] is None:
+            out["death"] = year_of(g("d"))
+        for k, dst in (("frT", "fr"), ("enT", "en"), ("artsy", "artsy")):
+            if g(k) and not out[dst]:
+                out[dst] = g(k)
+        if g("work") and g("img") and g("work") not in seen and "Special:FilePath/" in g("img"):
+            seen.add(g("work"))
+            name = requests.utils.unquote(g("img").split("Special:FilePath/", 1)[1]).replace("_", " ")
+            label = g("workLabel") or ""
+            out["works"].append({"title": "" if re.match(r"^Q\d+$", label) else label, "year": year_of(g("inc")),
+                                 "img": commons(name, 520), "full": commons(name, 1600),
+                                 "page": "https://commons.wikimedia.org/wiki/File:" + quote(name.replace(" ", "_")),
+                                 "file": name.lower()})
+    return out
+
+
+BAD_FILE = re.compile(r"logo|ic[oô]ne|icon|flag|drapeau|signature|blason|coat[ _]of[ _]arms|\bmap\b|carte|"
+                      r"commons|wiki|symbol|portal|portail|question|stub|pictogram|nuvola|crystal_|edit-", re.I)
+
+
+def article_images(lang, title):
+    d = wp(lang, action="query", generator="images", titles=title, gimlimit="50", prop="imageinfo",
+           iiprop="url|size|mime|extmetadata", iiurlwidth="520", iiextmetadatafilter="ObjectName",
+           iiextmetadatalanguage=lang)
+    out = []
+    for p in (d or {}).get("query", {}).get("pages", []) or []:
+        ii = (p.get("imageinfo") or [None])[0]
+        if not ii or not re.match(r"^image/(jpeg|png|webp)$", ii.get("mime", "")) or ii.get("width", 0) < 300 \
+                or ii.get("height", 0) < 200 or BAD_FILE.search(p["title"]):
+            continue
+        name = p["title"].split(":", 1)[-1]
+        t = clean(BeautifulSoup((ii.get("extmetadata", {}).get("ObjectName", {}) or {}).get("value", "") or "",
+                                "html.parser").get_text(" "))
+        if not t or len(t) > 120:
+            t = re.sub(r"\s*-\s*(WGA\d+|Google Art Project)", "", re.sub(r"\.[a-z0-9]+$", "", name, flags=re.I)).strip()
+        out.append({"title": t, "year": None, "img": ii.get("thumburl") or ii.get("url"),
+                    "full": f"https://{lang}.wikipedia.org/wiki/Special:FilePath/{quote(name)}?width=1600",
+                    "page": ii.get("descriptionurl"), "file": name.lower()})
+    return out
+
+
+def wd_pool(day_num):
+    digit = day_num % 10
+    q = f"""SELECT ?a (MIN(YEAR(?b)) AS ?y) WHERE {{
+  {{ ?a wdt:P245 [] . }} UNION {{ ?a wdt:P2042 [] . }}
+  FILTER(STRENDS(STR(?a), "{digit}"))
+  ?a wikibase:sitelinks ?sl .
+  FILTER(?sl >= {WIKIS_MIN} && ?sl <= {WIKIS_MAX})
+  ?a wdt:P569 ?b .
+  FILTER(isLiteral(?b))
+  FILTER EXISTS {{ ?art schema:about ?a ; schema:isPartOf ?w . VALUES ?w {{ <https://fr.wikipedia.org/> <https://en.wikipedia.org/> }} }}
+}}
+GROUP BY ?a"""
+    d = sparql(q, 120)
+    eras = {"moderne": [], "ancien": []}
+    for r in (d or {}).get("results", {}).get("bindings", []):
+        qid = r.get("a", {}).get("value", "").rsplit("/", 1)[-1]
+        try:
+            y = int(r.get("y", {}).get("value"))
+        except (TypeError, ValueError):
+            continue
+        if MODERNE_DES <= y < MODERNE_AVANT:
+            eras["moderne"].append(qid)
+        elif y < MODERNE_DES:
+            eras["ancien"].append(qid)
+    return eras
+
+
+def pick_wikidata(era, pool, seen, rng):
+    cands = [q for q in pool if q not in seen]
+    rng.shuffle(cands)
+    first = None
+    for qid in cands[:8]:
+        if out_of_time():
+            break
+        wd = wd_artist(qid)
+        if not wd:
+            continue
+        page = (wd["fr"] and wiki_page("fr", wd["fr"])) or (wd["en"] and wiki_page("en", wd["en"]))
+        if not page:
+            continue
+        works = sorted(wd["works"], key=lambda w: 0 if w["title"] else 1)
+        rng.shuffle(works)
+        works = sorted(works, key=lambda w: 0 if w["title"] else 1)[:4]
+        if len(works) < 3:
+            have = {w["file"] for w in works}
+            works += [w for w in article_images(page["lang"], page["title"]) if w["file"] not in have]
+            works = works[:4]
+        has_works = bool(works)
+        if not works and page["thumb"]:
+            works = [{"title": "", "year": None, "img": page["thumb"], "full": page["thumb"], "page": page["url"]}]
+        card = {"type": "artist", "era": era, "wd": qid, "id": page["lang"] + ":" + page["title"],
+                "name": re.sub(r"\s*\([^)]*\)\s*$", "", page["title"]), "desc": page["desc"],
+                "birth": wd["birth"], "death": wd["death"], "extract": page["extract"], "url": page["url"],
+                "lang": page["lang"], "artsy": wd["artsy"], "works": works, "hasWorks": has_works,
+                "thumb": works[0]["img"] if works else page["thumb"]}
+        if has_works:
+            return card
+        first = first or card
+    return first
+
+
+# ------------------------------------------------------------------ contemporain : exploration en direct
+def valid_card(info, src_name, note, url):
+    if not info or not info.get("name") or not info.get("works"):
+        return None
+    if info["born"] and info["born"] < MIN_BORN:
+        return None
+    born = f"{info['bornWord'] or 'Né·e'} en {info['born']}" if info["born"] else ""
+    return {"type": "artist", "era": "contemporain", "src": "c", "id": "c:" + url, "url": info["url"],
+            "desc": ". ".join(x for x in (born, note) if x),
+            "name": info["name"], "born": info["born"], "bornWord": info["bornWord"],
+            "ba": bool(BA_RE.search(info["bio"] or "")), "srcName": src_name, "note": note,
+            "extract": info["bio"], "lang": "fr",
+            "works": [{"title": "", "cap": w["cap"], "year": None, "img": w["img"], "full": w["img"], "page": info["url"]}
+                      for w in info["works"][:5]], "hasWorks": True, "thumb": info["works"][0]["img"]}
+
+
+def drop_shared_images(cards):
+    """Images présentes sur plusieurs fiches d'une même source (logo, image de partage) : retirées."""
+    count = {}
+    for c in cards:
+        for w in c["works"]:
+            k = os.path.basename(urlparse(w["img"]).path).lower()
+            count[k] = count.get(k, 0) + 1
+    out = []
+    for c in cards:
+        c["works"] = [w for w in c["works"] if count[os.path.basename(urlparse(w["img"]).path).lower()] < 2]
+        if c["works"]:
+            c["thumb"] = c["works"][0]["img"]
+            out.append(c)
+    return out
+
+
+def try_urls(urls, seen, rng, src_name, note_of=lambda u: None, name_of=lambda u: None, extra=lambda u: None, want=3, max_tries=5):
+    urls = [u for u in urls if "c:" + u not in seen]
+    rng.shuffle(urls)
+    cards = []
+    for u in urls[:max_tries]:
+        if out_of_time() or len(cards) >= want:
+            break
+        info = parse_page(u, name_hint=name_of(u), extra_images_url=extra(u))
+        c = valid_card(info, src_name, note_of(u) or src_name, u)
+        if c:
+            cards.append(c)
+    return drop_shared_images(cards) if len(cards) > 1 else cards
+
+
+def family_candidates(fam, seen, rng):
+    srcs = [s for s in SOURCES if s["family"] == fam]
+    if fam == "beauxarts":
+        for src in srcs:
+            items = atlas_items(src)
+            by_year = {}
+            for it in items:
+                if "c:" + it["url"] not in seen:
+                    by_year.setdefault(it.get("year") or 0, []).append(it)
+            for y in sorted(by_year, reverse=True):   # les promotions les plus récentes d'abord
+                pool = by_year[y]
+                meta_of = {it["url"]: it for it in pool}
+                cards = try_urls([it["url"] for it in pool], seen, rng, src["name"],
+                                 note_of=lambda u: meta_of[u].get("note"), name_of=lambda u: meta_of[u].get("name"))
+                for c in cards:   # image et légende de la tuile de L'Atlas en premier
+                    t = meta_of.get(c["id"][2:]) or {}
+                    if t.get("img"):
+                        k = os.path.basename(urlparse(t["img"]).path).lower()
+                        rest = [w for w in c["works"] if os.path.basename(urlparse(w["img"]).path).lower() != k]
+                        c["works"] = [{"title": "", "cap": t.get("cap") or "", "year": None, "img": t["img"],
+                                       "full": t["img"], "page": c["url"]}] + rest[:4]
+                        c["thumb"] = t["img"]
+                    c["ba"] = True
+                if cards:
+                    return cards
+        return []
+    if fam == "galeries":
+        src = srcs[0]
+        gal = cpga_galleries(src)
+        slugs = sorted(gal)
+        rng.shuffle(slugs)
+        for slug in slugs[:12]:
+            if out_of_time():
+                break
+            info = gallery_info(gal[slug])
+            if not info or not info.get("site"):
+                continue
+            idx = find_artist_index(info["site"])
+            if not idx or not idx.get("index"):
+                log("  pas de page Artistes trouvée :", info.get("name") or slug)
+                continue
+            urls = artist_links_from_index(idx["index"], idx.get("artlogic"))
+            if len(urls) < 2:
+                continue
+            log(f"  galerie : {info.get('name') or slug} ({len(urls)} artistes)")
+            works_of = (lambda u: u.replace("/overview/", "/works/")) if idx.get("artlogic") else (lambda u: None)
+            cards = try_urls(urls, seen, rng, info.get("name") or slug, extra=works_of)
+            if cards:
+                return cards
+        return []
+    # dda, prix : liste ou plan du site
+    rng.shuffle(srcs)
+    for src in srcs:
+        if out_of_time():
+            break
+        pat = re.compile(src["pattern"])
+        urls = []
+        sp, final = soup_of(src["index"])
+        if sp:
+            urls += [l for l, _ in links(sp, final) if same_site(l, src["index"]) and pat.search(urlparse(l).path)]
+        if len(urls) < 10:
+            urls += sitemap_urls(src["index"], src["pattern"])
+        urls = dedupe(urls)
+        log(f"  {src['name']} : {len(urls)} fiches")
+        cards = try_urls(urls, seen, rng, src["name"])
+        if cards:
+            return cards
+    return []
+
+
+def pick_contemporary(day_num, seen, rng):
+    for k in range(len(FAMILLES)):
+        fam = FAMILLES[(day_num + k) % len(FAMILLES)]
+        if out_of_time():
+            break
+        log(f"Contemporain : famille « {fam} »")
+        cards = family_candidates(fam, seen, rng)
+        if cards:   # le plus jeune (petit bonus Beaux-Arts de Paris)
+            return max(cards, key=lambda c: (c["born"] or 1978) + (BONUS_BEAUX_ARTS if c["ba"] else 0))
+    return None
+
+
+# ------------------------------------------------------------------ histoires
+def histoires_list():
+    try:
+        html = open("index.html", encoding="utf-8").read()
+        m = re.search(r"const HISTOIRES = (\[.*?\]);", html, re.S)
+        return json.loads(m.group(1)) if m else []
+    except Exception as e:
+        log("Liste HISTOIRES illisible :", e)
+        return []
+
+
+def unusual_titles():
+    d = wp("en", action="query", list="allpages", apnamespace="4", apprefix="Unusual articles/", aplimit="40")
+    titles = ["Wikipedia:Unusual articles"] + [p["title"] for p in (d or {}).get("query", {}).get("allpages", [])]
+    out, cont = [], {}
+    for _ in range(12):
+        d = wp("en", action="query", prop="links", titles="|".join(titles[:50]), plnamespace="0", pllimit="max", **cont)
+        if not d:
+            break
+        for pg in d.get("query", {}).get("pages", []):
+            out += [l["title"] for l in pg.get("links", [])]
+        if d.get("continue"):
+            cont = d["continue"]
+        else:
+            break
+    return [t for t in dict.fromkeys(out) if not t.startswith("List of")]
+
+
+def load_story(entry):
+    fr, _, en = entry.partition("|")
+    fr = fr.strip() if fr.strip() not in ("", "-") else None
+    en = en.strip() or None
+    page = wiki_page("fr", fr) if fr else None
+    if not page and en:
+        pe = wiki_page("en", en, want_fr=True)
+        page = (pe and pe.get("fr") and wiki_page("fr", pe["fr"])) or pe
+    if not page:
+        return None
+    return {"type": "story", "id": page["lang"] + ":" + page["title"], "name": page["title"], "desc": page["desc"],
+            "extract": page["extract"], "url": page["url"], "lang": page["lang"], "thumb": page["thumb"], "key": entry}
+
+
+def pick_stories(seen, rng, n=3):
+    own = histoires_list()
+    rng_own = random.Random("trois-histoires")
+    rng_own.shuffle(own)
+    todo = [e for e in own if e not in seen]
+    if len(todo) < n + 3:
+        extra = ["-|" + t for t in unusual_titles()]
+        known = {e.split("|")[-1] for e in own}
+        extra = [e for e in extra if e not in seen and e.split("|")[-1] not in known]
+        rng.shuffle(extra)
+        todo += extra
+    out = []
+    for e in todo:
+        if len(out) >= n or out_of_time():
+            break
+        s = load_story(e)
+        if s and all(x["id"] != s["id"] for x in out):
+            out.append(s)
+    return out
+
+
+# ------------------------------------------------------------------ programme principal
+DAY_DIR = os.path.join("data", "jour")
+SEEN = os.path.join("data", "vus.json")
+
+
 def load_json(path, default):
     try:
         with open(path, encoding="utf-8") as f:
@@ -528,200 +907,51 @@ def load_json(path, default):
         return default
 
 
-def save_json(path, obj, compact=False):
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        if compact:
-            json.dump(obj, f, ensure_ascii=False, separators=(",", ":"))
-        else:
-            json.dump(obj, f, ensure_ascii=False, indent=1)
-
-
-def stale(ts, days):
-    return not ts or NOW - ts > days * 86400
-
-
-def existing_records():
-    recs = {}
-    if os.path.isdir(ADIR):
-        for fn in os.listdir(ADIR):
-            if fn.endswith(".json"):
-                r = load_json(os.path.join(ADIR, fn), None)
-                if r and r.get("id"):
-                    recs[r["id"]] = r
-    return recs
-
-
-# ------------------------------------------------------------------ programme principal
 def main():
-    stats.clear()
-    state = load_json(STATE, {})
-    state.setdefault("sources", {})
-    state.setdefault("galleries", {})
-    state.setdefault("pages", {})
-    recs = existing_records()
-    names = {norm(r["name"]) for r in recs.values()}
-    queues = {}   # source -> liste de tâches (url, infos)
+    today = datetime.now(ZoneInfo("Europe/Paris")).date()
+    key = today.isoformat()
+    path = os.path.join(DAY_DIR, key + ".json")
+    old = load_json(path, None)
+    if old and len(old.get("artists", [])) == 3 and len(old.get("stories", [])) == 3 and not os.environ.get("FORCE"):
+        log("Les cartes du", key, "sont déjà prêtes.")
+        return 0
+    seen = load_json(SEEN, {"c": [], "w": [], "s": []})
+    day_num = today.toordinal()
+    rng = random.Random("trois-" + key)
 
-    # 1) sources listées
-    for src in SOURCES:
-        if out_of_time():
-            break
-        key = src["key"]
-        st = state["sources"].setdefault(key, {})
-        if src["type"] == "atlas":
-            if stale(st.get("t"), INDEX_REFRESH_DAYS) or not st.get("items"):
-                items = atlas_items(src)
-                if items:
-                    st.update(t=NOW, items=items)
-            queues[key] = [{"url": it["url"], "src": key, "fam": src["family"], "srcName": src["name"],
-                            "name": it.get("name"), "note": it.get("note"), "year": it.get("year"),
-                            "tile": {"img": it.get("img"), "cap": it.get("cap")}}
-                           for it in st.get("items", [])]
-        elif src["type"] == "list":
-            if stale(st.get("t"), INDEX_REFRESH_DAYS) or not st.get("urls"):
-                urls = []
-                sp, final = soup_of(src["index"])
-                pat = re.compile(src["pattern"])
-                if sp:
-                    urls += [l for l, _ in links(sp, final) if same_site(l, src["index"]) and pat.search(urlparse(l).path)]
-                urls += sitemap_urls(src["index"], src["pattern"])
-                urls = dedupe(urls)
-                if urls:
-                    st.update(t=NOW, urls=urls)
-            queues[key] = [{"url": u, "src": key, "fam": src["family"], "srcName": src["name"]} for u in st.get("urls", [])]
-        elif src["type"] == "cpga":
-            if stale(st.get("t"), GALLERY_REFRESH_DAYS) or not st.get("galleries"):
-                gal = cpga_galleries(src)
-                if gal:
-                    st.update(t=NOW, galleries=gal)
-            # galeries à (re)découvrir cette nuit
-            todo = sorted(st.get("galleries", {}).items(),
-                          key=lambda kv: state["galleries"].get(kv[0], {}).get("t", 0))
-            done = 0
-            for slug, gurl in todo:
-                if out_of_time() or done >= GALLERIES_PER_NIGHT:
-                    break
-                g = state["galleries"].setdefault(slug, {})
-                if not stale(g.get("t"), INDEX_REFRESH_DAYS):
-                    continue
-                done += 1
-                if stale(g.get("info_t"), GALLERY_REFRESH_DAYS) or "site" not in g:
-                    info = gallery_info(gurl)
-                    if info:
-                        g.update(name=info["name"] or slug, site=info["site"], info_t=NOW)
-                        g.pop("index", None)
-                if g.get("site") and not g.get("index"):
-                    idx = find_artist_index(g["site"])
-                    if idx:
-                        g.update(index=idx["index"], artlogic=idx["artlogic"])
-                if g.get("index"):
-                    urls = artist_links_from_index(g["index"], g.get("artlogic"))
-                    if urls:
-                        g["urls"] = urls
-                g["t"] = NOW
-            for slug, g in state["galleries"].items():
-                if g.get("urls"):
-                    queues["g-" + slug] = [{"url": u, "src": "g-" + slug, "fam": "galeries",
-                                            "srcName": g.get("name") or slug, "artlogic": g.get("artlogic")}
-                                           for u in g["urls"]]
+    log("== Contemporain")
+    c = pick_contemporary(day_num, set(seen["c"]), rng)
+    log("== Moderne et ancien (Wikidata)")
+    pool = wd_pool(day_num)
+    log(f"  réservoir : {len(pool['moderne'])} modernes, {len(pool['ancien'])} anciens")
+    m = pick_wikidata("moderne", pool["moderne"], set(seen["w"]), rng)
+    a = pick_wikidata("ancien", pool["ancien"], set(seen["w"]), rng)
+    log("== Histoires")
+    stories = pick_stories(set(seen["s"]), rng)
 
-    # 2) nouvelles fiches, à tour de rôle entre les sources
-    for q in queues.values():
-        q[:] = [t for t in q if t["url"] not in state["pages"]
-                or (state["pages"][t["url"]].get("x") and stale(state["pages"][t["url"]].get("t"), RETRY_REJECTED_DAYS))]
-    img_counts = {}
-    for r in recs.values():
-        c = img_counts.setdefault(r["src"], {})
-        for w in r.get("works", []):
-            c[img_key(w["img"])] = c.get(img_key(w["img"]), 0) + 1
-    per_source = {k: 0 for k in queues}
-    new_pages = 0
-    active = [k for k in queues if queues[k]]
-    while active and new_pages < MAX_NEW_PAGES and not out_of_time():
-        for k in list(active):
-            if not queues[k] or per_source[k] >= MAX_NEW_PER_SOURCE or new_pages >= MAX_NEW_PAGES:
-                active.remove(k)
-                continue
-            task = queues[k].pop(0)
-            per_source[k] += 1
-            new_pages += 1
-            rec = build_record(task, img_counts)
-            ok = rec is not None and norm(rec["name"]) not in names
-            if ok:
-                names.add(norm(rec["name"]))
-                recs[rec["id"]] = rec
-                save_json(os.path.join(ADIR, rec["id"] + ".json"), rec)
-                stats[k] = stats.get(k, 0) + 1
-            state["pages"][task["url"]] = {"t": NOW, "id": rec["id"]} if ok else {"t": NOW, "x": 1}
+    artists = [x for x in (c, m, a) if x]
+    day = {"date": key, "made": datetime.now(ZoneInfo("Europe/Paris")).isoformat(timespec="minutes"),
+           "artists": artists if len(artists) == 3 else [], "stories": stories if len(stories) == 3 else []}
+    os.makedirs(DAY_DIR, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(day, f, ensure_ascii=False, indent=1)
+    if c:
+        seen["c"].append(c["id"])
+    seen["w"] += [x["wd"] for x in (m, a) if x]
+    seen["s"] += [s["key"] for s in stories]
+    with open(SEEN, "w", encoding="utf-8") as f:
+        json.dump(seen, f, ensure_ascii=False)
+    limit = (today - timedelta(days=KEEP_DAYS)).isoformat()
+    for fn in os.listdir(DAY_DIR):
+        if fn.endswith(".json") and fn[:-5] < limit:
+            os.remove(os.path.join(DAY_DIR, fn))
 
-    # 3) index léger pour l'app
-    fam_of = {s["key"]: s["family"] for s in SOURCES}
-    index = {
-        "checked": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "artists": [{"id": r["id"], "s": r["src"], "f": r.get("fam") or fam_of.get(r["src"], "galeries"),
-                     "b": r.get("born"), "ba": 1 if r.get("ba") else 0, "n": r["name"]}
-                    for r in sorted(recs.values(), key=lambda r: r["id"])],
-    }
-    save_json(INDEX, index, compact=True)
-    save_json(STATE, state)
-
-    fams = {}
-    for a in index["artists"]:
-        fams[a["f"]] = fams.get(a["f"], 0) + 1
-    log(f"Cette nuit : {new_pages} fiches lues, {sum(stats.values())} artistes ajoutés.")
-    for k, n in sorted(stats.items()):
-        log(f"  + {n:3d}  {k}")
-    log(f"Total : {len(index['artists'])} artistes " + ", ".join(f"{f} {n}" for f, n in sorted(fams.items())))
-    gal_found = sum(1 for g in state["galleries"].values() if g.get("urls"))
-    log(f"Galeries avec une liste d'artistes trouvée : {gal_found} / {len(state['galleries'])}")
-    return 0
-
-
-def img_key(u):
-    return os.path.basename(urlparse(u).path).lower()
-
-
-def build_record(task, img_counts):
-    url = task["url"]
-    if task["src"] == "atlas":
-        info = parse_page(url, name_hint=task.get("name"))
-    else:
-        works_url = url.replace("/overview/", "/works/") if task.get("artlogic") else None
-        info = parse_page(url, extra_images_url=works_url)
-    if not info or not info.get("name"):
-        return None
-    works = info["works"]
-    tile = task.get("tile") or {}
-    if tile.get("img"):
-        key = os.path.basename(urlparse(tile["img"]).path).lower()
-        works = [{"img": tile["img"], "cap": tile.get("cap") or ""}] + \
-                [w for w in works if os.path.basename(urlparse(w["img"]).path).lower() != key]
-    counts = img_counts.setdefault(task["src"], {})
-    works = [w for w in works if counts.get(img_key(w["img"]), 0) < 2][:5]
-    if not works:
-        return None
-    for w in works:
-        counts[img_key(w["img"])] = counts.get(img_key(w["img"]), 0) + 1
-    born = info["born"]
-    if born and born < MIN_BORN:
-        return None
-    rid = slugify(task["src"], 40) + "--" + slugify(info["name"], 80)
-    return {
-        "id": rid,
-        "src": task["src"],
-        "fam": task["fam"],
-        "srcName": task["srcName"],
-        "name": info["name"],
-        "born": born,
-        "bornWord": info["bornWord"],
-        "ba": bool(BA_RE.search(info["bio"])) or task["src"] == "atlas",
-        "note": task.get("note") or task["srcName"],
-        "year": task.get("year"),
-        "bio": info["bio"],
-        "works": works,
-        "url": info["url"],
-    }
+    for x in artists:
+        log(f"  {x['era']:12s} {x['name']}  ({x.get('srcName') or x.get('desc') or ''})")
+    for s in stories:
+        log(f"  histoire     {s['name']}")
+    log(f"Terminé en {int(time.time() - START)} s.")
+    return 0 if len(artists) == 3 and len(stories) == 3 else 1
 
 
 if __name__ == "__main__":

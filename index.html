@@ -483,18 +483,14 @@ button { font: inherit; color: inherit; cursor: pointer; }
 'use strict';
 
 /* ============================================================
-   CONTEMPORAIN : le robot GitHub (robot.py) parcourt chaque nuit
-   les galeries d'art contemporain du CPGA, le Réseau documents
-   d'artistes, des prix et L'Atlas des Beaux-Arts de Paris, et écrit
-   data/contemporains/. Chaque matin, l'app alterne entre ces familles
-   de sources et prend l'artiste le plus jeune pas encore vu
-   (petit bonus pour les diplômés des Beaux-Arts de Paris).
+   CARTES DU JOUR : chaque nuit, le robot GitHub (robot.py) va chercher
+   sur le web les 3 artistes et les 3 histoires du jour et les écrit dans
+   data/jour/AAAA-MM-JJ.json. L'app n'a qu'un petit fichier à lire.
+   Si ce fichier manque, l'app cherche elle-même (Wikidata, Wikipédia).
    ============================================================ */
-const FAMILLES = ['beauxarts', 'galeries', 'dda', 'galeries', 'prix'];  // ordre de rotation (galeries 2 jours sur 5)
-const BONUS_BEAUX_ARTS = 8;       // en années : un diplômé des Beaux-Arts de Paris né en 1985 passe comme un né en 1993
 
 /* ============================================================
-   MODERNE ET ANCIEN : sélection en direct sur Wikidata
+   SECOURS (si le fichier du jour manque) : sélection sur Wikidata
    Chaque mois, l'app interroge Wikidata : tous les artistes référencés
    par Getty ULAN ou Artsy, avec un article Wikipédia FR ou EN,
    et dont la notoriété est entre WIKIS_MIN et WIKIS_MAX.
@@ -916,51 +912,6 @@ async function dataFile(path) {
   return null;
 }
 
-function contemporaryCard(r) {
-  const born = r.born ? `${r.bornWord || 'Né·e'} en ${r.born}` : '';
-  return {
-    type: 'artist', src: 'c', era: 'contemporain',
-    id: 'c:' + r.id, cId: r.id,
-    name: r.name,
-    desc: [born, r.note].filter(Boolean).join('. '),
-    srcName: r.srcName || '',
-    extract: r.bio || '', url: r.url, lang: 'fr',
-    works: (r.works || []).slice(0, 5).map(w => ({ title: '', cap: w.cap || '', year: null, img: w.img, full: w.img, page: r.url })),
-    hasWorks: true,
-    thumb: (r.works && r.works[0] && r.works[0].img) || null,
-  };
-}
-
-async function pickContemporary(s) {
-  const idx = await dataFile('data/contemporains/index.json');
-  if (!idx || !Array.isArray(idx.artists) || !idx.artists.length) return null;
-  const seen = new Set(store.get('vus-c', []));
-  const unseen = idx.artists.filter(a => a && a.id && !seen.has(a.id));
-  const prio = a => (a.b || 1978) + (a.ba ? BONUS_BEAUX_ARTS : 0);   // les plus jeunes d'abord
-  for (let k = 0; k < FAMILLES.length; k++) {
-    const fam = FAMILLES[mod(s.num + k, FAMILLES.length)];
-    let pool = unseen.filter(a => a.f === fam);
-    if (!pool.length) continue;
-    if (fam === 'galeries') {   // une galerie différente chaque fois
-      const gals = [...new Set(pool.map(a => a.s))].sort();
-      const g = shuffled(gals, 'gal-' + s.key)[0];
-      pool = pool.filter(a => a.s === g);
-    }
-    const order = shuffled(pool, 'c-' + s.key).sort((x, z) => prio(z) - prio(x));
-    for (const c of order.slice(0, 4)) {
-      const r = await dataFile(`data/contemporains/a/${c.id}.json`);
-      if (r && r.works && r.works.length) return contemporaryCard(r);
-    }
-  }
-  return null;   // rien de neuf : on passe à Wikidata
-}
-function markSeen(ids) {
-  if (!ids.length) return;
-  const seen = store.get('vus-c', []);
-  for (const id of ids) if (!seen.includes(id)) seen.push(id);
-  store.set('vus-c', seen);
-}
-
 /* ---------- Chargement d'un artiste ---------- */
 async function assembleArtist(page, wd, seed) {
   const titled = shuffled(wd.works.filter(w => w.title), seed);
@@ -1006,10 +957,6 @@ async function loadArtistFromName(entry, seed) {
 }
 
 async function pickArtist(era, s) {
-  if (era.key === 'contemporain') {
-    const c = await pickContemporary(s);
-    if (c) return c;
-  }
   const m = monthOf(s);
   let pool = null;
   try { pool = (await getPool(m))[era.key]; } catch (e) { pool = null; }
@@ -1241,10 +1188,21 @@ async function loadArtists(force) {
   const cached = !force && store.get(cacheKey, null);
   if (Array.isArray(cached) && cached.length === 3) { wrap.replaceChildren(...cached.map(renderArtist)); scheduleMeasure(); return; }
 
+  wrap.replaceChildren(...ERAS.map(e => skeleton(e.key, 'Chargement…')));
+  const day = await dataFile('data/jour/' + s.key + '.json');
+  if (run !== state.aRun) return;
+  if (day && Array.isArray(day.artists) && day.artists.length === 3) {
+    wrap.replaceChildren(...day.artists.map(renderArtist));
+    scheduleMeasure();
+    store.set(cacheKey, day.artists);
+    pruneCache('a3:', cacheKey);
+    return;
+  }
+
   const waitText = poolReady(monthOf(s))
     ? 'Recherche sur Wikidata…'
     : 'Recherche sur Wikidata. La première du mois peut prendre jusqu’à une minute.';
-  wrap.replaceChildren(...ERAS.map(e => skeleton(e.key, e.key === 'contemporain' ? 'Recherche dans les galeries et les écoles…' : waitText)));
+  wrap.replaceChildren(...ERAS.map(e => skeleton(e.key, waitText)));
   let failed = false;
   const results = await Promise.all(ERAS.map((era, i) =>
     pickArtist(era, s).then(
@@ -1261,10 +1219,7 @@ async function loadArtists(force) {
       })
   ));
   if (run === state.aRun && !failed && results.every(Boolean)) {
-    if (!results.some(a => a.backup)) {
-      store.set(cacheKey, results);
-      markSeen(results.filter(a => a.cId).map(a => a.cId));
-    }
+    if (!results.some(a => a.backup)) store.set(cacheKey, results);
     pruneCache('a3:', cacheKey);
   }
 }
@@ -1280,6 +1235,15 @@ async function loadStories(force) {
   if (Array.isArray(cached) && cached.length === 3) { wrap.replaceChildren(...cached.map(renderStory)); scheduleMeasure(); return; }
 
   wrap.replaceChildren(skeleton(), skeleton(), skeleton());
+  const day = await dataFile('data/jour/' + s.key + '.json');
+  if (run !== state.sRun) return;
+  if (day && Array.isArray(day.stories) && day.stories.length === 3) {
+    wrap.replaceChildren(...day.stories.map(renderStory));
+    scheduleMeasure();
+    store.set(cacheKey, day.stories);
+    pruneCache('s:', cacheKey);
+    return;
+  }
   let failed = false;
   let pool, n, base;
   try { ({ pool, n, base } = await storyEntries(s)); }
