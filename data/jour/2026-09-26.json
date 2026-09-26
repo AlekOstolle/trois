@@ -1,0 +1,153 @@
+{
+ "date": "2026-09-26",
+ "made": "2026-09-26T09:54+02:00",
+ "artists": [
+  {
+   "type": "artist",
+   "era": "contemporain",
+   "src": "c",
+   "id": "c:https://beauxartsparis.fr/fr/Oeuvre/collectif-nef-s-records-prix-des-fondations-2026",
+   "url": "https://beauxartsparis.fr/fr/Oeuvre/collectif-nef-s-records-prix-des-fondations-2026",
+   "desc": "Prix Guillaume Dethan / Dream Big and Grow Fast, Prix des Fondations 2026",
+   "name": "Collectif Nef-s Records",
+   "born": null,
+   "bornWord": null,
+   "ba": true,
+   "srcName": "Beaux-Arts de Paris",
+   "note": "Prix Guillaume Dethan / Dream Big and Grow Fast, Prix des Fondations 2026",
+   "extract": "NEFS est un collectif axé sur les arts performatifs et sonores, imaginé comme un espace de création, d'expérimentation et de collaboration. Le nom « NEFS » fait référence à la fois à la nef – le navire – et à « nefes », qui signifie « souffle » en turc. La direction artistique du collectif est influencée par de nombreuses esthétiques sonores, allant de la musique électroacoustique à l'ambient, en passant par la noise, les formes hybrides mêlant musiques traditionnelles et électroniques, ainsi que des sons non répertoriés ou issus du field recording. Le collectif s'intéresse notamment à la fabrication expérimentale d'instruments, aux aspects performatifs du son et de la diffusion, ainsi qu'aux sonorités issues de la recherche scientifique. Forts de leurs expériences dans diverses formations musicales, les porteurs du projet souhaitent mobiliser les liens tissés à Paris, à Marseille et à l'étranger pour développer des projets internationaux, encourager les échanges artistiques et explorer de nouveaux territoires sonores.\nNEFS vise à s'investir dans un lieu dédié, pensé en deux volets. Nous venons de nous installer au sein d'une ancienne usine de papier à Montreuil. Ce lieu-ressource serait, dans un premier temps, à la fois un studio d'enregistrement, une plateforme de diffusion (broadcast) et un laboratoire de recherche sonore, pensé comme un espace accessible aux artistes émergent·e·s ou indépendant·e·s. Il favoriserait la création et la réflexion, tout en soutenant des formes",
+   "lang": "fr",
+   "works": [
+    {
+     "title": "",
+     "cap": "Nef-S, logo du collectif, 2025",
+     "year": null,
+     "img": "https://beauxartsparis.fr/sites/default/files/2026-06/Collectif-Nef-s-Records.jpg",
+     "full": "https://beauxartsparis.fr/sites/default/files/2026-06/Collectif-Nef-s-Records.jpg",
+     "page": "https://beauxartsparis.fr/fr/Oeuvre/collectif-nef-s-records-prix-des-fondations-2026"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://beauxartsparis.fr/sites/default/files/2026-06/Collectif-Nef-s-Records.jpg"
+  },
+  {
+   "type": "artist",
+   "era": "moderne",
+   "wd": "Q5006485",
+   "id": "en:C. H. B. Quennell",
+   "name": "C. H. B. Quennell",
+   "desc": "English architect, designer, illustrator and historian",
+   "birth": 1872,
+   "death": 1935,
+   "extract": "Charles Henry Bourne Quennell (1872–1935), was an English architect, designer, illustrator and historian. According to the heritage architect Cath Layton, \"his great influence [as an architect and urban planner] can be felt in the houses and streets of London’s suburbs and across the country.\" His obituary in Nature noted that his books for children and young people had \"strongly stimulated interest in the cultural background of the more formal study of history\".",
+   "url": "https://en.wikipedia.org/wiki/C._H._B._Quennell",
+   "lang": "en",
+   "artsy": null,
+   "works": [
+    {
+     "title": "24 Heath Drive, Hampstead, May 2024 02",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/24_Heath_Drive%2C_Hampstead%2C_May_2024_02.jpg/960px-24_Heath_Drive%2C_Hampstead%2C_May_2024_02.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://en.wikipedia.org/wiki/Special:FilePath/24%20Heath%20Drive%2C%20Hampstead%2C%20May%202024%2002.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:24_Heath_Drive,_Hampstead,_May_2024_02.jpg",
+     "file": "24 heath drive, hampstead, may 2024 02.jpg"
+    },
+    {
+     "title": "14 Templewood Avenue, Hampstead, March 2022 01",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/14_Templewood_Avenue%2C_Hampstead%2C_March_2022_01.jpg/960px-14_Templewood_Avenue%2C_Hampstead%2C_March_2022_01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://en.wikipedia.org/wiki/Special:FilePath/14%20Templewood%20Avenue%2C%20Hampstead%2C%20March%202022%2001.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:14_Templewood_Avenue,_Hampstead,_March_2022_01.jpg",
+     "file": "14 templewood avenue, hampstead, march 2022 01.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/24_Heath_Drive%2C_Hampstead%2C_May_2024_02.jpg/960px-24_Heath_Drive%2C_Hampstead%2C_May_2024_02.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "type": "artist",
+   "era": "ancien",
+   "wd": "Q3498485",
+   "id": "fr:Stephanus Lapicidus",
+   "name": "Stephanus Lapicidus",
+   "desc": "",
+   "birth": 1401,
+   "death": 1499,
+   "extract": "Stephanus Lapicidus (allemand : Stephan Steymetz) a été l'architecte de Cathédrale Sainte-Élisabeth à Košice entre 1464 et 1490.\nIl serait d'origine allemande, en effet une communauté allemande s'est installée dans la haute Hongrie depuis le XIIIe siècle. Il aurait contribué à l'église Saint-Égide de Bardejov (slovaque : Chrámu sv. Egídia) avant de travailler à Košice.",
+   "url": "https://fr.wikipedia.org/wiki/Stephanus_Lapicidus",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "Stephanus Lapicidus",
+     "year": null,
+     "img": "https://upload.wikimedia.org/wikipedia/commons/7/73/Stephanus_Lapicidus.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Stephanus%20Lapicidus.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Stephanus_Lapicidus.jpg",
+     "file": "stephanus lapicidus.jpg"
+    },
+    {
+     "title": "Kosice - St. Elisabeth Cathedral 2",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Kosice_-_St._Elisabeth_Cathedral_2.JPG/960px-Kosice_-_St._Elisabeth_Cathedral_2.JPG?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Kosice%20-%20St.%20Elisabeth%20Cathedral%202.JPG?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Kosice_-_St._Elisabeth_Cathedral_2.JPG",
+     "file": "kosice - st. elisabeth cathedral 2.jpg"
+    },
+    {
+     "title": "John duke of burgundy",
+     "year": null,
+     "img": "https://upload.wikimedia.org/wikipedia/commons/a/a6/John_duke_of_burgundy.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/John%20duke%20of%20burgundy.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:John_duke_of_burgundy.jpg",
+     "file": "john duke of burgundy.jpg"
+    },
+    {
+     "title": "Dehio 448 Kaschau",
+     "year": null,
+     "img": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Dehio_448_Kaschau.png?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Dehio%20448%20Kaschau.png?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Dehio_448_Kaschau.png",
+     "file": "dehio 448 kaschau.png"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/73/Stephanus_Lapicidus.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  }
+ ],
+ "stories": [
+  {
+   "type": "story",
+   "id": "fr:Bir Tawil",
+   "name": "Bir Tawil",
+   "desc": "région d'Afrique terra nullius",
+   "extract": "Le Bir Tawil ou Bi'r Tawīl (en arabe égyptien : بير طويل Bīr Ṭawīl, /biːɾ tɑˈwiːl/ ; Biˈr بئر signifiant « puits », Ṭawīl طويل signifiant long ou profond) est une petite région de la frontière entre l'Égypte et le Soudan. La souveraineté sur ce territoire n'est pas clairement définie, aucun des deux pays frontaliers ne le revendiquant formellement. C'est l'un des rares territoires sur Terre dont aucun pays ne revendique la souveraineté.",
+   "url": "https://fr.wikipedia.org/wiki/Bir_Tawil",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Topographic_Map_of_Bir_Tawil.png/960px-Topographic_Map_of_Bir_Tawil.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Bir Tawil|Bir Tawil"
+  },
+  {
+   "type": "story",
+   "id": "fr:Onkalo",
+   "name": "Onkalo",
+   "desc": "site de stockage de déchets nucléaires en Finlande",
+   "extract": "Onkalo (« cave » en finnois) est un site de stockage finlandais de déchets nucléaires de haute activité, prévu pour accueillir des déchets à partir de 2025 pour une durée illimitée. Le site est constitué d'une centaine de tunnels de 300 m chacun situés à 450 m de profondeur sous la terre. Onkalo est situé à environ 1 km à l'est de la centrale nucléaire d'Olkiluoto.",
+   "url": "https://fr.wikipedia.org/wiki/Onkalo",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Onkalo_2.jpg/960px-Onkalo_2.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Onkalo|Onkalo spent nuclear fuel repository"
+  },
+  {
+   "type": "story",
+   "id": "fr:Affaire du col Dyatlov",
+   "name": "Affaire du col Dyatlov",
+   "desc": "morts non élucidées de randonneurs russes dans les montagnes de l'Oural, la nuit du 1er au 2 février 1959.",
+   "extract": "L'affaire du col Dyatlov est un événement ayant causé la mort de neuf skieurs/randonneurs dans le nord de l'Oural (en URSS, aujourd'hui en Russie), approximativement dans la nuit du 1er au 2 février 1959. Cet événement eut lieu sur le versant Est du mont Kholat Syakhl (Холат Сяхыл, nom mansi signifiant « Montagne morte »). Le col de montagne où se déroula l'affaire a depuis été renommé col Dyatlov (Перевал Дятлова), d'après le nom du chef du groupe, Igor Dyatlov (Игорь Дятлов). L'absence de témoins oculaires a donné naissance à beaucoup d'hypothèses concernant le déroulement des événements. L'enquête menée par les autorités soviétiques détermina uniquement qu'une « force irrésistible » inconnue avait causé la mort des randonneurs. L'accès à la région fut interdit pour les skieurs et autres aventuriers pendant trois ans après l'affaire. La chronologie des événements dans la nuit du 1er au 2 février reste incertaine, faute de survivant.\nLes enquêteurs ont déterminé que les randonneurs avaient déchiré leur tente de l'intérieur et étaient sortis pieds nus ou en chaussettes dans la neige. Leurs corps, retrouvés dans un rayon de 1,5 km de l'emplacement de leur tente, ne présentaient pas de signes de lutte, mais deux victimes présentaient des crânes fracturés, deux des côtes cassées, et il manquait les yeux d'une des victimes, la langue et les yeux d'une autre. Quatre victimes retrouvées tardivement ont fait l'objet d'une expertise physico-technique qui a révélé que les habits de deux d'entre elles présentaient des niveaux élevés de radiation dus, selon l'expert de l'époque, à de la « poussière radioactive tombée de l'atmosphère » ou à la « manipulation de substances radioactives » sur leur lieu de travail.\nLe 31 janvier 2019, le Parquet général de Russie annonce la réouverture de l'enquête avec l'étude de trois hypothèses, toutes liées à des phénomènes météorologiques, sur les 75 existantes, précisant que la thèse du crime meurtrier reste peu probable en raison de l'absence totale de preuve et que celle d'une avalanche ou d'un ouragan est privilégiée. Une nouvelle inspection du lieu de l'incident a été réalisée en mars 2019, ainsi qu'un nouvel examen des blessures des victimes afin de déterminer leur origine. Selon les résultats communiqués le 11 juillet 2020, la cause de la mort des neuf randonneurs est une avalanche combinée à une mauvaise visibilité. Une enquête publiée le 12 janvier 2021 par des chercheurs de l'EPFL et de l'ETH Zurich démontre qu'une petite avalanche a pu survenir et provoquer les blessures constatées.",
+   "url": "https://fr.wikipedia.org/wiki/Affaire_du_col_Dyatlov",
+   "lang": "fr",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/71/Dyatlov_Pass_incident_02.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "key": "Incident du col Dyatlov|Dyatlov Pass incident"
+  }
+ ]
+}
