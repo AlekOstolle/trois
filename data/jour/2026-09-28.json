@@ -1,0 +1,193 @@
+{
+ "date": "2026-09-28",
+ "made": "2026-09-28T10:51+02:00",
+ "artists": [
+  {
+   "type": "artist",
+   "era": "contemporain",
+   "src": "c",
+   "id": "c:https://reseau-dda.org/fr/artists/xavier-theunis",
+   "url": "https://reseau-dda.org/fr/artists/xavier-theunis",
+   "desc": "Réseau documents d'artistes",
+   "name": "Xavier Theunis",
+   "born": null,
+   "bornWord": null,
+   "ba": false,
+   "srcName": "Réseau documents d'artistes",
+   "note": "Réseau documents d'artistes",
+   "extract": "A travers une œuvre protéiforme, Xavier Theunis met en place un vocabulaire artistique se basant notamment sur une relecture personnelle d'éléments d'architecture intérieure, d'objets ou de mobilier design. S'emparant de quelques-uns des gimmicks de la domesticité contemporaine haut-gamme, il produit une œuvre glaçante et séduisante. Qu'il recouvre de peinture blanche des pages de magazines de décoration, ne laissant apparaître que les lignes de contours des objets et de l'espace, ou qu'il recompose ton sur ton (en adhésif sur aluminium) le fauteuil « Favela » des frères Campana, l'artiste travaille sur un retour à la surface, sur la transformation plate. Le passage de trois à deux dimensions, et inversement, constitue un des axes du travail de Xavier Theunis. Le changement de statut entre l'objet et sa représentation (entre l'espace et sa représentation), sa traduction, lui permet de produire des formes déroutantes, à la fois familières et instables (comme cette sculpture représentant une table de dessin à la perspective impossible \"sans titre, table de dessin 2010\"). Son œuvre est parfois englobante, environnementale, l'artiste parvient alors à composer des espaces irréels à la perfection suspecte qui défont l'espace d'exposition traditionnel.",
+   "lang": "fr",
+   "works": [
+    {
+     "title": "",
+     "cap": "Vue de l'exposition Non peut-être ! , Galerie contemporaine du Mamac, Nice, 2014 © Photo : François Fernandez",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/artists/xavier-theunis/a8f27cb5f3-1612812292/webtheunis2-1216-2048x1560-q80.jpg",
+     "full": "https://reseau-dda.org/media/pages/artists/xavier-theunis/a8f27cb5f3-1612812292/webtheunis2-1216-2048x1560-q80.jpg",
+     "page": "https://reseau-dda.org/fr/artists/xavier-theunis"
+    },
+    {
+     "title": "",
+     "cap": "Vue de l'exposition Tout ça ne nous rendra pas le Congo , Backslash Gallery, Paris, 2013 © Droits réservés",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/artists/xavier-theunis/2630b25dff-1612812292/webtheunis3-1217-2048x1560-q80.jpg",
+     "full": "https://reseau-dda.org/media/pages/artists/xavier-theunis/2630b25dff-1612812292/webtheunis3-1217-2048x1560-q80.jpg",
+     "page": "https://reseau-dda.org/fr/artists/xavier-theunis"
+    },
+    {
+     "title": "",
+     "cap": "",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/publications/textes-critiques/xavier-theunis/1118d4db6c-1608493212/11-160x120-crop-1.jpg",
+     "full": "https://reseau-dda.org/media/pages/publications/textes-critiques/xavier-theunis/1118d4db6c-1608493212/11-160x120-crop-1.jpg",
+     "page": "https://reseau-dda.org/fr/artists/xavier-theunis"
+    },
+    {
+     "title": "",
+     "cap": "",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/network-events/les-franchises-de-fictions/92cdebdd63-1663227374/f3051eb70b962b646ad926757115bce0l-33-160x120-crop-1.jpg",
+     "full": "https://reseau-dda.org/media/pages/network-events/les-franchises-de-fictions/92cdebdd63-1663227374/f3051eb70b962b646ad926757115bce0l-33-160x120-crop-1.jpg",
+     "page": "https://reseau-dda.org/fr/artists/xavier-theunis"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://reseau-dda.org/media/pages/artists/xavier-theunis/a8f27cb5f3-1612812292/webtheunis2-1216-2048x1560-q80.jpg"
+  },
+  {
+   "type": "artist",
+   "era": "moderne",
+   "wd": "Q55866577",
+   "id": "fr:Camille Boiry",
+   "name": "Camille Boiry",
+   "desc": "peintre français",
+   "birth": 1871,
+   "death": 1954,
+   "extract": "Camille Boiry, né à Rennes le 6 janvier 1871 et mort le 10 octobre 1954 à Loctudy, est un peintre français.",
+   "url": "https://fr.wikipedia.org/wiki/Camille_Boiry",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "Dante aux Enfers",
+     "year": 1899,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Camille%20Boiry%20-%20Dante%20aux%20Enfers.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Camille%20Boiry%20-%20Dante%20aux%20Enfers.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Camille_Boiry_-_Dante_aux_Enfers.jpg",
+     "file": "camille boiry - dante aux enfers.jpg"
+    },
+    {
+     "title": "Peintre",
+     "year": null,
+     "img": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Peintre.png?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Peintre.png?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Peintre.png",
+     "file": "peintre.png"
+    },
+    {
+     "title": "Panneau de la rue Camille Boiry",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Panneau_de_la_rue_Camille_Boiry.jpg/960px-Panneau_de_la_rue_Camille_Boiry.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Panneau%20de%20la%20rue%20Camille%20Boiry.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Panneau_de_la_rue_Camille_Boiry.jpg",
+     "file": "panneau de la rue camille boiry.jpg"
+    },
+    {
+     "title": "Mona Lisa detail eyes",
+     "year": null,
+     "img": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Mona_Lisa_detail_eyes.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Mona%20Lisa%20detail%20eyes.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Mona_Lisa_detail_eyes.jpg",
+     "file": "mona lisa detail eyes.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Camille%20Boiry%20-%20Dante%20aux%20Enfers.jpg?width=520"
+  },
+  {
+   "type": "artist",
+   "era": "ancien",
+   "wd": "Q5549987",
+   "id": "en:Gerard Edema",
+   "name": "Gerard Edema",
+   "desc": "Dutch painter",
+   "birth": 1652,
+   "death": 1700,
+   "extract": "Gerard Edema or Gerard van Edema (c. 1652, Amsterdam – c. 1700, Richmond, Surrey), was a Dutch landscape-painter who settled in England.",
+   "url": "https://en.wikipedia.org/wiki/Gerard_Edema",
+   "lang": "en",
+   "artsy": null,
+   "works": [
+    {
+     "title": "Landscape with a Waterfall and Figures",
+     "year": 1690,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard%20van%20Edema%20%28c.%201652-c.%201700%29%20-%20Landscape%20with%20a%20Waterfall%20and%20Figures%20-%20RCIN%20403931%20-%20Royal%20Collection.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard%20van%20Edema%20%28c.%201652-c.%201700%29%20-%20Landscape%20with%20a%20Waterfall%20and%20Figures%20-%20RCIN%20403931%20-%20Royal%20Collection.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Gerard_van_Edema_%28c._1652-c._1700%29_-_Landscape_with_a_Waterfall_and_Figures_-_RCIN_403931_-_Royal_Collection.jpg",
+     "file": "gerard van edema (c. 1652-c. 1700) - landscape with a waterfall and figures - rcin 403931 - royal collection.jpg"
+    },
+    {
+     "title": "Mount Edgcumbe House and Park from Stonehouse",
+     "year": 1680,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard%20van%20Edema%20%28c.1652-c.1700%29%20-%20Mount%20Edgcumbe%20House%20and%20Park%20from%20Stonehouse%20-%20Plymm.037%20-%20Mount%20Edgcumbe%20House.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard%20van%20Edema%20%28c.1652-c.1700%29%20-%20Mount%20Edgcumbe%20House%20and%20Park%20from%20Stonehouse%20-%20Plymm.037%20-%20Mount%20Edgcumbe%20House.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Gerard_van_Edema_%28c.1652-c.1700%29_-_Mount_Edgcumbe_House_and_Park_from_Stonehouse_-_Plymm.037_-_Mount_Edgcumbe_House.jpg",
+     "file": "gerard van edema (c.1652-c.1700) - mount edgcumbe house and park from stonehouse - plymm.037 - mount edgcumbe house.jpg"
+    },
+    {
+     "title": "View of Windsor from the River",
+     "year": 1745,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard%20van%20Edema%20%28c.1652-c.1700%29%20-%20View%20of%20Windsor%20from%20the%20River%20-%20515825%20-%20National%20Trust.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard%20van%20Edema%20%28c.1652-c.1700%29%20-%20View%20of%20Windsor%20from%20the%20River%20-%20515825%20-%20National%20Trust.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Gerard_van_Edema_%28c.1652-c.1700%29_-_View_of_Windsor_from_the_River_-_515825_-_National_Trust.jpg",
+     "file": "gerard van edema (c.1652-c.1700) - view of windsor from the river - 515825 - national trust.jpg"
+    },
+    {
+     "title": "A View of Mount Edgcumbe from Cremyll",
+     "year": 1680,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard%20van%20Edema%20%28c.1652-c.1700%29%20-%20A%20View%20of%20Mount%20Edgcumbe%20from%20Cremyll%20-%20Plymm.036%20-%20Mount%20Edgcumbe%20House.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard%20van%20Edema%20%28c.1652-c.1700%29%20-%20A%20View%20of%20Mount%20Edgcumbe%20from%20Cremyll%20-%20Plymm.036%20-%20Mount%20Edgcumbe%20House.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Gerard_van_Edema_%28c.1652-c.1700%29_-_A_View_of_Mount_Edgcumbe_from_Cremyll_-_Plymm.036_-_Mount_Edgcumbe_House.jpg",
+     "file": "gerard van edema (c.1652-c.1700) - a view of mount edgcumbe from cremyll - plymm.036 - mount edgcumbe house.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerard%20van%20Edema%20%28c.%201652-c.%201700%29%20-%20Landscape%20with%20a%20Waterfall%20and%20Figures%20-%20RCIN%20403931%20-%20Royal%20Collection.jpg?width=520"
+  }
+ ],
+ "stories": [
+  {
+   "type": "story",
+   "id": "fr:Opération Northwoods",
+   "name": "Opération Northwoods",
+   "desc": "projet d'opérations militaires clandestines destinées à manipuler l'opinion publique américaine",
+   "extract": "L'opération Northwoods est un projet d'opérations militaires clandestines sous fausse bannière destinées à manipuler l'opinion publique. Il s'agissait de simuler divers types d'attaques de la part du régime de Cuba, pour ensuite accuser les Cubains et envahir leur pays.\nConçu par des chefs de l'état-major américain de leur propre initiative, ce projet d'opération fut proposé à l'exécutif américain en 1962 (administration Kennedy), qui le rejeta. Il ne fut jamais mis à exécution.\nL'opération consistait, dans le contexte de la guerre froide, en l'organisation d'une série d'actions d'intoxications pour justifier aux yeux de l'opinion américaine une intervention militaire contre Cuba et obtenir l'appui diplomatique, voire militaire, des nations occidentales, du Royaume-Uni en particulier. La commission d'attentats sur des cibles situées aux États-Unis, par les forces armées américaines elles-mêmes, de manière à en imputer la responsabilité au régime cubain, était envisagée.",
+   "url": "https://fr.wikipedia.org/wiki/Op%C3%A9ration_Northwoods",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/NorthwoodsMemorandum.jpg/960px-NorthwoodsMemorandum.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Opération Northwoods|Operation Northwoods"
+  },
+  {
+   "type": "story",
+   "id": "fr:Expédition Franklin",
+   "name": "Expédition Franklin",
+   "desc": "expédition britannique d'exploration de l'Arctique en 1845",
+   "extract": "L’expédition Franklin est une expédition maritime et polaire britannique qui avait pour but de réussir la première traversée du passage du Nord-Ouest et l'exploration de l'Arctique. Commandée par le capitaine John Franklin, elle quitte l'Angleterre en 1845 sur les bombardes HMS Erebus et HMS Terror, traverse l'Atlantique, remonte la baie de Baffin (entre le Groenland et l'île de Baffin), et s'engage dans le détroit de Lancaster, avant de disparaître.\nFranklin est un officier de la Royal Navy, et un explorateur polaire reconnu, ayant participé à trois expéditions en Arctique dont l'expédition Coppermine. À 59 ans, cette expédition doit être sa dernière.\nSur ordre de l'amirauté, l'expédition s'engage dans un des passages les plus difficiles de l'Arctique : le détroit de Victoria et en septembre 1846 les deux navires sont piégés par la glace au nord-ouest de l'île du Roi-Guillaume où les équipages doivent hiverner pendant plus d'un an. En avril 1848 Franklin et 24 de ses hommes ont trouvé la mort et le reste de l'équipage abandonne les navires pour essayer de descendre vers le sud vers la rivière Back, sous le commandement de Francis Crozier. La dernière trace de l'expédition est une note déposée par Crozier sous un cairn dans l'île du Roi-Guillaume. Les 128 hommes d'équipage mourront.\nTrois ans après leur départ, et sans nouvelles d'eux, pressée notamment par Jane Griffin, l'épouse de Franklin, l'Amirauté britannique lance une campagne de recherche de l'expédition disparue. Motivées en partie par la renommée de Franklin, en partie par une récompense de l'Amirauté, de nombreuses expéditions ultérieures voudront se joindre aux recherches. Plusieurs de ces navires convergent au large de la côte est de l'île Beechey, où les premiers vestiges de l'expédition seront retrouvés, dont les tombes de trois membres de l'équipage morts dès le premier hivernage. Les explorateurs John Rae, puis Francis Leopold McClintock, l'un en acquérant des objets et des témoignages en provenance des Inuits, l'autre en découvrant dans un cairn une note sur le sort de l'expédition, fournissent un faible faisceau d'indices sur les moments précédant la perte de l'expédition.\nDans les années 1980, une équipe de scientifiques dirigée par Owen Beattie, professeur d'anthropologie à l'université de l'Alberta, commence une série d'études scientifiques sur le contenu des tombes, restes humains organiques, et d'autres preuves matérielles laissées par les membres de l'équipage de Franklin sur l'île Beechey et l'île du Roi-Guillaume. Avec les progrès de la science, on peut estimer que les membres de l'équipage dont les tombes ont été retrouvées sur l'île Beechey sont probablement morts de pneumonie et de la tuberculose, cela ayant pu être aggravé par une intoxication par le plomb des boîtes de conserve. D'autres restes humains seront retrouvés bien plus au sud, les équipages ayant fini par quitter leurs navires après la fin du troisième hivernage, pour tenter de rejoindre une zone habitée, mais hélas très lointaine. Des marques sur les os retrouvés portent des traces de cannibalisme. Finalement, la combinaison de ces études permet de croire que le froid, la famine, l'empoisonnement par le plomb et les maladies, notamment le scorbut, ont d'abord décimé l'expédition, qui ne pouvait pas survivre à une très longue et éprouvante expédition terrestre dans un milieu difficile et sans ressources.\nEn 2012, une campagne de recherche canadienne a d'abord permis de localiser le HMS Terror, grâce aux informations transmises par la tradition orale inuit. L'épave du HMS Erebus a été retrouvée plus au nord en 2014. Le HMS Terror a été très peu endommagé et les écoutilles et vitres n'ont pas cédé à la pression de l'eau, c'est pourquoi les archéologues ont bon espoir de retrouver des objets et documents, tels que des carnets de bord afin de mieux comprendre le destin tragique de l'expédition Franklin. Ils espèrent notamment comprendre pourquoi les navires ont été retrouvés au sud de l'île du Roi-Guillaume.",
+   "url": "https://fr.wikipedia.org/wiki/Exp%C3%A9dition_Franklin",
+   "lang": "fr",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/29/Franklin%27s_lost_expedition_map.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "key": "Expédition Franklin|Franklin's lost expedition"
+  },
+  {
+   "type": "story",
+   "id": "fr:Grand smog de Londres",
+   "name": "Grand smog de Londres",
+   "desc": "pollution atmosphérique à Londres en 1952",
+   "extract": "Le grand smog de Londres (en anglais, The Great Smog ou Big Smoke : « la grande fumée ») de 1952 est le smog particulièrement dense qui recouvrit Londres durant la période allant du jeudi 4 au mardi 9 décembre 1952, considéré comme la pire pollution atmosphérique de toute l'histoire du Royaume-Uni. \nLe smog est une brume brunâtre épaisse, provenant d'un mélange de polluants atmosphériques, qui limite la visibilité dans l’atmosphère. Il est constitué surtout de particules fines et d'ozone. Le smog est associé à plusieurs effets néfastes pour la santé et pour l'environnement.\nLes premiers comptes rendus avaient laissé penser que 4 000 personnes avaient connu une mort prématurée du fait du smog, qui aurait également rendu malades 100 000 personnes, mais des recherches plus récentes ont montré que le nombre de morts liées au smog était sous-estimé ; il serait nettement plus élevé, de l'ordre de 12 000 morts.\nLe grand smog de Londres de 1952 est reconnu comme étant l'un des épisodes de pollution les plus significatifs de l'histoire en termes d'impact sur la recherche environnementale, sur la règlementation mise en place par le gouvernement, ainsi que sur la sensibilisation du public à l'écologisme et à la relation entre la santé et la qualité de l'air.",
+   "url": "https://fr.wikipedia.org/wiki/Grand_smog_de_Londres",
+   "lang": "fr",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/02/Nelson%27s_Column_during_the_Great_Smog_of_1952.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "key": "Grand smog de Londres|Great Smog of London"
+  }
+ ]
+}
