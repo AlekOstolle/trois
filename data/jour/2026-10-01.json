@@ -1,0 +1,169 @@
+{
+ "date": "2026-10-01",
+ "made": "2026-10-01T11:12+02:00",
+ "artists": [
+  {
+   "type": "artist",
+   "era": "contemporain",
+   "src": "c",
+   "id": "c:https://beauxartsparis.fr/fr/Oeuvre/cily-gonzalez-prix-des-amis-des-beaux-arts-2026",
+   "url": "https://beauxartsparis.fr/fr/Oeuvre/cily-gonzalez-prix-des-amis-des-beaux-arts-2026",
+   "desc": "Prix Khalil de Chazournes, Prix des Amis des Beaux-Arts 2026",
+   "name": "Cily Gonzalez",
+   "born": null,
+   "bornWord": null,
+   "ba": true,
+   "srcName": "Beaux-Arts de Paris",
+   "note": "Prix Khalil de Chazournes, Prix des Amis des Beaux-Arts 2026",
+   "extract": "La pratique de Cily Gonzalez se déploie entre peinture, écriture et installation. À travers des matériaux tels que les résines, la cire, le goudron, le sable ou les pigments, elle construit des surfaces où la matière précède l’image. Le bois occupe une place centrale dans son travail, conservant les traces, les effacements et les transformations qui façonnent chaque œuvre. Son travail explore les silences familiaux, les héritages invisibles et la mémoire, à la croisée de l’intime et du collectif.\nL’écriture, qu’elle pratique quotidiennement, nourrit sa recherche sans jamais illustrer la peinture : elle apparaît comme une trace, un fragment qui surgit, disparaît et persiste. Entre intensité et ironie, ses œuvres interrogent la manière dont les corps et les matières deviennent les archives sensibles de nos histoires.\nCily Gonzalez’s practice spans painting, writing and installation. Using materials such as resins, wax, tar, sand and pigments, she constructs surfaces where the material takes precedence over the image. Wood plays a central role in her work, retaining the traces, erasures and transformations that shape each piece. Her work explores familial silences, invisible legacies and memory, at the intersection of the personal and the collective.\nWriting, which she practises daily, nourishes her artistic research without ever serving as an illustration for her paintings: it appears as a trace, a fragment that emerges, disappears and lingers. Oscillating between intensity and",
+   "lang": "fr",
+   "works": [
+    {
+     "title": "",
+     "cap": "Smiling with blood between my teeth. Huile, papier, chaux, pigments, poudre de marbre, sables, goudron, résine de dammar sur bois. 153 x 300 cm 2025",
+     "year": null,
+     "img": "https://beauxartsparis.fr/sites/default/files/2026-06/Cily%20Gonzalez_0.jpg",
+     "full": "https://beauxartsparis.fr/sites/default/files/2026-06/Cily%20Gonzalez_0.jpg",
+     "page": "https://beauxartsparis.fr/fr/Oeuvre/cily-gonzalez-prix-des-amis-des-beaux-arts-2026"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://beauxartsparis.fr/sites/default/files/2026-06/Cily%20Gonzalez_0.jpg"
+  },
+  {
+   "type": "artist",
+   "era": "moderne",
+   "wd": "Q3101320",
+   "id": "fr:Georg Maria Eckert",
+   "name": "Georg Maria Eckert",
+   "desc": "peintre et photographe allemand",
+   "birth": 1828,
+   "death": 1901,
+   "extract": "Georg Maria Eckert, né à Heidelberg en 1828 et mort à Karlsruhe en 1901, est un photographe allemand, auteur notamment d'une série de clichés sur Strasbourg réalisée après la capitulation de la ville en septembre 1870, ainsi que d'un important recueil de 52 planches consacré aux sites et aux paysages alsaciens, publié en 1874 sous le titre Bilder aus dem Elsass.",
+   "url": "https://fr.wikipedia.org/wiki/Georg_Maria_Eckert",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "Landscape: view of Heidelberg",
+     "year": 1877,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Georg%20Maria%20Eckert%20%281828-1903%29%20-%20Blick%20auf%20Heidelberg%20-%201079%20-%20F%C3%BChrermuseum.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Georg%20Maria%20Eckert%20%281828-1903%29%20-%20Blick%20auf%20Heidelberg%20-%201079%20-%20F%C3%BChrermuseum.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Georg_Maria_Eckert_%281828-1903%29_-_Blick_auf_Heidelberg_-_1079_-_F%C3%BChrermuseum.jpg",
+     "file": "georg maria eckert (1828-1903) - blick auf heidelberg - 1079 - führermuseum.jpg"
+    },
+    {
+     "title": "Strasbourg, bombardement de 1870, intérieur du Temple Neuf",
+     "year": null,
+     "img": "https://upload.wikimedia.org/wikipedia/commons/2/25/Strasbourg%2C_bombardement_de_1870%2C_int%C3%A9rieur_du_Temple_Neuf.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Strasbourg%2C%20bombardement%20de%201870%2C%20int%C3%A9rieur%20du%20Temple%20Neuf.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Strasbourg,_bombardement_de_1870,_int%C3%A9rieur_du_Temple_Neuf.jpg",
+     "file": "strasbourg, bombardement de 1870, intérieur du temple neuf.jpg"
+    },
+    {
+     "title": "Journal-des-chemins-de-fer-image-titre",
+     "year": null,
+     "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Journal-des-chemins-de-fer-image-titre.png?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Journal-des-chemins-de-fer-image-titre.png?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Journal-des-chemins-de-fer-image-titre.png",
+     "file": "journal-des-chemins-de-fer-image-titre.png"
+    },
+    {
+     "title": "Georg Maria Eckert - St Achatius Kapelle Grünsfeldhausen 1850er",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Georg_Maria_Eckert_-_St_Achatius_Kapelle_Gr%C3%BCnsfeldhausen_1850er.jpg/960px-Georg_Maria_Eckert_-_St_Achatius_Kapelle_Gr%C3%BCnsfeldhausen_1850er.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Georg%20Maria%20Eckert%20-%20St%20Achatius%20Kapelle%20Gr%C3%BCnsfeldhausen%201850er.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Georg_Maria_Eckert_-_St_Achatius_Kapelle_Gr%C3%BCnsfeldhausen_1850er.jpg",
+     "file": "georg maria eckert - st achatius kapelle grünsfeldhausen 1850er.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Georg%20Maria%20Eckert%20%281828-1903%29%20-%20Blick%20auf%20Heidelberg%20-%201079%20-%20F%C3%BChrermuseum.jpg?width=520"
+  },
+  {
+   "type": "artist",
+   "era": "ancien",
+   "wd": "Q21465450",
+   "id": "fr:William Henry Worthington",
+   "name": "William Henry Worthington",
+   "desc": "graveur britannique",
+   "birth": 1795,
+   "death": 1900,
+   "extract": "William Henry Worthington, né à Londres vers 1795 et mort après 1839, est un graveur britannique.\nIl a principalement gravé pour illustrer des ouvrages, et est connu en particulier pour History of England, édité par William Pickering (en), et des reproductions des marbres d'Elgin du British Museum.",
+   "url": "https://fr.wikipedia.org/wiki/William_Henry_Worthington",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "The Countess of Arundel",
+     "year": null,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20Henry%20Worthington%20-%20The%20Countess%20of%20Arundel%20-%20B1994.4.1503%20-%20Yale%20Center%20for%20British%20Art.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20Henry%20Worthington%20-%20The%20Countess%20of%20Arundel%20-%20B1994.4.1503%20-%20Yale%20Center%20for%20British%20Art.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:William_Henry_Worthington_-_The_Countess_of_Arundel_-_B1994.4.1503_-_Yale_Center_for_British_Art.jpg",
+     "file": "william henry worthington - the countess of arundel - b1994.4.1503 - yale center for british art.jpg"
+    },
+    {
+     "title": "Bacchus and Ariadne",
+     "year": 1832,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20Henry%20Worthington%20-%20Bacchus%20and%20Ariadne%20-%20B1998.14.675%20-%20Yale%20Center%20for%20British%20Art.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20Henry%20Worthington%20-%20Bacchus%20and%20Ariadne%20-%20B1998.14.675%20-%20Yale%20Center%20for%20British%20Art.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:William_Henry_Worthington_-_Bacchus_and_Ariadne_-_B1998.14.675_-_Yale_Center_for_British_Art.jpg",
+     "file": "william henry worthington - bacchus and ariadne - b1998.14.675 - yale center for british art.jpg"
+    },
+    {
+     "title": "Industry and Idleness, Plate VI, The Industrious 'Prentice out of His Time and Married to His Master's Daughter",
+     "year": 1833,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20Henry%20Worthington%20-%20Industry%20and%20Idleness%2C%20Plate%20VI%2C%20The%20Industrious%20%5EPrentice%20out%20of%20His%20Time%20and%20Married%20to%20His%20-%20B1998.14.1174%20-%20Yale%20Center%20for%20British%20Art.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20Henry%20Worthington%20-%20Industry%20and%20Idleness%2C%20Plate%20VI%2C%20The%20Industrious%20%5EPrentice%20out%20of%20His%20Time%20and%20Married%20to%20His%20-%20B1998.14.1174%20-%20Yale%20Center%20for%20British%20Art.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:William_Henry_Worthington_-_Industry_and_Idleness%2C_Plate_VI%2C_The_Industrious_%5EPrentice_out_of_His_Time_and_Married_to_His_-_B1998.14.1174_-_Yale_Center_for_British_Art.jpg",
+     "file": "william henry worthington - industry and idleness, plate vi, the industrious ^prentice out of his time and married to his - b1998.14.1174 - yale center for british art.jpg"
+    },
+    {
+     "title": "John Black, 1783 - 1855. Journalist; editor of the 'Morning Chronicle'",
+     "year": null,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20Henry%20Worthington%20-%20John%20Black%2C%201783%20-%201855.%20Journalist%2C%20editor%20of%20the%20%27Morning%20Chronicle%27%20-%20PG%20321%20-%20National%20Galleries%20of%20Scotland.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20Henry%20Worthington%20-%20John%20Black%2C%201783%20-%201855.%20Journalist%2C%20editor%20of%20the%20%27Morning%20Chronicle%27%20-%20PG%20321%20-%20National%20Galleries%20of%20Scotland.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:William_Henry_Worthington_-_John_Black%2C_1783_-_1855._Journalist%2C_editor_of_the_%27Morning_Chronicle%27_-_PG_321_-_National_Galleries_of_Scotland.jpg",
+     "file": "william henry worthington - john black, 1783 - 1855. journalist, editor of the 'morning chronicle' - pg 321 - national galleries of scotland.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20Henry%20Worthington%20-%20The%20Countess%20of%20Arundel%20-%20B1994.4.1503%20-%20Yale%20Center%20for%20British%20Art.jpg?width=520"
+  }
+ ],
+ "stories": [
+  {
+   "type": "story",
+   "id": "fr:Île des Faisans",
+   "name": "Île des Faisans",
+   "desc": "île de la Bidassoa sous condominium franco-espagnol",
+   "extract": "L'île des Faisans (en basque : Faisaien uhartea/irla ; en espagnol : Isla de los Faisanes) ou île de la Conférence (en basque : Konpantzia) est une petite île fluviale située sur la Bidassoa, près de son embouchure et de la baie de Chingoudy, sur la frontière franco-espagnole.\nAyant le statut de condominium, elle est administrée alternativement par l'Espagne et la France avec un changement d'administration tous les six mois. Il s'agit du seul exemple dans les relations internationales contemporaines d'une gestion conjointe et alternée d'un même territoire.\nSon accès est interdit au public.",
+   "url": "https://fr.wikipedia.org/wiki/%C3%8Ele_des_Faisans",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Irun_-_Isla_de_los_Faisanes_sobre_el_r%C3%ADo_Bisasoa_01.jpg/960px-Irun_-_Isla_de_los_Faisanes_sobre_el_r%C3%ADo_Bisasoa_01.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Île des Faisans|Pheasant Island"
+  },
+  {
+   "type": "story",
+   "id": "fr:Manuscrit de Voynich",
+   "name": "Manuscrit de Voynich",
+   "desc": "livre illustré du XVe siècle à l'aide d'un alphabet inconnu par un auteur inconnu",
+   "extract": "Le manuscrit de Voynich est un livre illustré anonyme rédigé dans une écriture à ce jour non déchiffrée et une langue non identifiée.\nMalgré les nombreuses tentatives des cryptographes, la nature exacte de ce document, sa destination et son auteur restent une énigme : s'agit-il d'un herbier, d'un traité d'alchimie, d'une œuvre ésotérique, voire simplement d'une mystification ? Cette ambiguïté a contribué à en faire l'un des documents les plus célèbres de l'histoire de la cryptographie.\nLe manuscrit doit son nom à Wilfrid M. Voynich, qui l'a découvert en 1912 à Frascati, près de Rome, dans la bibliothèque d'une communauté de jésuites. La plus ancienne mention connue de ce manuscrit date de 1639 et figure dans une lettre adressée à Athanasius Kircher. Depuis 1969, le manuscrit est conservé sous la cote MS 408 à la Bibliothèque Beinecke de livres rares et manuscrits de l’université Yale, aux États-Unis.\nSelon une étude publiée en 2011 par l'équipe de Greg Hodgins, chercheur de l'université de l'Arizona, la datation par le carbone 14 du parchemin utilisé pour la confection du livre a permis d'établir que le vélin a été fabriqué entre 1404 et 1438, ce qui exclut avec certitude que le texte qu'il porte ait été copié à l'époque de Roger Bacon († 1294), en qui certains ont vu l'auteur de ce texte.",
+   "url": "https://fr.wikipedia.org/wiki/Manuscrit_de_Voynich",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Voynich_Manuscript_%28107%29.jpg/960px-Voynich_Manuscript_%28107%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Manuscrit de Voynich|Voynich manuscript"
+  },
+  {
+   "type": "story",
+   "id": "fr:Baleine 52 hertz",
+   "name": "Baleine 52 hertz",
+   "desc": "nom donné à une baleine, dont le chant a cette fréquence",
+   "extract": "52 hertz est le nom donné à une baleine unique en son genre dont la fréquence du chant est de 52 hertz. Elle est aussi surnommée « la baleine la plus seule au monde ».\nDétectée pour la première fois dans l'océan Pacifique nord en 1989, cette baleine semble être l'unique représentante de son espèce, son chant ne correspondant pas à la fréquence usuelle des chants des baleines (habituellement de 12 à 25 hertz), et ses déplacements ne suivant pas les voies migratoires du reste de l'espèce des baleines bleues. La baleine a été suivie pendant 12 ans, de 1992 à 2004, par une équipe de scientifiques du Woods Hole Oceanographic Institution, menée par William Watkins, puis Mary Ann Daher.\nLa baleine 52 hertz a continué d'être suivie par l'équipe jusqu'en 2007 et en 2013, une équipe composée de vidéastes documentaires et de scientifiques a été montée pour tenter de repérer et découvrir la baleine dans le Pacifique Nord. La campagne de financement participatif pour le tournage du documentaire a réussi à dépasser son objectif de 300 000 dollars et le film a été diffusé dans les cinémas américains à partir de juillet 2021.",
+   "url": "https://fr.wikipedia.org/wiki/Baleine_52_hertz",
+   "lang": "fr",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Akblue52a_256_064c.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "key": "Baleine 52 Hertz|52-hertz whale"
+  }
+ ]
+}
