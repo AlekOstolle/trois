@@ -1,0 +1,145 @@
+{
+ "date": "2026-10-02",
+ "made": "2026-10-02T10:46+02:00",
+ "artists": [
+  {
+   "type": "artist",
+   "era": "contemporain",
+   "src": "c",
+   "id": "c:https://reseau-dda.org/fr/artists/colin-champsaur",
+   "url": "https://reseau-dda.org/fr/artists/colin-champsaur",
+   "desc": "Réseau documents d'artistes",
+   "name": "Colin Champsaur",
+   "born": null,
+   "bornWord": null,
+   "ba": false,
+   "srcName": "Réseau documents d'artistes",
+   "note": "Réseau documents d'artistes",
+   "extract": "Il y a dans le travail de Colin Champsaur une nécessité de mettre en rapport les choses. Que ce soit dans ses œuvres qui bâtissent ensemble un intarissable jeu de connexions, ou à travers sa pratique du commissariat d'exposition qu'il considère comme partie prenante de son activité d'artiste, il lui importe de mettre en place les conditions d'un dialogue, de liens, d'une pensée active. Ce besoin reflète assez bien la manière à la fois générale et individuée dont il envisage sa pratique de l'art. La sculpture qui occupe une grande place dans sa production affirme l'importance des matériaux de construction (tout comme ses photographies d'ailleurs). Ceux-ci indiquent un territoire artistique imprégné par la question du travail et, de manière plus générale, du « faire », du \"non-faire\", de \"faire-avec\"... La construction du sens rejoint la construction des villes et situe alors l'œuvre de Colin Champsaur sur le terrain du politique.",
+   "lang": "fr",
+   "works": [
+    {
+     "title": "",
+     "cap": "© Droits réservés",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/artists/colin-champsaur/f88396a21f-1612810955/champsaur2-1293-2048x1560-q80.jpg",
+     "full": "https://reseau-dda.org/media/pages/artists/colin-champsaur/f88396a21f-1612810955/champsaur2-1293-2048x1560-q80.jpg",
+     "page": "https://reseau-dda.org/fr/artists/colin-champsaur"
+    },
+    {
+     "title": "",
+     "cap": "",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/artists/colin-champsaur/eb48b050e3-1612810955/champsaur1-1292-1200x630-crop-1.jpg",
+     "full": "https://reseau-dda.org/media/pages/artists/colin-champsaur/eb48b050e3-1612810955/champsaur1-1292-1200x630-crop-1.jpg",
+     "page": "https://reseau-dda.org/fr/artists/colin-champsaur"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://reseau-dda.org/media/pages/artists/colin-champsaur/f88396a21f-1612810955/champsaur2-1293-2048x1560-q80.jpg"
+  },
+  {
+   "type": "artist",
+   "era": "moderne",
+   "wd": "Q61767261",
+   "id": "fr:Pierre Dens",
+   "name": "Pierre Dens",
+   "desc": "architecte belge",
+   "birth": 1819,
+   "death": 1901,
+   "extract": "Pierre Dens, né à Anvers le 26 mars 1819 et mort dans la même ville le 13 septembre 1901, est un architecte belge.",
+   "url": "https://fr.wikipedia.org/wiki/Pierre_Dens",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "Dens, Pieter Jan Auguste (1819-1901)- architect, stadsbouwmeester van Antwerpen, Lauwers, Frans, Felixarchief, 12 12716",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Dens%2C_Pieter_Jan_Auguste_%281819-1901%29-_architect%2C_stadsbouwmeester_van_Antwerpen%2C_Lauwers%2C_Frans%2C_Felixarchief%2C_12_12716.jpg/960px-Dens%2C_Pieter_Jan_Auguste_%281819-1901%29-_architect%2C_stadsbouwmeester_van_Antwerpen%2C_Lauwers%2C_Frans%2C_Felixarchief%2C_12_12716.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Dens%2C%20Pieter%20Jan%20Auguste%20%281819-1901%29-%20architect%2C%20stadsbouwmeester%20van%20Antwerpen%2C%20Lauwers%2C%20Frans%2C%20Felixarchief%2C%2012%2012716.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Dens,_Pieter_Jan_Auguste_(1819-1901)-_architect,_stadsbouwmeester_van_Antwerpen,_Lauwers,_Frans,_Felixarchief,_12_12716.jpg",
+     "file": "dens, pieter jan auguste (1819-1901)- architect, stadsbouwmeester van antwerpen, lauwers, frans, felixarchief, 12 12716.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Dens%2C_Pieter_Jan_Auguste_%281819-1901%29-_architect%2C_stadsbouwmeester_van_Antwerpen%2C_Lauwers%2C_Frans%2C_Felixarchief%2C_12_12716.jpg/960px-Dens%2C_Pieter_Jan_Auguste_%281819-1901%29-_architect%2C_stadsbouwmeester_van_Antwerpen%2C_Lauwers%2C_Frans%2C_Felixarchief%2C_12_12716.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "type": "artist",
+   "era": "ancien",
+   "wd": "Q1708041",
+   "id": "en:Philipp Jakob Scheffauer",
+   "name": "Philipp Jakob Scheffauer",
+   "desc": "German Neoclassical sculptor",
+   "birth": 1756,
+   "death": 1808,
+   "extract": "Philipp Jakob von Scheffauer (7 May 1756, Stuttgart - 13 November 1808, Stuttgart) was a German Neoclassical sculptor.",
+   "url": "https://en.wikipedia.org/wiki/Philipp_Jakob_Scheffauer",
+   "lang": "en",
+   "artsy": null,
+   "works": [
+    {
+     "title": "Seele-Scheffauer",
+     "year": null,
+     "img": "https://upload.wikimedia.org/wikipedia/commons/5/54/Seele-Scheffauer.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "full": "https://en.wikipedia.org/wiki/Special:FilePath/Seele-Scheffauer.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Seele-Scheffauer.jpg",
+     "file": "seele-scheffauer.jpg"
+    },
+    {
+     "title": "Scheffauer, Philipp Jakob, Trauernder Genius, Ausführung von Joseph Wilhelm Ludwig Mack",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Scheffauer%2C_Philipp_Jakob%2C_Trauernder_Genius%2C_Ausf%C3%BChrung_von_Joseph_Wilhelm_Ludwig_Mack.jpg/960px-Scheffauer%2C_Philipp_Jakob%2C_Trauernder_Genius%2C_Ausf%C3%BChrung_von_Joseph_Wilhelm_Ludwig_Mack.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://en.wikipedia.org/wiki/Special:FilePath/Scheffauer%2C%20Philipp%20Jakob%2C%20Trauernder%20Genius%2C%20Ausf%C3%BChrung%20von%20Joseph%20Wilhelm%20Ludwig%20Mack.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Scheffauer,_Philipp_Jakob,_Trauernder_Genius,_Ausf%C3%BChrung_von_Joseph_Wilhelm_Ludwig_Mack.jpg",
+     "file": "scheffauer, philipp jakob, trauernder genius, ausführung von joseph wilhelm ludwig mack.jpg"
+    },
+    {
+     "title": "Kepler Gedächtnishaus - Museum -17",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Kepler_Ged%C3%A4chtnishaus_-_Museum_-17.jpg/960px-Kepler_Ged%C3%A4chtnishaus_-_Museum_-17.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://en.wikipedia.org/wiki/Special:FilePath/Kepler%20Ged%C3%A4chtnishaus%20-%20Museum%20-17.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Kepler_Ged%C3%A4chtnishaus_-_Museum_-17.jpg",
+     "file": "kepler gedächtnishaus - museum -17.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/54/Seele-Scheffauer.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  }
+ ],
+ "stories": [
+  {
+   "type": "story",
+   "id": "fr:Jeanne de Belleville",
+   "name": "Jeanne de Belleville",
+   "desc": "noble féminine du XIVe siècle (vers 1300-vers 1359)",
+   "extract": "Jeanne de Belleville, aussi connue sous le nom de Jeanne de Clisson, née vers 1300 dans le Poitou, morte vers 1359, est une femme baronne bretonne devenue, selon les récits, pirate par vengeance au XIVe siècle.\nMalgré ses origines poitevines, elle est surnommée « la Tigresse bretonne » ou encore la « Lionne sanglante » à partir du XIXe siècle.",
+   "url": "https://fr.wikipedia.org/wiki/Jeanne_de_Belleville",
+   "lang": "fr",
+   "thumb": null,
+   "key": "Jeanne de Clisson|Jeanne de Clisson"
+  },
+  {
+   "type": "story",
+   "id": "fr:Pando (arbre)",
+   "name": "Pando (arbre)",
+   "desc": "colonie clonale de peupliers faux-trembles dans le comté de Sevier, Utah, États-Unis",
+   "extract": "Pando (« je m'étends » en latin) est une immense colonie clonale d'environ 47 000 peupliers faux-trembles (Populus tremuloides), située dans le comté de Sevier (Utah, États-Unis).",
+   "url": "https://fr.wikipedia.org/wiki/Pando_(arbre)",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Pando_Land_Mass_Outline.jpg/960px-Pando_Land_Mass_Outline.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Pando (arbre)|Pando (tree)"
+  },
+  {
+   "type": "story",
+   "id": "fr:Géant de Cardiff",
+   "name": "Géant de Cardiff",
+   "desc": "canular archéologique",
+   "extract": "Le géant de Cardiff est un canular archéologique visant à faire croire à la découverte d'un squelette de géant à Cardiff dans l'État de New York en 1869. La supercherie fut rapidement révélée mais le pseudo-squelette connut pour autant un grand succès auprès du public.",
+   "url": "https://fr.wikipedia.org/wiki/G%C3%A9ant_de_Cardiff",
+   "lang": "fr",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/95/Cardiff_Giant_2.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "key": "Géant de Cardiff|Cardiff Giant"
+  }
+ ]
+}
