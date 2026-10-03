@@ -1,0 +1,169 @@
+{
+ "date": "2026-10-03",
+ "made": "2026-10-03T10:23+02:00",
+ "artists": [
+  {
+   "type": "artist",
+   "era": "contemporain",
+   "src": "c",
+   "id": "c:https://reseau-dda.org/fr/artists/gabrielle-herveet",
+   "url": "https://reseau-dda.org/fr/artists/gabrielle-herveet",
+   "desc": "Réseau documents d'artistes",
+   "name": "Gabrielle Herveet",
+   "born": null,
+   "bornWord": null,
+   "ba": false,
+   "srcName": "Réseau documents d'artistes",
+   "note": "Réseau documents d'artistes",
+   "extract": "Les formes que je propose sont issues de l’interrelation entre le domaine du sensible et les théories, prédictives ou descriptives, élaborées depuis des millénaires pour décrire le monde (géométrie, géologie, météorologie, thermodynamique, théorie du chaos ou physique élémentaire...). J’utilise la science de manière empirique, sans nombre ni équation, afin d’induire une lecture poétique des mécaniques de paysages et plus généralement des phénomènes physiques construisant l’espace quotidien, universel ou anthropique. L’estran de l’estuaire du Trieux (fleuve des Côtes-d’Armor) est un espace matriciel d’où j’extrais des matériaux et une multiplicité de phénomènes, de processus, de valeurs ou de mouvements. Ainsi sont tissés des liens entre microcosme et macrocosme, l’infiniment petit révèle l’infiniment grand, et inversement.",
+   "lang": "fr",
+   "works": [
+    {
+     "title": "",
+     "cap": "Entre deux solstices : calendrier des limites d'obscurités Dans le cadre de l’exposition Je te suivrai jusqu’à la frontière de ton odeur là où la lumière se déchire un peu de Julier Fortier, Espace d’",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/artists/gabrielle-herveet/69bb02363b-1739885839/webjetesuivrai-81-2400x1800-q80-7668-2048x1560-q80.jpg",
+     "full": "https://reseau-dda.org/media/pages/artists/gabrielle-herveet/69bb02363b-1739885839/webjetesuivrai-81-2400x1800-q80-7668-2048x1560-q80.jpg",
+     "page": "https://reseau-dda.org/fr/artists/gabrielle-herveet"
+    },
+    {
+     "title": "",
+     "cap": "Des yeux et des rayons Exposition personnelle au Musée Grasset de Varzy, 2024",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/artists/gabrielle-herveet/0b6862b319-1739885905/p1018489-2400x1800-q80-7669-2048x1560-q80.jpg",
+     "full": "https://reseau-dda.org/media/pages/artists/gabrielle-herveet/0b6862b319-1739885905/p1018489-2400x1800-q80-7669-2048x1560-q80.jpg",
+     "page": "https://reseau-dda.org/fr/artists/gabrielle-herveet"
+    },
+    {
+     "title": "",
+     "cap": "les conjugaisons du rivage Exposition personnelle, Galerie du Dourven, 2023",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/artists/gabrielle-herveet/52feadd43e-1739885955/d-equinoxe-a-equinoxe-12-2400x1800-q80-7670-2048x1560-q80.jpg",
+     "full": "https://reseau-dda.org/media/pages/artists/gabrielle-herveet/52feadd43e-1739885955/d-equinoxe-a-equinoxe-12-2400x1800-q80-7670-2048x1560-q80.jpg",
+     "page": "https://reseau-dda.org/fr/artists/gabrielle-herveet"
+    },
+    {
+     "title": "",
+     "cap": "Calendrier cylindrique et spiralaire des nuits de pleines lunes et des nuits de nouvelles lunes, d’avril 2023 à Août 2045, 2023 Tronc d’arbre du parc du Dourven, étain, graphite, 345 x 40 x 40 cm",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/artists/gabrielle-herveet/d2087d29f2-1739885984/calendrier-cylindrique-et-spiralaire-des-nuits-de-plene-kune-et-des-nuits-de-nouvelle-lune-1-2400x1800-q80-7671-2048x1560-q80.jpg",
+     "full": "https://reseau-dda.org/media/pages/artists/gabrielle-herveet/d2087d29f2-1739885984/calendrier-cylindrique-et-spiralaire-des-nuits-de-plene-kune-et-des-nuits-de-nouvelle-lune-1-2400x1800-q80-7671-2048x1560-q80.jpg",
+     "page": "https://reseau-dda.org/fr/artists/gabrielle-herveet"
+    },
+    {
+     "title": "",
+     "cap": "Colonnes d’Estran Restitution pendant de le festival d'art de l'estran, Côte de Granit Rose Résidence de création en milieu scolaire au Collège de Pleumeur-Bodou, printemps 2023 Photos : La lanterne S",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/artists/gabrielle-herveet/34c69060b1-1739886030/14-festival-motif-estran-54-2400x1800-q80-7672-2048x1560-q80.jpg",
+     "full": "https://reseau-dda.org/media/pages/artists/gabrielle-herveet/34c69060b1-1739886030/14-festival-motif-estran-54-2400x1800-q80-7672-2048x1560-q80.jpg",
+     "page": "https://reseau-dda.org/fr/artists/gabrielle-herveet"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://reseau-dda.org/media/pages/artists/gabrielle-herveet/69bb02363b-1739885839/webjetesuivrai-81-2400x1800-q80-7668-2048x1560-q80.jpg"
+  },
+  {
+   "type": "artist",
+   "era": "moderne",
+   "wd": "Q6241552",
+   "id": "en:John James Joass",
+   "name": "John James Joass",
+   "desc": "Scottish architect",
+   "birth": 1868,
+   "death": 1952,
+   "extract": "John James Joass (1868 – 10 May 1952) was a Scottish architect, born in Dingwall, Scotland. His father William Cumming Joass was an established architect in that town.\nThe son was given basic training with his father, and then in 1885 articled with John Burnet & Son in Glasgow, Scotland. In 1890 he moved to the firm of Robert Rowand Anderson, and then in 1893 to London, England. After a number of positions he joined John Belcher's practice in 1896. He became a partner in 1905, and continued the practice after the death of Belcher in 1913. \nBetween 1913 and 1914 the Mappin Terraces of London Zoo were built. Joass was the architect of this project to provide more naturalistic settings for animals at the London Zoo. The terraces with four artificial peaks, the Goat Hills, were innovative both in concept and construction, making use of concrete engineering techniques recently invented in America. In 1905, the partnership was working on the remodeling of a country house in Tapeley Park, in the village of Instow, Devon. This had started in 1898 and continued until 1916, so was presumably completed by Joass after his partner's death.\nThe partnership undertook the Royal Insurance office in Piccadilly, London in 1907–09. Joass was also joint architect of Whiteleys department store, which opened in 1911, and the re-building of the Swan and Edgar department store, after 1920.\nIn 1926 Joass was commissioned to provide an extension to Chartered Accountants Hall, which had originally been designed by Belcher and constructed in the 1890s. Joass' extension provided an additional 5,000 square feet for meeting rooms and offices; the final cost of the extension came to £35,976 9s. 6d. \nHe retired to Poole, Dorset sometime after 1930. He was an avid sailor of small sailing craft.",
+   "url": "https://en.wikipedia.org/wiki/John_James_Joass",
+   "lang": "en",
+   "artsy": null,
+   "works": [
+    {
+     "title": "Barncluith, Lanarkshire - details of the formal garden - drawing by J. J. Joass",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Barncluith%2C_Lanarkshire_-_details_of_the_formal_garden_-_drawing_by_J._J._Joass.png/960px-Barncluith%2C_Lanarkshire_-_details_of_the_formal_garden_-_drawing_by_J._J._Joass.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://en.wikipedia.org/wiki/Special:FilePath/Barncluith%2C%20Lanarkshire%20-%20details%20of%20the%20formal%20garden%20-%20drawing%20by%20J.%20J.%20Joass.png?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Barncluith,_Lanarkshire_-_details_of_the_formal_garden_-_drawing_by_J._J._Joass.png",
+     "file": "barncluith, lanarkshire - details of the formal garden - drawing by j. j. joass.png"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Barncluith%2C_Lanarkshire_-_details_of_the_formal_garden_-_drawing_by_J._J._Joass.png/960px-Barncluith%2C_Lanarkshire_-_details_of_the_formal_garden_-_drawing_by_J._J._Joass.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "type": "artist",
+   "era": "ancien",
+   "wd": "Q761012",
+   "id": "fr:August Bromeis",
+   "name": "August Bromeis",
+   "desc": "peintre allemand",
+   "birth": 1813,
+   "death": 1881,
+   "extract": "August Bromeis (1813 - 1881) est un peintre prussien de paysages faisant partie de l'École de peinture de Düsseldorf.",
+   "url": "https://fr.wikipedia.org/wiki/August_Bromeis",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "",
+     "year": 1869,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/August%20Bromeis%20-%20Italienische%20Landschaft.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/August%20Bromeis%20-%20Italienische%20Landschaft.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:August_Bromeis_-_Italienische_Landschaft.jpg",
+     "file": "august bromeis - italienische landschaft.jpg"
+    },
+    {
+     "title": "",
+     "year": 1872,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/August%20Bromeis%20%281813-1881%29%20-%20Waldige%20H%C3%BCgellandschaft%20mit%20erlegtem%20Hirsch%20im%20Vordergrund%20-%203320%20-%20F%C3%BChrermuseum.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/August%20Bromeis%20%281813-1881%29%20-%20Waldige%20H%C3%BCgellandschaft%20mit%20erlegtem%20Hirsch%20im%20Vordergrund%20-%203320%20-%20F%C3%BChrermuseum.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:August_Bromeis_%281813-1881%29_-_Waldige_H%C3%BCgellandschaft_mit_erlegtem_Hirsch_im_Vordergrund_-_3320_-_F%C3%BChrermuseum.jpg",
+     "file": "august bromeis (1813-1881) - waldige hügellandschaft mit erlegtem hirsch im vordergrund - 3320 - führermuseum.jpg"
+    },
+    {
+     "title": "",
+     "year": 1871,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/August%20Bromeis%20-%20Landschaft%20mit%20H%C3%A4ndlerzug%201871.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/August%20Bromeis%20-%20Landschaft%20mit%20H%C3%A4ndlerzug%201871.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:August_Bromeis_-_Landschaft_mit_H%C3%A4ndlerzug_1871.jpg",
+     "file": "august bromeis - landschaft mit händlerzug 1871.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/August%20Bromeis%20-%20Italienische%20Landschaft.jpg?width=520"
+  }
+ ],
+ "stories": [
+  {
+   "type": "story",
+   "id": "fr:Lac Karatchaï",
+   "name": "Lac Karatchaï",
+   "desc": "ancien lac remblayé dans le sud de l'Oural, utilisé pour stocker des déchets hautement radioactifs",
+   "extract": "Le lac Karatchaï (en russe : Карача́й) est un ancien lac du sud de l'Oural, dans l'ouest de la Russie. À partir de 1951, l'Union soviétique utilise le Karatchaï pour stocker des déchets radioactifs de Maïak, l'usine de stockage et de retraitement située près de la ville proche d'Oziorsk (alors appelée Tcheliabinsk-40).",
+   "url": "https://fr.wikipedia.org/wiki/Lac_Karatcha%C3%AF",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Majak_Satellitenkarte.jpg/960px-Majak_Satellitenkarte.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Lac Karatchaï|Lake Karachay"
+  },
+  {
+   "type": "story",
+   "id": "fr:Inondation de bière de Londres",
+   "name": "Inondation de bière de Londres",
+   "desc": "catastrophe industrielle en 1814",
+   "extract": "L'inondation de bière de Londres a lieu le 17 octobre 1814 dans la paroisse de St. Giles à Londres en Angleterre. À la Horse Shoe Brewery sur Tottenham Court Road, une grande cuve de bière contenant plus de 610 000 litres de bière rompt entraînant par un effet domino les autres cuves qui finissent aussi par rompre. Au total, ce sont plus de 1 470 000 litres de bière qui se déversent dans les rues. La vague de bière détruit deux maisons et démolit un mur du Tavistock Arms Pub, piégeant la jeune employée Eleanor Cooper sous les décombres. Huit personnes périssent noyées.",
+   "url": "https://fr.wikipedia.org/wiki/Inondation_de_bi%C3%A8re_de_Londres",
+   "lang": "fr",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/c/c9/The_manor_house_of_Toten_Hall_-_1813.gif?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "key": "-|London Beer Flood"
+  },
+  {
+   "type": "story",
+   "id": "fr:Starfish Prime",
+   "name": "Starfish Prime",
+   "desc": "essai nucléaire américain",
+   "extract": "Starfish Prime est le nom de code donné à un essai nucléaire préparé par la Commission de l'énergie atomique des États-Unis et de la Defense Atomic Support Agency (qui deviendra la Defense Nuclear Agency en 1971) et réalisé le 9 juillet 1962 à une altitude de 400 km, considérée par la Fédération aéronautique internationale comme étant située en dehors de l'atmosphère terrestre.",
+   "url": "https://fr.wikipedia.org/wiki/Starfish_Prime",
+   "lang": "fr",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Operation_Dominic_Starfish-Prime_nuclear_test_from_plane.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "key": "Starfish Prime|Starfish Prime"
+  }
+ ]
+}
