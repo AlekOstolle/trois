@@ -1,0 +1,201 @@
+{
+ "date": "2026-10-04",
+ "made": "2026-10-04T10:38+02:00",
+ "artists": [
+  {
+   "type": "artist",
+   "era": "contemporain",
+   "src": "c",
+   "id": "c:https://prixjeanfrancoisprat.com/artiste/chloe-sai-breil-dupont/",
+   "url": "https://prixjeanfrancoisprat.com/artiste/chloe-sai-breil-dupont/",
+   "desc": "Ne en 1990. Prix Jean-François Prat",
+   "name": "Chloë Saï Breil-Dupont",
+   "born": 1990,
+   "bornWord": "Ne",
+   "ba": false,
+   "srcName": "Prix Jean-François Prat",
+   "note": "Prix Jean-François Prat",
+   "extract": "Née en 1990 aux Lilas, elle vit et travaille à Berlin et Paris.\nAttachée à la singularité de la peinture à l’huile, l’œuvre de Chloë Saï Breil-Dupont interroge le destin des images et les mondes qu’elles contiennent. L’artiste constitue sa propre base de données, tel un atlas de souvenirs et de personnes qu’elle connaît, et en extrait des images qu’elle peint sur de petites « cassettes » de bois. Les modèles de ces compositions tentent de retenir dans leurs bras ces petites images de récupération, auxquelles ils affrontent leur présence mutique. Breil-Dupont explore ce qui est étouffé ou caché, des cultures interdites aux temps anciens.\nDiplômée des Beaux-Arts de Biarritz et d’Annecy (2015) 13 Chloë Saï Breil-Dupont étudie ensuite la philosophie à l’université de São Paulo et assiste plusieurs artistes. Après trois résidences, aux Ateliers Wonder, à Dune Pondichéry et à la Villa Belleville (fin 2017), elle s’installe à Carrare puis à Berlin.",
+   "lang": "fr",
+   "works": [
+    {
+     "title": "",
+     "cap": "",
+     "year": null,
+     "img": "https://prixjeanfrancoisprat.com/wp-content/uploads/2021/06/17-portrait_Chloë_Saï_Breil-Dupont-400x600.jpg",
+     "full": "https://prixjeanfrancoisprat.com/wp-content/uploads/2021/06/17-portrait_Chloë_Saï_Breil-Dupont-400x600.jpg",
+     "page": "https://prixjeanfrancoisprat.com/artiste/chloe-sai-breil-dupont/"
+    },
+    {
+     "title": "",
+     "cap": "Cobalt mystique, portrait de Yann, 2021 Huile sur toile, 190 x 140 cm Courtesy de l’artiste",
+     "year": null,
+     "img": "https://prixjeanfrancoisprat.com/wp-content/uploads/2021/06/2-Cobalt_Mystique_Chloë_Saï_Breil-Dupont-400x400.jpg",
+     "full": "https://prixjeanfrancoisprat.com/wp-content/uploads/2021/06/2-Cobalt_Mystique_Chloë_Saï_Breil-Dupont-400x400.jpg",
+     "page": "https://prixjeanfrancoisprat.com/artiste/chloe-sai-breil-dupont/"
+    },
+    {
+     "title": "",
+     "cap": "Le vent se lève, portrait de Christophe, 2020 Huile sur toile, 100 x 130 cm Courtesy de l’artiste",
+     "year": null,
+     "img": "https://prixjeanfrancoisprat.com/wp-content/uploads/2021/06/5crop-Le_vent_se_l_ve_Chloë_Saï_Breil-Dupont-400x400.jpg",
+     "full": "https://prixjeanfrancoisprat.com/wp-content/uploads/2021/06/5crop-Le_vent_se_l_ve_Chloë_Saï_Breil-Dupont-400x400.jpg",
+     "page": "https://prixjeanfrancoisprat.com/artiste/chloe-sai-breil-dupont/"
+    },
+    {
+     "title": "",
+     "cap": "Infra Angelica, portrait de Leïla, 2021 Huile sur toile, 25 x 25 cm Courtesy de l’artiste",
+     "year": null,
+     "img": "https://prixjeanfrancoisprat.com/wp-content/uploads/2021/06/3-infra-angelica-1022x1024.jpg",
+     "full": "https://prixjeanfrancoisprat.com/wp-content/uploads/2021/06/3-infra-angelica-1022x1024.jpg",
+     "page": "https://prixjeanfrancoisprat.com/artiste/chloe-sai-breil-dupont/"
+    },
+    {
+     "title": "",
+     "cap": "La Soleil, portrait de Cassie, 2021 Cire et résine sur toile, 190 x140 cm Courtesy de l’artiste Photo : Yotam Schwartz",
+     "year": null,
+     "img": "https://prixjeanfrancoisprat.com/wp-content/uploads/2021/06/Photo-2-BREIL-DUPONT-3-400x400.jpg",
+     "full": "https://prixjeanfrancoisprat.com/wp-content/uploads/2021/06/Photo-2-BREIL-DUPONT-3-400x400.jpg",
+     "page": "https://prixjeanfrancoisprat.com/artiste/chloe-sai-breil-dupont/"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://prixjeanfrancoisprat.com/wp-content/uploads/2021/06/17-portrait_Chloë_Saï_Breil-Dupont-400x600.jpg"
+  },
+  {
+   "type": "artist",
+   "era": "moderne",
+   "wd": "Q2144813",
+   "id": "fr:René Princeteau",
+   "name": "René Princeteau",
+   "desc": "peintre français",
+   "birth": 1843,
+   "death": 1914,
+   "extract": "René-Pierre-Charles Princeteau né le 18 juillet 1843 à Libourne et mort le 31 janvier 1914 à Fronsac est un peintre français.\nIl est connu pour ses tableaux équestres et pour avoir été le premier maître d'Henri de Toulouse-Lautrec.",
+   "url": "https://fr.wikipedia.org/wiki/Ren%C3%A9_Princeteau",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "Le comte Geoffroy de Ruillé chassant à courre, son fils à ses côtés, le château de Gallerande au fond",
+     "year": 1892,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/%28Albi%29%20Le%20comte%20Geoffroy%20de%20Ruill%C3%A9%20chassant%20%C3%A0%20courre%2C%20son%20fils%20%C3%A0%20ses%20c%C3%B4t%C3%A9s%2C%20le%20ch%C3%A2teau%20de%20Gallerande%20au%20fond%20-%20Ren%C3%A9%20Princeteau%20MTL.inv.04.04.01.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/%28Albi%29%20Le%20comte%20Geoffroy%20de%20Ruill%C3%A9%20chassant%20%C3%A0%20courre%2C%20son%20fils%20%C3%A0%20ses%20c%C3%B4t%C3%A9s%2C%20le%20ch%C3%A2teau%20de%20Gallerande%20au%20fond%20-%20Ren%C3%A9%20Princeteau%20MTL.inv.04.04.01.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:%28Albi%29_Le_comte_Geoffroy_de_Ruill%C3%A9_chassant_%C3%A0_courre%2C_son_fils_%C3%A0_ses_c%C3%B4t%C3%A9s%2C_le_ch%C3%A2teau_de_Gallerande_au_fond_-_Ren%C3%A9_Princeteau_MTL.inv.04.04.01.jpg",
+     "file": "(albi) le comte geoffroy de ruillé chassant à courre, son fils à ses côtés, le château de gallerande au fond - rené princeteau mtl.inv.04.04.01.jpg"
+    },
+    {
+     "title": "Cour de ferme",
+     "year": null,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Cour%20de%20ferme%2C%20Ren%C3%A9%20Princeteau.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Cour%20de%20ferme%2C%20Ren%C3%A9%20Princeteau.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Cour_de_ferme%2C_Ren%C3%A9_Princeteau.jpg",
+     "file": "cour de ferme, rené princeteau.jpg"
+    },
+    {
+     "title": "Riders on the Beach at Dieppe",
+     "year": 1892,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Riders%20on%20the%20Beach%20at%20Dieppe%20A26233.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Riders%20on%20the%20Beach%20at%20Dieppe%20A26233.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Riders_on_the_Beach_at_Dieppe_A26233.jpg",
+     "file": "riders on the beach at dieppe a26233.jpg"
+    },
+    {
+     "title": "Henri de Toulouse-Lautrec à 19ans",
+     "year": 1883,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/%28Albi%29%20Mus%C3%A9e%20Toulouse-Lautrec%20-%20Henri%20de%20Toulouse-Lautrec%20%C3%A0%2019ans%20%281883%29-%20Ren%C3%A9%20Princeteau.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/%28Albi%29%20Mus%C3%A9e%20Toulouse-Lautrec%20-%20Henri%20de%20Toulouse-Lautrec%20%C3%A0%2019ans%20%281883%29-%20Ren%C3%A9%20Princeteau.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:%28Albi%29_Mus%C3%A9e_Toulouse-Lautrec_-_Henri_de_Toulouse-Lautrec_%C3%A0_19ans_%281883%29-_Ren%C3%A9_Princeteau.jpg",
+     "file": "(albi) musée toulouse-lautrec - henri de toulouse-lautrec à 19ans (1883)- rené princeteau.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%28Albi%29%20Le%20comte%20Geoffroy%20de%20Ruill%C3%A9%20chassant%20%C3%A0%20courre%2C%20son%20fils%20%C3%A0%20ses%20c%C3%B4t%C3%A9s%2C%20le%20ch%C3%A2teau%20de%20Gallerande%20au%20fond%20-%20Ren%C3%A9%20Princeteau%20MTL.inv.04.04.01.jpg?width=520"
+  },
+  {
+   "type": "artist",
+   "era": "ancien",
+   "wd": "Q2327193",
+   "id": "fr:Sebastiano Mazzoni",
+   "name": "Sebastiano Mazzoni",
+   "desc": "peintre italien",
+   "birth": 1611,
+   "death": 1678,
+   "extract": "Sebastiano Mazzoni (Florence, v. 1611 - Venise, 22 avril 1678) est un architecte, un poète satirique et un peintre vénitien du XVIIe siècle.",
+   "url": "https://fr.wikipedia.org/wiki/Sebastiano_Mazzoni",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "Sainte Catherine refuse d'adorer les idoles",
+     "year": null,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/%28Venice%29%20Saint%20Catherine%20Refuses%20to%20Wordhip%20the%20Idols%20by%20Sebastiano%20Mazzoni%20-%20Gallerie%20Accademia.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/%28Venice%29%20Saint%20Catherine%20Refuses%20to%20Wordhip%20the%20Idols%20by%20Sebastiano%20Mazzoni%20-%20Gallerie%20Accademia.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:%28Venice%29_Saint_Catherine_Refuses_to_Wordhip_the_Idols_by_Sebastiano_Mazzoni_-_Gallerie_Accademia.jpg",
+     "file": "(venice) saint catherine refuses to wordhip the idols by sebastiano mazzoni - gallerie accademia.jpg"
+    },
+    {
+     "title": "Scene of Sacrifice",
+     "year": 1660,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sebastiano%20Mazzoni%20-%20Scene%20of%20Sacrifice%20-%20F82.199%20-%20Detroit%20Institute%20of%20Arts.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Sebastiano%20Mazzoni%20-%20Scene%20of%20Sacrifice%20-%20F82.199%20-%20Detroit%20Institute%20of%20Arts.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Sebastiano_Mazzoni_-_Scene_of_Sacrifice_-_F82.199_-_Detroit_Institute_of_Arts.jpg",
+     "file": "sebastiano mazzoni - scene of sacrifice - f82.199 - detroit institute of arts.jpg"
+    },
+    {
+     "title": "The Three Fates",
+     "year": 1670,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sebastiano%20Mazzoni%20%28c.1611-1678%29%20-%20The%20Three%20Fates%20-%2090.1%20-%20Barber%20Institute%20of%20Fine%20Arts.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Sebastiano%20Mazzoni%20%28c.1611-1678%29%20-%20The%20Three%20Fates%20-%2090.1%20-%20Barber%20Institute%20of%20Fine%20Arts.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Sebastiano_Mazzoni_%28c.1611-1678%29_-_The_Three_Fates_-_90.1_-_Barber_Institute_of_Fine_Arts.jpg",
+     "file": "sebastiano mazzoni (c.1611-1678) - the three fates - 90.1 - barber institute of fine arts.jpg"
+    },
+    {
+     "title": "Annonciation",
+     "year": 1650,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/%28Venice%29%20Annunciation%20by%20Sebastiano%20Mazzoni%20-%20Gallerie%20Accademia.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/%28Venice%29%20Annunciation%20by%20Sebastiano%20Mazzoni%20-%20Gallerie%20Accademia.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:%28Venice%29_Annunciation_by_Sebastiano_Mazzoni_-_Gallerie_Accademia.jpg",
+     "file": "(venice) annunciation by sebastiano mazzoni - gallerie accademia.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%28Venice%29%20Saint%20Catherine%20Refuses%20to%20Wordhip%20the%20Idols%20by%20Sebastiano%20Mazzoni%20-%20Gallerie%20Accademia.jpg?width=520"
+  }
+ ],
+ "stories": [
+  {
+   "type": "story",
+   "id": "fr:Réacteur nucléaire naturel d'Oklo",
+   "name": "Réacteur nucléaire naturel d'Oklo",
+   "desc": "réacteur nucléaire naturel",
+   "extract": "Les réacteurs nucléaires naturels d’Oklo sont des réacteurs nucléaires naturels qui ont fonctionné il y a environ deux milliards d'années. On a retrouvé dans la mine d'uranium d'Oklo, près de la ville de Franceville dans la province de Haut-Ogooué au Gabon, les résidus fossiles de ces réacteurs nucléaires naturels, où des réactions de fission nucléaire en chaîne auto-entretenues ont eu lieu, bien avant l'apparition de l'être humain.\nEn août 1945, Paul Kuroda, spécialiste de la chimie nucléaire, professeur à l'université de Tokyo est envoyé pour examiner les ruines d'Hiroshima. En avril 1956, après avoir immigré aux États-Unis en 1949, Kuroda s'est rendu à la réunion annuelle de printemps de l'Union américaine de géophysique (AGU) pour suggérer que des réacteurs de fission nucléaire naturels et autonomes ont fonctionné spontanément sur Terre il y a environ deux milliards d'années (2 Ga). L'hypothèse est confirmée en 1972 par un groupe de scientifiques travaillant pour le Commissariat à l'énergie atomique (CEA).\nEn 1972, le CEA découvre à l'usine d'enrichissement militaire de Pierrelatte les traces de ce phénomène dans de l'uranium provenant de la mine d'uranium d’Oklo exploitée par la Compagnie des mines d'uranium de Franceville (Comuf). Il s'agit des seuls réacteurs nucléaires naturels connus au monde à ce jour. Ils étaient de très faible puissance, comparativement aux réacteurs nucléaires fabriqués par l'être humain, mais ont suscité un grand intérêt parmi les scientifiques du CEA.",
+   "url": "https://fr.wikipedia.org/wiki/R%C3%A9acteur_nucl%C3%A9aire_naturel_d%27Oklo",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/LocationGabon.svg/960px-LocationGabon.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Réacteur nucléaire naturel d'Oklo|Natural nuclear fission reactor"
+  },
+  {
+   "type": "story",
+   "id": "fr:Jack Churchill",
+   "name": "Jack Churchill",
+   "desc": "militaire britannique qui a combattu durant la 2nde guerre mondiale avec un arc, des flèches et une claymore écossaise",
+   "extract": "John Malcolm Thorpe Fleming Churchill dit Jack Churchill, né le 16 septembre 1906 à Hong Kong et mort le 8 mars 1996 dans le comté de Surrey, surnommé Fighting Jack Churchill et Mad Jack, est un soldat britannique qui combattit pendant la Seconde Guerre mondiale armé d'un arc, de flèches et d'une épée écossaise ancienne, une broadsword. Il est connu pour sa devise « any officer who goes into action without his sword is improperly dressed. » (« un officier qui part au combat sans son épée n'est pas dans une tenue correcte. »)",
+   "url": "https://fr.wikipedia.org/wiki/Jack_Churchill",
+   "lang": "fr",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/51/Jackchurchill.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "key": "Jack Churchill|Jack Churchill"
+  },
+  {
+   "type": "story",
+   "id": "fr:Juliane Koepcke",
+   "name": "Juliane Koepcke",
+   "desc": "biologiste germano-péruvienne",
+   "extract": "Juliane Margaret Beate Koepcke, également connue sous son nom de femme mariée, Juliane Diller, née le 10 octobre 1954 à Lima (Pérou), est une biologiste germano-péruvienne, principalement connue pour être la seule survivante de l'accident d'avion du vol LANSA 508 le 24 décembre 1971, après avoir survécu à une chute de 3 200 mètres puis à une marche de dix jours en pleine jungle péruvienne à l'âge de dix-sept ans.",
+   "url": "https://fr.wikipedia.org/wiki/Juliane_Koepcke",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Ceremonia_de_condecoraci%C3%B3n_a_la_doctora_Juliane_Koepcke_-_46616983225_%28cropped%29.jpg/960px-Ceremonia_de_condecoraci%C3%B3n_a_la_doctora_Juliane_Koepcke_-_46616983225_%28cropped%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Juliane Koepcke|Juliane Koepcke"
+  }
+ ]
+}
