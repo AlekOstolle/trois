@@ -1,0 +1,201 @@
+{
+ "date": "2026-10-07",
+ "made": "2026-10-07T10:59+02:00",
+ "artists": [
+  {
+   "type": "artist",
+   "era": "contemporain",
+   "src": "c",
+   "id": "c:https://reseau-dda.org/fr/artists/perrine-lacroix",
+   "url": "https://reseau-dda.org/fr/artists/perrine-lacroix",
+   "desc": "Réseau documents d'artistes",
+   "name": "Perrine Lacroix",
+   "born": null,
+   "bornWord": null,
+   "ba": false,
+   "srcName": "Réseau documents d'artistes",
+   "note": "Réseau documents d'artistes",
+   "extract": "Depuis plus d’une vingtaine d’années, Perrine Lacroix développe une œuvre protéiforme. L’installation, la vidéo et la photographie constituent la base de son langage plastique. S’intéressant aux architectures et aux constructions, elle explore les relations entre extérieur et intérieur, achevé et inachevé, vide et plein. De la maquette grandeur nature à l’installation interactive, elle brouille les codes de perception traditionnels de l’architecture et s’intéresse tout particulièrement aux hétérotopies dont parle le philosophe Michel Foucault.\nL’artiste développe son travail in situ lors de résidences en France mais aussi à l’étranger (Australie, Autriche, Tasmanie, Algérie, Roumanie, Maroc, etc) où elle attache un intérêt particulier au contexte et à la mémoire des lieux. Elle s’inspire des récits et des images qui les composent, s’imprègne des personnes et du paysage qui les constituent.\nAttentive aux relations de l’œuvre à l’espace, autant dans son travail artistique que curatorial, elle explore la trace et la résonance des œuvres sur notre mémoire intime et collective, leur imprégnation dans notre conscience en lien à notre culture mais aussi en relation aux espaces et aux modes d’exposition.",
+   "lang": "fr",
+   "works": [
+    {
+     "title": "",
+     "cap": "Scénario , 2021 Vue de l'exposition Collection , CAP - Centre d'art de Saint-Fons, 2021 © Perrine Lacroix",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/artists/perrine-lacroix/e9e5506acc-1695297593/perrinelacroixenbref0-5596-2048x1560-q80.jpg",
+     "full": "https://reseau-dda.org/media/pages/artists/perrine-lacroix/e9e5506acc-1695297593/perrinelacroixenbref0-5596-2048x1560-q80.jpg",
+     "page": "https://reseau-dda.org/fr/artists/perrine-lacroix"
+    },
+    {
+     "title": "",
+     "cap": "In progress , 2017-2018 Vue de l'exposition Kontext(e) , Kunsthalle Krems (Autriche) © Christian Redtenbacher",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/artists/perrine-lacroix/c35fa97318-1695297594/perrinelacroixenbref1-5597-2048x1560-q80.jpg",
+     "full": "https://reseau-dda.org/media/pages/artists/perrine-lacroix/c35fa97318-1695297594/perrinelacroixenbref1-5597-2048x1560-q80.jpg",
+     "page": "https://reseau-dda.org/fr/artists/perrine-lacroix"
+    },
+    {
+     "title": "",
+     "cap": "Mur écroulé , 2012 Installation, dimensions variables, 45 briques de mousse, L'Angle Espace d'Art Contemporain, La-Roche-sur-Foron © Perrine Lacroix",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/artists/perrine-lacroix/fc7806b465-1695297594/perrinelacroixenbref3-5598-2048x1560-q80.jpg",
+     "full": "https://reseau-dda.org/media/pages/artists/perrine-lacroix/fc7806b465-1695297594/perrinelacroixenbref3-5598-2048x1560-q80.jpg",
+     "page": "https://reseau-dda.org/fr/artists/perrine-lacroix"
+    },
+    {
+     "title": "",
+     "cap": "",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/publications/points-de-vue/le-geste-manquant/8301bf86f6-1778139295/cecile-babiole-loops-of-the-loom-serg-press-detail-2024-160x120-crop-1.jpg",
+     "full": "https://reseau-dda.org/media/pages/publications/points-de-vue/le-geste-manquant/8301bf86f6-1778139295/cecile-babiole-loops-of-the-loom-serg-press-detail-2024-160x120-crop-1.jpg",
+     "page": "https://reseau-dda.org/fr/artists/perrine-lacroix"
+    },
+    {
+     "title": "",
+     "cap": "",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/artist-events/tools/5a626b28db-1784628659/perrine-lacroix-tools-9889-160x120-crop-1.jpg",
+     "full": "https://reseau-dda.org/media/pages/artist-events/tools/5a626b28db-1784628659/perrine-lacroix-tools-9889-160x120-crop-1.jpg",
+     "page": "https://reseau-dda.org/fr/artists/perrine-lacroix"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://reseau-dda.org/media/pages/artists/perrine-lacroix/e9e5506acc-1695297593/perrinelacroixenbref0-5596-2048x1560-q80.jpg"
+  },
+  {
+   "type": "artist",
+   "era": "moderne",
+   "wd": "Q3588356",
+   "id": "fr:Émile Bin",
+   "name": "Émile Bin",
+   "desc": "peintre académique, graveur et homme politique français",
+   "birth": 1825,
+   "death": 1897,
+   "extract": "Émile Bin, né à Paris le 10 février 1825 et mort à Marly-la-Ville le 4 septembre 1897, est un artiste peintre, graveur et homme politique français.",
+   "url": "https://fr.wikipedia.org/wiki/%C3%89mile_Bin",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "Le Bûcheron et l'Hamadryade Aïgeïros",
+     "year": 1870,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Hamadryad%20by%20%C3%89mile%20Bin.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Hamadryad%20by%20%C3%89mile%20Bin.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:The_Hamadryad_by_%C3%89mile_Bin.jpg",
+     "file": "the hamadryad by émile bin.jpg"
+    },
+    {
+     "title": "Persée délivrant Andromède",
+     "year": 1865,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%89mile%20Bin%20-%20Pers%C3%A9e%20d%C3%A9livrant%20Androm%C3%A8de%201865.JPG?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%89mile%20Bin%20-%20Pers%C3%A9e%20d%C3%A9livrant%20Androm%C3%A8de%201865.JPG?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:%C3%89mile_Bin_-_Pers%C3%A9e_d%C3%A9livrant_Androm%C3%A8de_1865.JPG",
+     "file": "émile bin - persée délivrant andromède 1865.jpg"
+    },
+    {
+     "title": "Esquisse pour l'église Saint-Sulpice : La Mort de la Vierge",
+     "year": 1869,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Emile%20Jean%20Baptiste%20Philippe%20Bin%20-%20Esquisse%20pour%20l%27%C3%A9glise%20Saint-Sulpice%20%2C%20La%20Mort%20de%20la%20Vierge%20-%20PPP4511%20-%20Mus%C3%A9e%20des%20Beaux-Arts%20de%20la%20ville%20de%20Paris.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Emile%20Jean%20Baptiste%20Philippe%20Bin%20-%20Esquisse%20pour%20l%27%C3%A9glise%20Saint-Sulpice%20%2C%20La%20Mort%20de%20la%20Vierge%20-%20PPP4511%20-%20Mus%C3%A9e%20des%20Beaux-Arts%20de%20la%20ville%20de%20Paris.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Emile_Jean_Baptiste_Philippe_Bin_-_Esquisse_pour_l%27%C3%A9glise_Saint-Sulpice_%2C_La_Mort_de_la_Vierge_-_PPP4511_-_Mus%C3%A9e_des_Beaux-Arts_de_la_ville_de_Paris.jpg",
+     "file": "emile jean baptiste philippe bin - esquisse pour l'église saint-sulpice , la mort de la vierge - ppp4511 - musée des beaux-arts de la ville de paris.jpg"
+    },
+    {
+     "title": "Esquisse pour la salle des mariages de la mairie du 19ème arrondissement : Allégorie des Arts (plafond)",
+     "year": 1880,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Emile%20Jean%20Baptiste%20Philippe%20Bin%20-%20Esquisse%20pour%20la%20salle%20des%20mariages%20de%20la%20mairie%20du%2019%C3%A8me%20arrondissement%20%2C%20All%C3%A9gorie%20des%20Arts%20%28plafond%29%20-%20PPP4714%20-%20Mus%C3%A9e%20des%20Beaux-Arts%20de%20la%20ville%20de%20Paris.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Emile%20Jean%20Baptiste%20Philippe%20Bin%20-%20Esquisse%20pour%20la%20salle%20des%20mariages%20de%20la%20mairie%20du%2019%C3%A8me%20arrondissement%20%2C%20All%C3%A9gorie%20des%20Arts%20%28plafond%29%20-%20PPP4714%20-%20Mus%C3%A9e%20des%20Beaux-Arts%20de%20la%20ville%20de%20Paris.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Emile_Jean_Baptiste_Philippe_Bin_-_Esquisse_pour_la_salle_des_mariages_de_la_mairie_du_19%C3%A8me_arrondissement_%2C_All%C3%A9gorie_des_Arts_%28plafond%29_-_PPP4714_-_Mus%C3%A9e_des_Beaux-Arts_de_la_ville_de_Paris.jpg",
+     "file": "emile jean baptiste philippe bin - esquisse pour la salle des mariages de la mairie du 19ème arrondissement , allégorie des arts (plafond) - ppp4714 - musée des beaux-arts de la ville de paris.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Hamadryad%20by%20%C3%89mile%20Bin.jpg?width=520"
+  },
+  {
+   "type": "artist",
+   "era": "ancien",
+   "wd": "Q579856",
+   "id": "fr:Johann Ender",
+   "name": "Johann Ender",
+   "desc": "peintre autrichien",
+   "birth": 1793,
+   "death": 1854,
+   "extract": "Johann Nepomuk Ender, né le 4 novembre 1793 à Vienne et mort le 16 mars 1854 dans cette même ville, est un peintre et graveur sur cuivre autrichien. Il est le frère jumeau de Thomas Ender et le père d'Eduard Ender, tous les deux peintres.",
+   "url": "https://fr.wikipedia.org/wiki/Johann_Ender",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "Two Girls in a Landscape",
+     "year": 1842,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Johann%20Nepomuk%20Ender%20-%20Zwei%20M%C3%A4dchen%20in%20einer%20Landschaft%20-%207826%20-%20Kunsthistorisches%20Museum.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Johann%20Nepomuk%20Ender%20-%20Zwei%20M%C3%A4dchen%20in%20einer%20Landschaft%20-%207826%20-%20Kunsthistorisches%20Museum.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Johann_Nepomuk_Ender_-_Zwei_M%C3%A4dchen_in_einer_Landschaft_-_7826_-_Kunsthistorisches_Museum.jpg",
+     "file": "johann nepomuk ender - zwei mädchen in einer landschaft - 7826 - kunsthistorisches museum.jpg"
+    },
+    {
+     "title": "Portrait d'August Potocki (1806-1867).",
+     "year": 1829,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ender%20August%20Potocki.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Ender%20August%20Potocki.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Ender_August_Potocki.jpg",
+     "file": "ender august potocki.jpg"
+    },
+    {
+     "title": "Portrait de Natalia Sanguszkowa née Potocka (1807–1830).",
+     "year": 1829,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ender%20Natalia%20Sanguszkowa.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Ender%20Natalia%20Sanguszkowa.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Ender_Natalia_Sanguszkowa.jpg",
+     "file": "ender natalia sanguszkowa.jpg"
+    },
+    {
+     "title": "Countess Claudine Rhédey de Kis-Rhéde (1812–1841), Grandmother of Queen Mary of Teck",
+     "year": null,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Johann%20Nepomuk%20Ender%20%281793-1854%29%20-%20Countess%20Claudine%20Rh%C3%A9dey%20de%20Kis-Rh%C3%A9de%20%281812%E2%80%931841%29%2C%20Grandmother%20of%20Queen%20Mary%20of%20Teck%20-%203001185%20-%20Kensington%20Palace.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Johann%20Nepomuk%20Ender%20%281793-1854%29%20-%20Countess%20Claudine%20Rh%C3%A9dey%20de%20Kis-Rh%C3%A9de%20%281812%E2%80%931841%29%2C%20Grandmother%20of%20Queen%20Mary%20of%20Teck%20-%203001185%20-%20Kensington%20Palace.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Johann_Nepomuk_Ender_%281793-1854%29_-_Countess_Claudine_Rh%C3%A9dey_de_Kis-Rh%C3%A9de_%281812%E2%80%931841%29%2C_Grandmother_of_Queen_Mary_of_Teck_-_3001185_-_Kensington_Palace.jpg",
+     "file": "johann nepomuk ender (1793-1854) - countess claudine rhédey de kis-rhéde (1812–1841), grandmother of queen mary of teck - 3001185 - kensington palace.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Johann%20Nepomuk%20Ender%20-%20Zwei%20M%C3%A4dchen%20in%20einer%20Landschaft%20-%207826%20-%20Kunsthistorisches%20Museum.jpg?width=520"
+  }
+ ],
+ "stories": [
+  {
+   "type": "story",
+   "id": "fr:Forage SG-3",
+   "name": "Forage SG-3",
+   "desc": "forage effectué en Russie dans la péninsule de Kola",
+   "extract": "Le forage SG-3, forage profond de Kola (Кольская сверхглубокая скважина en russe) ou encore forage de Zapoliarny, du nom de la ville la plus proche, ou de son nom officiel le « puits de référence superprofond expérimental de Kola (SG-3) », est un forage effectué à partir du 24 mai 1970 et jusqu'en 1989 en URSS, dans la péninsule de Kola.\nCe forage est le plus profond du monde (en tenant compte de la profondeur verticale réelle) avec 12 262 mètres de profondeur. En longueur totale, il est dépassé en 2008 par le puits de pétrole Al Shaheen mesurant 12 289 m de long au Qatar, dont une grande partie à l'horizontale, et en 2011, par le puits Sakhaline I Odoptu OP-11 mesurant 12 345 m de long, lui aussi à l'horizontale (au large de l'île russe de Sakhaline)[réf. à confirmer].",
+   "url": "https://fr.wikipedia.org/wiki/Forage_SG-3",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Outline_Map_of_Murmansk_region.svg/960px-Outline_Map_of_Murmansk_region.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Forage sg-3 de Kola|Kola Superdeep Borehole"
+  },
+  {
+   "type": "story",
+   "id": "fr:Expérience de la goutte de poix",
+   "name": "Expérience de la goutte de poix",
+   "desc": "expérience destinée à mesurer l'écoulement d'un fragment de poix",
+   "extract": "L'expérience de la goutte de poix est une expérience scientifique de longue durée destinée à mesurer l'écoulement d'un fragment de poix sur de nombreuses années. Le nom de « poix » est donné à n'importe quel liquide très visqueux, qui semble solide, le plus souvent du bitume. Ainsi, le goudron forme un écoulement à température ambiante et forme une goutte, bien que très lentement.",
+   "url": "https://fr.wikipedia.org/wiki/Exp%C3%A9rience_de_la_goutte_de_poix",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/University_of_Queensland_Pitch_drop_experiment-white_bg.jpg/960px-University_of_Queensland_Pitch_drop_experiment-white_bg.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Expérience de la goutte de poix|Pitch drop experiment"
+  },
+  {
+   "type": "story",
+   "id": "fr:Baerle-Duc",
+   "name": "Baerle-Duc",
+   "desc": "commune d'Anvers, Belgique",
+   "extract": "Baerle-Duc (prononcé [baʁl dyk] ; en néerlandais : Baarle-Hertog) est une commune néerlandophone de Belgique située en Région flamande dans la province d’Anvers et située partiellement dans la province néerlandaise du Brabant-Septentrional. Elle se caractérise par le fait unique qu’une partie de son territoire est enclavé en territoire néerlandais, enchevêtré en parcelles discontinues dans la commune néerlandaise de Baerle-Nassau (en néerlandais : Baarle-Nassau). \nBaerle-Duc et la commune néerlandaise de Baerle-Nassau forment le village de Baerle (en néerlandais : Baarle). Baerle-Duc appartient également au canton judiciaire d'Arendonk (nl) et au canton électoral de Hoogstraten (nl).",
+   "url": "https://fr.wikipedia.org/wiki/Baerle-Duc",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Baarle-Hertog_Rathaus.jpg/960px-Baarle-Hertog_Rathaus.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Baarle-Hertog|Baarle-Hertog"
+  }
+ ]
+}
