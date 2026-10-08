@@ -1,0 +1,201 @@
+{
+ "date": "2026-10-08",
+ "made": "2026-10-08T11:15+02:00",
+ "artists": [
+  {
+   "type": "artist",
+   "era": "contemporain",
+   "src": "c",
+   "id": "c:https://reseau-dda.org/fr/artists/ludovic-paquelier",
+   "url": "https://reseau-dda.org/fr/artists/ludovic-paquelier",
+   "desc": "Réseau documents d'artistes",
+   "name": "Ludovic Paquelier",
+   "born": null,
+   "bornWord": null,
+   "ba": false,
+   "srcName": "Réseau documents d'artistes",
+   "note": "Réseau documents d'artistes",
+   "extract": "« La démarche artistique que je développe depuis des années consiste à raconter des histoires à partir d'images puisées dans un stock disponible (magazines, publicités, cinéma, etc.). Ces éléments sélectionnés peuvent être moteurs de dessins ou de peintures (à l'acrylique noire sur toile ou sur mur) et, parfois, de volumes. J'élabore des univers proches de la science-fiction, menacés de dangers divers et peuplés de villes-fantômes. Les formes, scènes ou paysages représentés, se combinent la plupart du temps dans un aspect fragmenté, avec une dimension de prolifération. Les figures évoluent dans une atmosphère énigmatique et cinématographique. Réalisées principalement in situ , mes peintures s'adaptent au lieu dans lequel elles sont exécutées. »",
+   "lang": "fr",
+   "works": [
+    {
+     "title": "",
+     "cap": "Exposition personnelle, Bourse du Travail de Valence, 2022 Soylent Green , wallpainting à l'acrylique noire sur mur, environ 3 x 15 m, 2022 Photo : © Phœbé Meyer",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/artists/ludovic-paquelier/bd39815d6a-1661262253/ludovicpaquelier2-4057-2048x1560-q80.jpg",
+     "full": "https://reseau-dda.org/media/pages/artists/ludovic-paquelier/bd39815d6a-1661262253/ludovicpaquelier2-4057-2048x1560-q80.jpg",
+     "page": "https://reseau-dda.org/fr/artists/ludovic-paquelier"
+    },
+    {
+     "title": "",
+     "cap": "La Cité des Étoiles , 2011 Vue d'exposition, Espace Vallès, Saint-Martin-d'Hères © Droits réservés",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/artists/ludovic-paquelier/f2791fdd10-1661262315/citeetoilesludovicpaquelier-4058-2048x1560-q80.jpg",
+     "full": "https://reseau-dda.org/media/pages/artists/ludovic-paquelier/f2791fdd10-1661262315/citeetoilesludovicpaquelier-4058-2048x1560-q80.jpg",
+     "page": "https://reseau-dda.org/fr/artists/ludovic-paquelier"
+    },
+    {
+     "title": "",
+     "cap": "Sans titre , 2013 Wallpainting, acrylique noire, 500 x 2800 cm - Vues de l'exposition Carte blanche , La Spirale, Décines, 2013 © Droits réservés",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/artists/ludovic-paquelier/a852f99d43-1661262394/ludovicpaquelier2-4059-2048x1560-q80.jpg",
+     "full": "https://reseau-dda.org/media/pages/artists/ludovic-paquelier/a852f99d43-1661262394/ludovicpaquelier2-4059-2048x1560-q80.jpg",
+     "page": "https://reseau-dda.org/fr/artists/ludovic-paquelier"
+    },
+    {
+     "title": "",
+     "cap": "",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/publications/portraits-entretiens-filmes/ludovic-paquelier/d47280454c-1666002711/portrait-video-ludovicpaquelier-georgesrey-160x120-crop-1.png",
+     "full": "https://reseau-dda.org/media/pages/publications/portraits-entretiens-filmes/ludovic-paquelier/d47280454c-1666002711/portrait-video-ludovicpaquelier-georgesrey-160x120-crop-1.png",
+     "page": "https://reseau-dda.org/fr/artists/ludovic-paquelier"
+    },
+    {
+     "title": "",
+     "cap": "",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/network-events/draw-me-your-song-l-exposition/114f73efc5-1663227355/e9c9e1e607c018716b5affd1720bbf27l-28-160x120-crop-1.jpg",
+     "full": "https://reseau-dda.org/media/pages/network-events/draw-me-your-song-l-exposition/114f73efc5-1663227355/e9c9e1e607c018716b5affd1720bbf27l-28-160x120-crop-1.jpg",
+     "page": "https://reseau-dda.org/fr/artists/ludovic-paquelier"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://reseau-dda.org/media/pages/artists/ludovic-paquelier/bd39815d6a-1661262253/ludovicpaquelier2-4057-2048x1560-q80.jpg"
+  },
+  {
+   "type": "artist",
+   "era": "moderne",
+   "wd": "Q22810027",
+   "id": "fr:Eugène Auger",
+   "name": "Eugène Auger",
+   "desc": "peintre et graveur français (1847-1922)",
+   "birth": 1847,
+   "death": 1922,
+   "extract": "Eugène Auger est un peintre, illustrateur et graveur français né à Reims le 21 juin 1847 et mort à Saint-Maurice le 28 janvier 1922.",
+   "url": "https://fr.wikipedia.org/wiki/Eug%C3%A8ne_Auger",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "chemin de croix de la basilique Sainte-Clotilde de Reims",
+     "year": null,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Reims%20-%20basilique%20Sainte-Clotilde%2C%20chemin%20de%20croix%20%2801%29.JPG?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Reims%20-%20basilique%20Sainte-Clotilde%2C%20chemin%20de%20croix%20%2801%29.JPG?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Reims_-_basilique_Sainte-Clotilde%2C_chemin_de_croix_%2801%29.JPG",
+     "file": "reims - basilique sainte-clotilde, chemin de croix (01).jpg"
+    },
+    {
+     "title": "Reims - basilique Sainte-Clotilde, chemin de croix (12)",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Reims_-_basilique_Sainte-Clotilde%2C_chemin_de_croix_%2812%29.JPG/960px-Reims_-_basilique_Sainte-Clotilde%2C_chemin_de_croix_%2812%29.JPG?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Reims%20-%20basilique%20Sainte-Clotilde%2C%20chemin%20de%20croix%20%2812%29.JPG?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Reims_-_basilique_Sainte-Clotilde,_chemin_de_croix_(12).JPG",
+     "file": "reims - basilique sainte-clotilde, chemin de croix (12).jpg"
+    },
+    {
+     "title": "Reims - basilique Sainte-Clotilde, baptistère (01)",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Reims_-_basilique_Sainte-Clotilde%2C_baptist%C3%A8re_%2801%29.jpg/960px-Reims_-_basilique_Sainte-Clotilde%2C_baptist%C3%A8re_%2801%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Reims%20-%20basilique%20Sainte-Clotilde%2C%20baptist%C3%A8re%20%2801%29.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Reims_-_basilique_Sainte-Clotilde,_baptist%C3%A8re_(01).jpg",
+     "file": "reims - basilique sainte-clotilde, baptistère (01).jpg"
+    },
+    {
+     "title": "Peintre",
+     "year": null,
+     "img": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Peintre.png?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Peintre.png?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Peintre.png",
+     "file": "peintre.png"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Reims%20-%20basilique%20Sainte-Clotilde%2C%20chemin%20de%20croix%20%2801%29.JPG?width=520"
+  },
+  {
+   "type": "artist",
+   "era": "ancien",
+   "wd": "Q5770067",
+   "id": "fr:Valentine Green",
+   "name": "Valentine Green",
+   "desc": "",
+   "birth": 1739,
+   "death": 1813,
+   "extract": "Valentine Green, né le 3 octobre 1739 à Salford Priors et mort le 29 juillet 1813 à Londres, est un graveur et éditeur d'estampes britannique.\nIl s'est notamment illustré pour sa maitrise de la manière noire.",
+   "url": "https://fr.wikipedia.org/wiki/Valentine_Green",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "Mr. Garrick and Mrs. Pritchard, in the Tragedy of 'Macbeth.' Act II. Scene III.",
+     "year": 1776,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Valentine%20Green%20-%20Mr%20Garrick%20and%20Mrs%20Pritchard%2C%20in%20the%20Tragedy%20of%20%27Macbeth%20%27%20Act%20II%20Scene%20III%20-%20B1978.43.1124%20-%20Yale%20Center%20for%20British%20Art.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Valentine%20Green%20-%20Mr%20Garrick%20and%20Mrs%20Pritchard%2C%20in%20the%20Tragedy%20of%20%27Macbeth%20%27%20Act%20II%20Scene%20III%20-%20B1978.43.1124%20-%20Yale%20Center%20for%20British%20Art.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Valentine_Green_-_Mr_Garrick_and_Mrs_Pritchard%2C_in_the_Tragedy_of_%27Macbeth_%27_Act_II_Scene_III_-_B1978.43.1124_-_Yale_Center_for_British_Art.jpg",
+     "file": "valentine green - mr garrick and mrs pritchard, in the tragedy of 'macbeth ' act ii scene iii - b1978.43.1124 - yale center for british art.jpg"
+    },
+    {
+     "title": "Pamela and Philoclea",
+     "year": 1777,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Valentine%20Green%20-%20Pamela%20and%20Philoclea%20-%20B1970.3.945%20-%20Yale%20Center%20for%20British%20Art.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Valentine%20Green%20-%20Pamela%20and%20Philoclea%20-%20B1970.3.945%20-%20Yale%20Center%20for%20British%20Art.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Valentine_Green_-_Pamela_and_Philoclea_-_B1970.3.945_-_Yale_Center_for_British_Art.jpg",
+     "file": "valentine green - pamela and philoclea - b1970.3.945 - yale center for british art.jpg"
+    },
+    {
+     "title": "Mrs. Cosway",
+     "year": 1787,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Valentine%20Green%20-%20Mrs%20Cosway%20-%20B1977.14.11293%20-%20Yale%20Center%20for%20British%20Art.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Valentine%20Green%20-%20Mrs%20Cosway%20-%20B1977.14.11293%20-%20Yale%20Center%20for%20British%20Art.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Valentine_Green_-_Mrs_Cosway_-_B1977.14.11293_-_Yale_Center_for_British_Art.jpg",
+     "file": "valentine green - mrs cosway - b1977.14.11293 - yale center for british art.jpg"
+    },
+    {
+     "title": "Benjamin West and His Son Raphael",
+     "year": 1775,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Valentine%20Green%20-%20Benjamin%20West%20and%20His%20Son%20Raphael%20-%20B1994.4.979%20-%20Yale%20Center%20for%20British%20Art.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Valentine%20Green%20-%20Benjamin%20West%20and%20His%20Son%20Raphael%20-%20B1994.4.979%20-%20Yale%20Center%20for%20British%20Art.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Valentine_Green_-_Benjamin_West_and_His_Son_Raphael_-_B1994.4.979_-_Yale_Center_for_British_Art.jpg",
+     "file": "valentine green - benjamin west and his son raphael - b1994.4.979 - yale center for british art.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Valentine%20Green%20-%20Mr%20Garrick%20and%20Mrs%20Pritchard%2C%20in%20the%20Tragedy%20of%20%27Macbeth%20%27%20Act%20II%20Scene%20III%20-%20B1978.43.1124%20-%20Yale%20Center%20for%20British%20Art.jpg?width=520"
+  }
+ ],
+ "stories": [
+  {
+   "type": "story",
+   "id": "fr:Bête du Gévaudan",
+   "name": "Bête du Gévaudan",
+   "desc": "bête féroce à l’origine d’une série d’attaques contre des humains survenues entre 1764 et 1767 dans le Gévaudan, Lozère",
+   "extract": "La bête du Gévaudan est le surnom d'un ou plusieurs canidés ayant commis des attaques contre des humains en France entre le 30 juin 1764 et le 19 juin 1767. Le plus souvent mortelles, ces agressions (entre 88 et 124 selon certaines sources) ont surtout lieu dans le nord de l'ancien pays du Gévaudan, région d'élevage correspondant globalement à l'actuel département de la Lozère. Quelques cas sont signalés dans le sud de l'Auvergne, le nord du Vivarais, le Rouergue et le sud du Velay.\nLe royaume compte alors quelque 20 000 loups mais le drame du Gévaudan intervient opportunément pour la presse, en mal de ventes après la guerre de Sept Ans. Ainsi, le Courrier d'Avignon puis La Gazette de France et les gazettes internationales s'emparent de l'affaire et, en quelques mois, publient en feuilleton des centaines d'articles. Dépassant rapidement le fait divers, la Bête du Gévaudan mobilise de nombreuses troupes militaires et donne naissance à toutes sortes de rumeurs et croyances à l'époque, tant sur sa nature — perçue tour à tour par les contemporains comme un loup, un animal exotique, voire un « sorcier » capable de charmer les balles — que sur les raisons qui la poussent à s'attaquer aux populations, l'évêque de Mende énonçant alors un « châtiment divin ».\nParmi les nombreux animaux abattus alors, deux canidés sont soupçonnés d'être la Bête. Le premier est un grand loup tué en septembre 1765 par François Antoine, le porte-arquebuse de Louis XV, sur le domaine de l'abbaye royale des Chazes. Une fois l'animal empaillé et exhibé à Versailles, les journaux et la Cour se désintéressent de l'affaire mais les ravages reprennent quelque temps après. Le 19 juin 1767, à La Besseyre-Saint-Mary, le paysan Jean Chastel abat le second animal, identifié comme un loup ou un canidé ressemblant partiellement à un loup. Passé cette date, plus aucune attaque mortelle n'est signalée dans la province.\nLa majorité des historiens explique les prédations de la bête par la présence de plusieurs loups devenus anthropophages. Ce phénomène, peu commun mais marquant, est observé à plusieurs reprises lorsque des « bêtes dévorantes » adoptent un comportement déviant similaire à celui de la bête du Gévaudan, en ciblant exclusivement les êtres humains selon des modalités spécifiques d'attaque et de consommation des victimes (bête de l'Auxerrois entre 1732 et 1734, bête de Primarette entre 1747 et 1752, bête du Lyonnais entre 1754 et 1756, bête des Cévennes entre 1809 et 1817). De tels cas s'inscrivent dans le contexte global des centaines d'attaques attribuées majoritairement aux loups dits « carnassiers » (anthropophages) en France depuis la fin du Moyen Âge jusqu'au XIXe siècle.\nEn dépit de ce consensus historique, l'identité biologique des canidés responsables des attaques en Gévaudan fait toujours l'objet de débats, parfois avivés par les controverses sur la dangerosité de Canis lupus et les polémiques suscitées par la réapparition du loup gris en France après son éradication du territoire national au XXe siècle.\nCertains essayistes « lycophiles » publient régulièrement des essais pour défendre « l'innocence » des loups et incriminer de préférence l'être humain. Considérée comme saugrenue par les historiens, cette théorie est inspirée notamment par les romans respectifs de l'angliciste Abel Chevalley et du folkloriste Henri Pourrat. Ces deux écrivains imaginent des meurtres commis par Antoine Chastel (fils du tueur de la Bête), paysan dépeint sous leur plume en aliéné mental castré et à demi-sauvage, dressant clandestinement des bêtes féroces. Conformément à ces modèles littéraires, les auteurs « lycophiles » en viennent à décrire le comte de Morangiès comme un gentilhomme sadique formant un duo de tueurs en série avec son complice roturier Antoine Chastel, dompteur d'une bête conditionnée pour tuer femmes et enfants. Aucun document ne corrobore l'hypothèse d'une telle implication criminelle, popularisée par diverses œuvres de fiction qui exploitent ce canevas.\nL'histoire de la Bête du Gévaudan nourrit le théâtre, la littérature, la bande dessinée, le jeu vidéo, le jeu de société ainsi que le cinéma et la télévision. En Lozère et en Haute-Loire, plusieurs sites touristiques entretiennent la légende.",
+   "url": "https://fr.wikipedia.org/wiki/B%C3%AAte_du_G%C3%A9vaudan",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Figure_du_monstre_qui_d%C3%A9sole_le_Gevaudan.jpg/960px-Figure_du_monstre_qui_d%C3%A9sole_le_Gevaudan.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Bête du Gévaudan|Beast of Gévaudan"
+  },
+  {
+   "type": "story",
+   "id": "fr:James Barry (médecin)",
+   "name": "James Barry (médecin)",
+   "desc": "chirurgien militaire britannique",
+   "extract": "James Miranda Stuart Barry, né Margaret Ann Bulkley vers 1789-1799 à Belfast ou Cork, et mort le 25 juillet 1865 à Londres, est un chirurgien militaire de l'armée britannique. Il sert en Inde et au Cap, en Afrique du Sud et atteint le grade d'inspecteur général chargé des hôpitaux militaires à la fin de sa carrière.\nDurant ses missions, Barry améliore non seulement les conditions des soldats blessés, mais aussi celles des habitants indigènes. Il est également le premier chirurgien britannique à pratiquer une césarienne en Afrique sans mener à la mort ni de l'enfant ni de la mère.\nBien que le sexe attribué à la naissance de Barry soit féminin et qu'il soit élevé comme une fille, nommée Margaret Ann Bulkley, il est connu en tant qu'homme et a vécu sa vie d’adulte en tant que tel, mais il est considéré comme la première femme médecin britannique.",
+   "url": "https://fr.wikipedia.org/wiki/James_Barry_(m%C3%A9decin)",
+   "lang": "fr",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9f/James_Barry.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "key": "James Barry (chirurgien)|James Barry (surgeon)"
+  },
+  {
+   "type": "story",
+   "id": "fr:Grotte de Movile",
+   "name": "Grotte de Movile",
+   "desc": "grotte en Roumanie",
+   "extract": "La grotte de Movile (roumain : Peștera Movile) est une cavité géologique inondée située en Roumanie, en Dobroudja, près de Mangalia dans le județ de Constanța. Elle a été découverte en 1986 par Cristian Lascu.\nElle est isolée du monde extérieur depuis environ cinq millions et demi d'années, et abrite une faune endémique d'invertébrés adaptée au manque de lumière et d'oxygène. La survie de cette faune est fondée sur la prolifération de bactéries se nourrissant des matières en suspension dans l'eau.",
+   "url": "https://fr.wikipedia.org/wiki/Grotte_de_Movile",
+   "lang": "fr",
+   "thumb": null,
+   "key": "Grotte de Movile|Movile Cave"
+  }
+ ]
+}
