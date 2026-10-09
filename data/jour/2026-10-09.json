@@ -1,0 +1,177 @@
+{
+ "date": "2026-10-09",
+ "made": "2026-10-09T11:24+02:00",
+ "artists": [
+  {
+   "type": "artist",
+   "era": "contemporain",
+   "src": "c",
+   "id": "c:https://francoiseartmemo.fr/artiste/octave-rimbert-riviere/",
+   "url": "https://francoiseartmemo.fr/artiste/octave-rimbert-riviere/",
+   "desc": "Né en 1988. Françoise art memo",
+   "name": "Octave Rimbert-Rivière",
+   "born": 1988,
+   "bornWord": "Né",
+   "ba": true,
+   "srcName": "Françoise art memo",
+   "note": "Françoise art memo",
+   "extract": "Né en 1988, Octave Rimbert-Rivière est diplômé de l’ENSBA Lyon en 2013. Son travail a été montré dans plusieurs expositions dont From Transhumance to South Perspectives à Rowing, Londres, Le secret des moules à Bikini, Lyon, Raffineries à Moly Sabata, Sablons, Beetween Raw Vegetables and Peace Terms à la Galerie der HFBK, Hambourg, Prochainement Ici à l’espace d’art Verney Carron, Lyon ou encore Brekekex à Treize, Paris. Il participe au cycle d’exposition des Galeries Nomades 2016 en partenariat avec l’Institut d'art contemporain de Villeurbanne et la Halle de Pont-en-Royens.\nVue de l'exposition HARDCORE VERCORS à la Halle de Pont-en-Royans en partenariat avec l'Institut d'art contemporain de Villeurbanne.\nPorcelaine, faïence, plâtre teinté dans la masse, brique réfractaire, bois, métal dimensions variables\nhttp://i-ac.eu/fr/expositions/25_galeries-nomades/2016/379_OCTAVE-RIMBERT-RIVIERE-HARDCORE-VERCORS\n\"Autant par leur facture que par leurs motifs les sculptures d’Octave Rimbert-Rivière sont porteuses d’un humour teinté de dérision. Les objets qu’il produit ont en effet tout du rebus, voir du mauvais goût mais se présentent avec une assurance telle qu’on comprend assez vite qu’on a ici affaire à une sorte de parodie des genres. Bols à l’effigie d’un jeune homme barbu décliné en de nombreux coloris, Saucisson en faïence émaillée, bancs aux allures de sculpture minimaliste ou pièce montée faite de moulages de galettes au beurre, les travaux d’Octave Rimbert-Rivière composent ",
+   "lang": "fr",
+   "works": [
+    {
+     "title": "",
+     "cap": "",
+     "year": null,
+     "img": "https://francoiseartmemo.fr/fam-content/uploads/2016/09/photoportrait.jpg",
+     "full": "https://francoiseartmemo.fr/fam-content/uploads/2016/09/photoportrait.jpg",
+     "page": "https://francoiseartmemo.fr/artiste/octave-rimbert-riviere/"
+    },
+    {
+     "title": "",
+     "cap": "Hardcore Vercors",
+     "year": null,
+     "img": "https://francoiseartmemo.fr/fam-content/uploads/2016/10/hardcorevercors2-octave-rimbert-riviere-250x250.jpg",
+     "full": "https://francoiseartmemo.fr/fam-content/uploads/2016/10/hardcorevercors2-octave-rimbert-riviere-250x250.jpg",
+     "page": "https://francoiseartmemo.fr/artiste/octave-rimbert-riviere/"
+    },
+    {
+     "title": "",
+     "cap": "Sans-titre / 2016",
+     "year": null,
+     "img": "https://francoiseartmemo.fr/fam-content/uploads/2016/10/hardcorevercors4-octave-rimbert-riviere-250x250.jpg",
+     "full": "https://francoiseartmemo.fr/fam-content/uploads/2016/10/hardcorevercors4-octave-rimbert-riviere-250x250.jpg",
+     "page": "https://francoiseartmemo.fr/artiste/octave-rimbert-riviere/"
+    },
+    {
+     "title": "",
+     "cap": "Sans-titre / 2015",
+     "year": null,
+     "img": "https://francoiseartmemo.fr/fam-content/uploads/2016/09/octave-rimbert-riviere-250x250.jpg",
+     "full": "https://francoiseartmemo.fr/fam-content/uploads/2016/09/octave-rimbert-riviere-250x250.jpg",
+     "page": "https://francoiseartmemo.fr/artiste/octave-rimbert-riviere/"
+    },
+    {
+     "title": "",
+     "cap": "Sans-titre / 2015",
+     "year": null,
+     "img": "https://francoiseartmemo.fr/fam-content/uploads/2016/10/docksartfair2octave-rimbert-riviere-250x250.jpg",
+     "full": "https://francoiseartmemo.fr/fam-content/uploads/2016/10/docksartfair2octave-rimbert-riviere-250x250.jpg",
+     "page": "https://francoiseartmemo.fr/artiste/octave-rimbert-riviere/"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://francoiseartmemo.fr/fam-content/uploads/2016/09/photoportrait.jpg"
+  },
+  {
+   "type": "artist",
+   "era": "moderne",
+   "wd": "Q1800018",
+   "id": "fr:Serge Fotinsky",
+   "name": "Serge Fotinsky",
+   "desc": "peintre et graveur français (1887-1971)",
+   "birth": 1885,
+   "death": 1971,
+   "extract": "Serge Fotinsky, né le 3 février 1887 à Odessa, et mort le 1er septembre 1971 à Paris, est un peintre, aquarelliste, graveur et illustrateur franco-russe.",
+   "url": "https://fr.wikipedia.org/wiki/Serge_Fotinsky",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "Mona Lisa detail eyes",
+     "year": null,
+     "img": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Mona_Lisa_detail_eyes.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Mona%20Lisa%20detail%20eyes.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Mona_Lisa_detail_eyes.jpg",
+     "file": "mona lisa detail eyes.jpg"
+    },
+    {
+     "title": "anglais : A Way of Flying title QS:P1476,en:\"A Way of Flying\" label QS:Len,\"A Way of Flying\"",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Goya_y_Lucientes%2C_Francisco_de_-_A_Way_of_Flying_-_Google_Art_Project.jpg/960px-Goya_y_Lucientes%2C_Francisco_de_-_A_Way_of_Flying_-_Google_Art_Project.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Goya%20y%20Lucientes%2C%20Francisco%20de%20-%20A%20Way%20of%20Flying%20-%20Google%20Art%20Project.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Goya_y_Lucientes,_Francisco_de_-_A_Way_of_Flying_-_Google_Art_Project.jpg",
+     "file": "goya y lucientes, francisco de - a way of flying - google art project.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Mona_Lisa_detail_eyes.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  {
+   "type": "artist",
+   "era": "ancien",
+   "wd": "Q943318",
+   "id": "fr:Giuseppe Jappelli",
+   "name": "Giuseppe Jappelli",
+   "desc": "architecte italien",
+   "birth": 1783,
+   "death": 1852,
+   "extract": "Giuseppe Jappelli (né le 14 mai 1783 à Venise et mort le 8 mai 1852 dans la même ville) est un ingénieur et architecte néoclassique italien.",
+   "url": "https://fr.wikipedia.org/wiki/Giuseppe_Jappelli",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "Colonna di Jappelli",
+     "year": null,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Colonna%20Montirone%20Abano.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Colonna%20Montirone%20Abano.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Colonna_Montirone_Abano.jpg",
+     "file": "colonna montirone abano.jpg"
+    },
+    {
+     "title": "Pedrocchi lato sud",
+     "year": null,
+     "img": "https://upload.wikimedia.org/wikipedia/commons/8/85/Pedrocchi_lato_sud.png?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Pedrocchi%20lato%20sud.png?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Pedrocchi_lato_sud.png",
+     "file": "pedrocchi lato sud.png"
+    },
+    {
+     "title": "Journal-des-chemins-de-fer-image-titre",
+     "year": null,
+     "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Journal-des-chemins-de-fer-image-titre.png?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Journal-des-chemins-de-fer-image-titre.png?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Journal-des-chemins-de-fer-image-titre.png",
+     "file": "journal-des-chemins-de-fer-image-titre.png"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Colonna%20Montirone%20Abano.jpg?width=520"
+  }
+ ],
+ "stories": [
+  {
+   "type": "story",
+   "id": "fr:Canard de Vaucanson",
+   "name": "Canard de Vaucanson",
+   "desc": "canard automate du XVIIIe siècle",
+   "extract": "Le Canard de Vaucanson, également appelé le Canard digérant, digérateur ou défécateur, est un canard automate, créé par Jacques de Vaucanson vers 1734 et présenté au public en 1739, célèbre tant pour le naturel, la complexité et la diversité de ses mouvements que pour la manière réaliste dont il simule la digestion et la défécation. Cet automate impressionne vivement le public, assoit la renommée de Vaucanson et devient un symbole du rationalisme scientifique des Lumières. Il connaît une longue exploitation jusqu'à la fin du XIXe siècle, les circonstances de sa disparition restant incertaines. Sa digestion par dissolution des aliments est généralement considérée comme étant le produit d'expédients plutôt que d'une réelle simulation du processus physiologique.",
+   "url": "https://fr.wikipedia.org/wiki/Canard_de_Vaucanson",
+   "lang": "fr",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Frontispice_-_Le_M%C3%A9canisme_du_fl%C3%BBteur_automate%2C_pr%C3%A9sent%C3%A9_%C3%A0_Messieurs_de_l%27Acad%C3%A9mie_cropped.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "key": "Canard digérateur|Digesting Duck"
+  },
+  {
+   "type": "story",
+   "id": "fr:Projet Orion",
+   "name": "Projet Orion",
+   "desc": "projet de fusée propulsée par des explosions nucléaires",
+   "extract": "Le projet Orion fut la première étude de conception d'un véhicule spatial mû par propulsion nucléaire pulsée, idée proposée par Stanislaw Ulam en 1947. Le projet, amorcé dans les années 1950, était mené par une équipe d'ingénieurs et de physiciens de General Atomics, comprenant quelques célébrités telles que le physicien Theodore Taylor. Sur la demande de Taylor, le physicien Freeman Dyson quitta pendant une année ses travaux universitaires pour diriger le projet. Ce fut le premier groupe de réflexion de la sorte depuis le projet Manhattan, la plupart des membres du projet Orion déclarent s'en souvenir comme les meilleures années de leur vie. De leur point de vue, l'humanité n'a jamais été aussi près qu'alors des voyages spatiaux à grande échelle.\nEn se basant sur l'énergie nucléaire, Orion aurait théoriquement permis d'obtenir à la fois une forte poussée et une importante impulsion spécifique, le Graal de la propulsion spatiale. En théorie, les performances offertes dépassaient de loin celles des meilleures fusées conventionnelles ou nucléaires alors à l'étude. L'objectif était de permettre les voyages interplanétaires à bas coût. Ses partisans en pressentaient les forts potentiels, mais le projet perdit son soutien politique à cause des inquiétudes au sujet des contaminations provoquées par la propulsion. Le traité d'interdiction partielle des essais nucléaires de 1963 mit fin au projet.",
+   "url": "https://fr.wikipedia.org/wiki/Projet_Orion",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/NASA-project-orion-artist.jpg/960px-NASA-project-orion-artist.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Projet Orion (propulsion)|Project Orion (nuclear propulsion)"
+  },
+  {
+   "type": "story",
+   "id": "fr:Rosalia Lombardo",
+   "name": "Rosalia Lombardo",
+   "desc": "petite fille italienne morte de pneumonie",
+   "extract": "Rosalia Lombardo (née le 13 décembre 1918 à Palerme en Italie et morte le 6 décembre 1920), était une enfant italienne morte d'une pneumonie. Le père de Rosalia, Mario Lombardo, très touché par la mort de sa fille, contacta Alfredo Salafia, un embaumeur, pour préserver le corps de Rosalia.\nSon corps est l'un des derniers à avoir été accepté aux catacombes des Capucins de Palerme en Sicile.",
+   "url": "https://fr.wikipedia.org/wiki/Rosalia_Lombardo",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Palermo_Rosalia_Lombardo.jpg/960px-Palermo_Rosalia_Lombardo.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Rosalia Lombardo|Rosalia Lombardo"
+  }
+ ]
+}
