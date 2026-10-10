@@ -1,0 +1,177 @@
+{
+ "date": "2026-10-10",
+ "made": "2026-10-10T10:44+02:00",
+ "artists": [
+  {
+   "type": "artist",
+   "era": "contemporain",
+   "src": "c",
+   "id": "c:https://francoiseartmemo.fr/artiste/lucy-watts/",
+   "url": "https://francoiseartmemo.fr/artiste/lucy-watts/",
+   "desc": "Françoise art memo",
+   "name": "Lucy Watts",
+   "born": null,
+   "bornWord": null,
+   "ba": true,
+   "srcName": "Françoise art memo",
+   "note": "Françoise art memo",
+   "extract": "Entre illustrations de presse, bande-dessinée et caricatures, les dessins de Lucy Watts mélangent absurde et humour. Influencée par Glen Baxter et David Shrigley, ses images spontanées s’accumulent comme des annotations ou des données statistiques qui constitueraient une documentation parodique de la vie quotidienne. Diplômée des Beaux-Arts de Paris en 2011, Lucy Watts réalise des installations qui mêlent dessins, impressions, éditions, dessins muraux et parfois vidéos. Depuis 2011, elle a été accueillie dans plusieurs résidences d'artistes et a produit une dizaine d'expositions personnelles dans des galeries privées ou lieux publics. Ses dessins sont régulièrement publiés dans la presse ou édités par des maisons d'édition (carnets dessinés, jeunesse, illustration).\nRéalisé en lithographie, l’abécédaire de Lucy Watts, dissèque l’industrie du mensonge, son histoire et ses méthodes en explorant la propagande ordinaire du quotidien. Sous le scalpel de l’artiste apparaît le diktat généralisé des médias via les publicités des multinationales, les communicants des politiciens ou encore les opérations psychologiques des militaires.\nTexte et dessin, dessin-texte ou texte-dessin, du crayon à l’impression, en lithographie ou sérigraphie, il devient édition, livre ou journal.\nVues de l’exposition \"Sketch in, Sketch out\", Centre d’art Madeleine Lambert, Vénissieux, 2015\n\"[...] elle aime les aplats, les couleurs vives et intenses, la force que prend une image sortant de la presse. Le résu",
+   "lang": "fr",
+   "works": [
+    {
+     "title": "",
+     "cap": "",
+     "year": null,
+     "img": "https://francoiseartmemo.fr/fam-content/uploads/2016/08/photo_lucy-1024x1024.jpg",
+     "full": "https://francoiseartmemo.fr/fam-content/uploads/2016/08/photo_lucy-1024x1024.jpg",
+     "page": "https://francoiseartmemo.fr/artiste/lucy-watts/"
+    },
+    {
+     "title": "",
+     "cap": "Abécédaire de la propagande en temps de paix",
+     "year": null,
+     "img": "https://francoiseartmemo.fr/fam-content/uploads/2016/08/propaganda-250x250.jpg",
+     "full": "https://francoiseartmemo.fr/fam-content/uploads/2016/08/propaganda-250x250.jpg",
+     "page": "https://francoiseartmemo.fr/artiste/lucy-watts/"
+    },
+    {
+     "title": "",
+     "cap": "Service désabonnement",
+     "year": null,
+     "img": "https://francoiseartmemo.fr/fam-content/uploads/2016/08/DSC_0578-copie-250x250.jpg",
+     "full": "https://francoiseartmemo.fr/fam-content/uploads/2016/08/DSC_0578-copie-250x250.jpg",
+     "page": "https://francoiseartmemo.fr/artiste/lucy-watts/"
+    },
+    {
+     "title": "",
+     "cap": "The Daily Pet Drink",
+     "year": null,
+     "img": "https://francoiseartmemo.fr/fam-content/uploads/2016/08/DSC_1390-copie-250x250.jpg",
+     "full": "https://francoiseartmemo.fr/fam-content/uploads/2016/08/DSC_1390-copie-250x250.jpg",
+     "page": "https://francoiseartmemo.fr/artiste/lucy-watts/"
+    },
+    {
+     "title": "",
+     "cap": "Overload",
+     "year": null,
+     "img": "https://francoiseartmemo.fr/fam-content/uploads/2016/08/lucy_watts-copie-250x250.jpg",
+     "full": "https://francoiseartmemo.fr/fam-content/uploads/2016/08/lucy_watts-copie-250x250.jpg",
+     "page": "https://francoiseartmemo.fr/artiste/lucy-watts/"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://francoiseartmemo.fr/fam-content/uploads/2016/08/photo_lucy-1024x1024.jpg"
+  },
+  {
+   "type": "artist",
+   "era": "moderne",
+   "wd": "Q9002959",
+   "id": "en:Henry Peters Gray",
+   "name": "Henry Peters Gray",
+   "desc": "American painter",
+   "birth": 1819,
+   "death": 1877,
+   "extract": "Henry Peters Gray (June 23, 1819 - November 12, 1877) was an American portrait and genre painter.",
+   "url": "https://en.wikipedia.org/wiki/Henry_Peters_Gray",
+   "lang": "en",
+   "artsy": null,
+   "works": [
+    {
+     "title": "Francis Robert Schell (after 1850-1928)",
+     "year": 1857,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Francis%20Robert%20Schell%20%28after%201850-1928%29%201934%2010.jpeg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Francis%20Robert%20Schell%20%28after%201850-1928%29%201934%2010.jpeg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Francis_Robert_Schell_%28after_1850-1928%29_1934_10.jpeg",
+     "file": "francis robert schell (after 1850-1928) 1934 10.jpeg"
+    },
+    {
+     "title": "James Smith (1804-1877)",
+     "year": 1855,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Henry%20Peters%20Gray%20-%20James%20Smith%20%281804-1877%29%20-%20H200%20-%20Harvard%20Art%20Museums.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Henry%20Peters%20Gray%20-%20James%20Smith%20%281804-1877%29%20-%20H200%20-%20Harvard%20Art%20Museums.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Henry_Peters_Gray_-_James_Smith_%281804-1877%29_-_H200_-_Harvard_Art_Museums.jpg",
+     "file": "henry peters gray - james smith (1804-1877) - h200 - harvard art museums.jpg"
+    },
+    {
+     "title": "William Evans Burton (1804-1860)",
+     "year": 1852,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20Evans%20Burton%20%281804-1860%29%201925%207.jpeg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20Evans%20Burton%20%281804-1860%29%201925%207.jpeg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:William_Evans_Burton_%281804-1860%29_1925_7.jpeg",
+     "file": "william evans burton (1804-1860) 1925 7.jpeg"
+    },
+    {
+     "title": "Mrs. Robert Schell (Mary Stewart Taber, ca. 1825–ca. 1898)",
+     "year": null,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Mrs.%20Robert%20Schell%20%28Mary%20Stewart%20Taber%2C%20ca.%201825%E2%80%93ca.%201898%29%201934%209.jpeg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Mrs.%20Robert%20Schell%20%28Mary%20Stewart%20Taber%2C%20ca.%201825%E2%80%93ca.%201898%29%201934%209.jpeg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Mrs._Robert_Schell_%28Mary_Stewart_Taber%2C_ca._1825%E2%80%93ca._1898%29_1934_9.jpeg",
+     "file": "mrs. robert schell (mary stewart taber, ca. 1825–ca. 1898) 1934 9.jpeg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Francis%20Robert%20Schell%20%28after%201850-1928%29%201934%2010.jpeg?width=520"
+  },
+  {
+   "type": "artist",
+   "era": "ancien",
+   "wd": "Q2253309",
+   "id": "fr:Antonio Canevari",
+   "name": "Antonio Canevari",
+   "desc": "architecte italien",
+   "birth": 1681,
+   "death": 1764,
+   "extract": "Antonio Canevari (né à Rome en 1681 et mort à Naples en 1764) est un architecte italien des périodes rococo et néoclassique.",
+   "url": "https://fr.wikipedia.org/wiki/Antonio_Canevari",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "Portrait de Pierre-Augustin Caron de Beaumarchais",
+     "year": null,
+     "img": "https://upload.wikimedia.org/wikipedia/commons/a/ae/D%27apr%C3%A8s_Jean-Marc_Nattier%2C_Portrait_de_Pierre-Augustin_Caron_de_Beaumarchais_%28Biblioth%C3%A8que-mus%C3%A9e_de_la_Com%C3%A9die-Fran%C3%A7aise%29_-001.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/D%27apr%C3%A8s%20Jean-Marc%20Nattier%2C%20Portrait%20de%20Pierre-Augustin%20Caron%20de%20Beaumarchais%20%28Biblioth%C3%A8que-mus%C3%A9e%20de%20la%20Com%C3%A9die-Fran%C3%A7aise%29%20-001.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:D%27apr%C3%A8s_Jean-Marc_Nattier,_Portrait_de_Pierre-Augustin_Caron_de_Beaumarchais_(Biblioth%C3%A8que-mus%C3%A9e_de_la_Com%C3%A9die-Fran%C3%A7aise)_-001.jpg",
+     "file": "d'après jean-marc nattier, portrait de pierre-augustin caron de beaumarchais (bibliothèque-musée de la comédie-française) -001.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/ae/D%27apr%C3%A8s_Jean-Marc_Nattier%2C_Portrait_de_Pierre-Augustin_Caron_de_Beaumarchais_%28Biblioth%C3%A8que-mus%C3%A9e_de_la_Com%C3%A9die-Fran%C3%A7aise%29_-001.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  }
+ ],
+ "stories": [
+  {
+   "type": "story",
+   "id": "fr:Homme de Tollund",
+   "name": "Homme de Tollund",
+   "desc": "corps naturellement momifié d'un homme de l'âge du fer découvert en 1950 au Danemark",
+   "extract": "L'Homme de Tollund est le cadavre naturellement momifié d'un homme mort entre 405 et 384 av. J.-C., découvert en 1950 dans la tourbière de Tollund, dans la région du Jutland central, au Danemark.",
+   "url": "https://fr.wikipedia.org/wiki/Homme_de_Tollund",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Tollundmannen.jpg/960px-Tollundmannen.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Homme de Tollund|Tollund Man"
+  },
+  {
+   "type": "story",
+   "id": "fr:Opération Chaton acoustique",
+   "name": "Opération Chaton acoustique",
+   "desc": "",
+   "extract": "L'opération Chaton acoustique (en anglais Acoustic Kitty) est une opération de la direction de la science et technologie de la CIA en projet entre 1961 et 1966\nL'opération et ses détails sont rendus publics en 2001 dans le cadre de la déclassification de documents. L'objectif était d'utiliser un chat domestique afin de collecter des informations au kremlin de Moscou ainsi que dans diverses ambassades soviétiques à l'époque de la guerre froide. À cette fin, les employés de la CIA ont implanté une pile et un microphone dans le corps d'un chat, et une antenne de transmission le long de sa colonne vertébrale en direction de sa queue. Ainsi équipé, le chat devait être relâché dans des endroits stratégiques où il allait participer à l'enregistrement de conversations secrètes. Selon Victor Marchetti, ancien cadre de la CIA, le coût de l'opération aurait été d'environ 20 millions de dollars.\nLa première mission du chat était d'écouter deux hommes dans un parc proche de l'ambassade de Russie aux États-Unis, à Washington, D.C. Le chat est lâché à proximité, mais est immédiatement écrasé par un taxi. Des essais subséquents n'ont pas été concluants et le projet est maintenant considéré comme un échec. Le projet est abandonné par la CIA en 1967.",
+   "url": "https://fr.wikipedia.org/wiki/Op%C3%A9ration_Chaton_acoustique",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Seal_of_the_Central_Intelligence_Agency.svg/960px-Seal_of_the_Central_Intelligence_Agency.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Acoustic Kitty|Acoustic Kitty"
+  },
+  {
+   "type": "story",
+   "id": "fr:Grace O'Malley",
+   "name": "Grace O'Malley",
+   "desc": "pirate irlandaise, reine d'Umhaill",
+   "extract": "Grace O'Malley (en irlandais : Gráinne Ni Mháille) (vers 1530 - vers 1603) est une femme pirate irlandaise. O'Malley est la version anglicisée de son nom irlandais Gráinne Ni Mháille. Elle fut surnommée Gráinne Mhaol (en anglais : Granuaile).",
+   "url": "https://fr.wikipedia.org/wiki/Grace_O%27Malley",
+   "lang": "fr",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/99/Grainne_Mhaol_Ni_Mhaille_Statue.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "key": "Grace O'Malley|Grace O'Malley"
+  }
+ ]
+}
