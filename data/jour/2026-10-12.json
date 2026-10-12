@@ -1,0 +1,169 @@
+{
+ "date": "2026-10-12",
+ "made": "2026-10-12T11:31+02:00",
+ "artists": [
+  {
+   "type": "artist",
+   "era": "contemporain",
+   "src": "c",
+   "id": "c:https://reseau-dda.org/fr/artists/corinne-marchetti",
+   "url": "https://reseau-dda.org/fr/artists/corinne-marchetti",
+   "desc": "Réseau documents d'artistes",
+   "name": "Corinne Marchetti",
+   "born": null,
+   "bornWord": null,
+   "ba": false,
+   "srcName": "Réseau documents d'artistes",
+   "note": "Réseau documents d'artistes",
+   "extract": "Bien avant que Corinne Marchetti produise ses broderies, dans les années cinquante, lorsque tout tournait rond, les objets chantaient la louange du système. Ils formaient une gigantesque positivité. Le rapport social nécessaire à leur production se justifiait par leur simple évidence. La boîte à soupe Campbell, ou la bouteille Coca-cola, de Tomato Ketchup, s'affichaient dans le pop-art avec cette insolence que donne le caractère absolu de la réalité.\nLa marchandise semblait mener une existence indépendante. Comme dans ces vieux dessins animés où soudain ustensiles de cuisine, pendules, tabourets, tout l'équipement de la maison de banlieue, se mettaient à gigoter, danser la gigue sur de petites pattes, et leur gosier rond entonnaient un air qui disait «tout va bien, tout va bien.» Et dans ce même pavillon de banlieue, au dehors, de petits Mickeys, citoyens modèles, s'activaient dans la bonne humeur à tondre le gazon et préparer le barbecue du samedi, des Minnies s'occupaient des enfants turbulents mais si délicieux.\nEn ce temps là, le général Eisenhower était président et Marilyn un mythe. La «star», si présente, à pouvoir presque la toucher, à autographier, et si lointaine, donnait les limites de cet univers. L'écran de cinéma, voûte céleste et miroir, bornait les désirs.[...]\ntexte paru dans Corinne Marchetti, La collection, Images en Manoeuvre / Galerie Roger Pailhas, Marseille Adrien Pécheur",
+   "lang": "fr",
+   "works": [
+    {
+     "title": "",
+     "cap": "© Droits réservés",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/artists/corinne-marchetti/acfee4febd-1612811931/webmarchetti2-1020-2048x1560-q80.jpg",
+     "full": "https://reseau-dda.org/media/pages/artists/corinne-marchetti/acfee4febd-1612811931/webmarchetti2-1020-2048x1560-q80.jpg",
+     "page": "https://reseau-dda.org/fr/artists/corinne-marchetti"
+    },
+    {
+     "title": "",
+     "cap": "",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/artists/corinne-marchetti/4b4b716da1-1612811931/webmarchetti1-1019-1200x630-crop-1.jpg",
+     "full": "https://reseau-dda.org/media/pages/artists/corinne-marchetti/4b4b716da1-1612811931/webmarchetti1-1019-1200x630-crop-1.jpg",
+     "page": "https://reseau-dda.org/fr/artists/corinne-marchetti"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://reseau-dda.org/media/pages/artists/corinne-marchetti/acfee4febd-1612811931/webmarchetti2-1020-2048x1560-q80.jpg"
+  },
+  {
+   "type": "artist",
+   "era": "moderne",
+   "wd": "Q6927251",
+   "id": "en:Mowbray Thomson",
+   "name": "Mowbray Thomson",
+   "desc": "British Indian Army General (1832–1917)",
+   "birth": 1832,
+   "death": 1917,
+   "extract": "General Sir Mowbray Thomson (1 April 1832 – 25 February 1917) was an officer in the British East India Company and one of the only two survivors from the Cawnpore garrison.",
+   "url": "https://en.wikipedia.org/wiki/Mowbray_Thomson",
+   "lang": "en",
+   "artsy": null,
+   "works": [
+    {
+     "title": "The Story of Cawnpore",
+     "year": null,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Massacre%20in%20the%20boats%20off%20Cawnpore%20-%20The%20history%20of%20the%20Indian%20Mutiny%20%281858-1859%29%2C%20opposite%20336%20-%20BL.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Massacre%20in%20the%20boats%20off%20Cawnpore%20-%20The%20history%20of%20the%20Indian%20Mutiny%20%281858-1859%29%2C%20opposite%20336%20-%20BL.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Massacre_in_the_boats_off_Cawnpore_-_The_history_of_the_Indian_Mutiny_%281858-1859%29%2C_opposite_336_-_BL.jpg",
+     "file": "massacre in the boats off cawnpore - the history of the indian mutiny (1858-1859), opposite 336 - bl.jpg"
+    },
+    {
+     "title": "Mowbray Thomson",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Mowbray_Thomson.jpg/960px-Mowbray_Thomson.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://en.wikipedia.org/wiki/Special:FilePath/Mowbray%20Thomson.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Mowbray_Thomson.jpg",
+     "file": "mowbray thomson.jpg"
+    },
+    {
+     "title": "Colonel Mowbray Thomson",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Colonel_Mowbray_Thomson_WDL11453.png/960px-Colonel_Mowbray_Thomson_WDL11453.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://en.wikipedia.org/wiki/Special:FilePath/Colonel%20Mowbray%20Thomson%20WDL11453.png?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Colonel_Mowbray_Thomson_WDL11453.png",
+     "file": "colonel mowbray thomson wdl11453.png"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Massacre%20in%20the%20boats%20off%20Cawnpore%20-%20The%20history%20of%20the%20Indian%20Mutiny%20%281858-1859%29%2C%20opposite%20336%20-%20BL.jpg?width=520"
+  },
+  {
+   "type": "artist",
+   "era": "ancien",
+   "wd": "Q5563761",
+   "id": "fr:Giovanni Battista Viola",
+   "name": "Giovanni Battista Viola",
+   "desc": "peintre italien",
+   "birth": 1576,
+   "death": 1622,
+   "extract": "Giovanni Battista Viola (Bologne, 1576 - Rome, 1622) est un peintre baroque italien connu pour ses paysages.\nEn France certaines de ses œuvres ont fait partie des collections de Mazarin et de Louis XIV.",
+   "url": "https://fr.wikipedia.org/wiki/Giovanni_Battista_Viola",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "Landscape with Tobias and the Angel",
+     "year": 1621,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Giovanni%20Battista%20Viola%20-%20Landscape%20with%20Tobias%20and%20the%20Angel%20-%201979.5%20-%20Fogg%20Museum.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Giovanni%20Battista%20Viola%20-%20Landscape%20with%20Tobias%20and%20the%20Angel%20-%201979.5%20-%20Fogg%20Museum.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Giovanni_Battista_Viola_-_Landscape_with_Tobias_and_the_Angel_-_1979.5_-_Fogg_Museum.jpg",
+     "file": "giovanni battista viola - landscape with tobias and the angel - 1979.5 - fogg museum.jpg"
+    },
+    {
+     "title": "The Calling of Saints Peter and Andrew",
+     "year": null,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Giovanni%20Battista%20Viola%20-%20The%20Calling%20of%20Saints%20Peter%20and%20Andrew%20-%202018-239%20-%20Princeton%20University%20Art%20Museum.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Giovanni%20Battista%20Viola%20-%20The%20Calling%20of%20Saints%20Peter%20and%20Andrew%20-%202018-239%20-%20Princeton%20University%20Art%20Museum.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Giovanni_Battista_Viola_-_The_Calling_of_Saints_Peter_and_Andrew_-_2018-239_-_Princeton_University_Art_Museum.jpg",
+     "file": "giovanni battista viola - the calling of saints peter and andrew - 2018-239 - princeton university art museum.jpg"
+    },
+    {
+     "title": "Landscape with a Hunting Party",
+     "year": 1603,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Viola%2C%20Gian%20Battista%20-%20Landscape%20with%20a%20Hunting%20Party%20-%20after%201603.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Viola%2C%20Gian%20Battista%20-%20Landscape%20with%20a%20Hunting%20Party%20-%20after%201603.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Viola%2C_Gian_Battista_-_Landscape_with_a_Hunting_Party_-_after_1603.jpg",
+     "file": "viola, gian battista - landscape with a hunting party - after 1603.jpg"
+    },
+    {
+     "title": "Le Concert sur l'eau",
+     "year": 1612,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Le%20Concert%20sur%20l%27eau%20%E2%80%93%20Giovanni%20Battista%20Viola%20%E2%80%93%20Mus%C3%A9e%20du%20Louvre%2C%20INV%20208%20%E2%80%93%20Q18572455.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Le%20Concert%20sur%20l%27eau%20%E2%80%93%20Giovanni%20Battista%20Viola%20%E2%80%93%20Mus%C3%A9e%20du%20Louvre%2C%20INV%20208%20%E2%80%93%20Q18572455.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Le_Concert_sur_l%27eau_%E2%80%93_Giovanni_Battista_Viola_%E2%80%93_Mus%C3%A9e_du_Louvre%2C_INV_208_%E2%80%93_Q18572455.jpg",
+     "file": "le concert sur l'eau – giovanni battista viola – musée du louvre, inv 208 – q18572455.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Giovanni%20Battista%20Viola%20-%20Landscape%20with%20Tobias%20and%20the%20Angel%20-%201979.5%20-%20Fogg%20Museum.jpg?width=520"
+  }
+ ],
+ "stories": [
+  {
+   "type": "story",
+   "id": "fr:Bombe à chauves-souris",
+   "name": "Bombe à chauves-souris",
+   "desc": "arme expérimentale",
+   "extract": "La bombe à chauves-souris est une arme expérimentale de la Seconde Guerre mondiale développée aux États-Unis. Les bombes étaient constituées d'un réservoir en forme de bombe et contenant de nombreux compartiments. Chacun d'eux contenait une chauve-souris de l'espèce des tadarides du Brésil (Tadarida brasiliensis), équipée d'une petite bombe incendiaire reliée à un système de déclenchement à retardement. Largué à l'aube depuis un bombardier, le conteneur devait déployer un parachute à mi-chute, puis s'ouvrir pour libérer les chauves-souris. Celles-ci iraient alors se percher dans les corniches des toitures et les greniers. Des incendies se déclareraient alors dans les endroits inaccessibles des maisons majoritairement constituées de papier et de bois, dans les villes japonaises, cibles désignées de cet armement.",
+   "url": "https://fr.wikipedia.org/wiki/Bombe_%C3%A0_chauves-souris",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Bat_Bomb_Canister.jpg/960px-Bat_Bomb_Canister.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Bombe à chauves-souris|Bat bomb"
+  },
+  {
+   "type": "story",
+   "id": "fr:Turc mécanique",
+   "name": "Turc mécanique",
+   "desc": "automate joueur d'échecs, célèbre canular construit à la fin du XVIIIe siècle",
+   "extract": "Le Turc mécanique ou l’automate joueur d'échecs est une célèbre mystification construite à la fin du XVIIIe siècle : il s’agissait d'un prétendu automate doté de la faculté de jouer aux échecs. Il a été partiellement détruit dans un incendie. De nos jours, une réplique a été créée : elle est contrôlée par un logiciel et joue réellement seule aux échecs.\nConstruit et dévoilé pour la première fois en 1770 par Johann Wolfgang von Kempelen, le mécanisme semblait capable de jouer contre un adversaire humain, ainsi que de résoudre le problème du cavalier, un casse-tête qui exige de déplacer un cavalier afin d'occuper une seule fois chaque case de l'échiquier. De 1770 jusqu'à sa destruction en 1854, il a été exposé par différents propriétaires en tant qu'automate, bien que le canular ait été expliqué, après bien des soupçons, au début des années 1820. Extérieurement, il avait l’apparence d'un mannequin habillé d’une cape et d’un turban assis derrière un meuble d’érable qui possédait des portes révélant une mécanique et des engrenages internes qui s'animaient lors de son activation.\nCe mécanisme n'était qu'une illusion permettant de masquer la profondeur réelle du meuble. Celui-ci possédait un autre compartiment secret dans lequel un joueur humain pouvait se glisser, et manipuler le mannequin, comme un marionnettiste, sans être vu. L'automate était alors capable de jouer une partie d'échecs contre un adversaire humain. Grâce au talent des joueurs cachés, le Turc mécanique remporta la plupart des parties d'échecs auxquelles il participa en Europe et en Amérique durant près de 84 ans, y compris contre certains hommes d'État tels que Napoléon Bonaparte, Catherine II de Russie et Benjamin Franklin.",
+   "url": "https://fr.wikipedia.org/wiki/Turc_m%C3%A9canique",
+   "lang": "fr",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/25/Turk-engraving5.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "key": "Turc mécanique|Mechanical Turk"
+  },
+  {
+   "type": "story",
+   "id": "en:Centralia mine fire",
+   "name": "Centralia mine fire",
+   "desc": "Long-burning coal-seam fire in Pennsylvania, US",
+   "extract": "A coal-seam fire has been burning in the labyrinth of abandoned coal mines underneath the borough of Centralia, Pennsylvania, United States, since at least May 27, 1962. Its original cause and start date are still a matter of debate. It is burning at depths of up to 300 feet (90 m) over an 8-mile (13 km) stretch of 3,700 acres (15 km2). At its current rate, it could continue to burn for over 250 years. Due to the fire, Centralia was mostly abandoned in the 1980s. There were 1,500 residents at the time the fire is believed to have started, but as of 2017 Centralia has a population of 5 and most of the buildings have been demolished.",
+   "url": "https://en.wikipedia.org/wiki/Centralia_mine_fire",
+   "lang": "en",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Old_Mine_Fire_1969.jpg/960px-Old_Mine_Fire_1969.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Incendie de la mine de Centralia|Centralia mine fire"
+  }
+ ]
+}
