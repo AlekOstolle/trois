@@ -1,0 +1,201 @@
+{
+ "date": "2026-10-20",
+ "made": "2026-10-20T09:49+02:00",
+ "artists": [
+  {
+   "type": "artist",
+   "era": "contemporain",
+   "src": "c",
+   "id": "c:https://francoiseartmemo.fr/artiste/10200/",
+   "url": "https://francoiseartmemo.fr/artiste/10200/",
+   "desc": "Françoise art memo",
+   "name": "- Francoiseartmemo",
+   "born": null,
+   "bornWord": null,
+   "ba": true,
+   "srcName": "Françoise art memo",
+   "note": "Françoise art memo",
+   "extract": "Darta Sidere est née en 1990, à Riga en Lettonie. Actuellement elle vit à Paris et travaille à Saint-Denis. Elle crée des paysages aux formes futuristes, en questionnant la temporalité de la création naturelle, mécanique et manuelle. Elle s’intéresse à l’aspect haptique (vision par le toucher), en changeant la perception de son matériau de prédilection : la pierre. Ses installations suspendues ou mobiles sont une fusion de paysages naturels et urbains, avec lesquels elle cherche à définir ce que pourrait être un espace du toucher. Diplomée des Beaux-Arts de Paris en 2019, Darta Sidere a participé à des expositions en France et à l’étranger (Irlande, Japon entre autres) : Belonging à Limerick, TOPOS festival de sculpture à Saint-Denis, L’eau et les rêves au Palais des Beaux-Arts de Paris, tesselles//pixels au musée du Louvre, The Whole and the Part à Tokyo.\nEn transit, 2019 grès de Luxembourg, acide nitrique, inox, roulettes dimensions variables\nvue de l’installation : fin du programme de développement des artistes, EIB, Luxembourg\nEn transit est une installation de sculpture sur pierre, réalisée avec neuf grès provenant des carrières d’Erzen au Luxembourg. La surface est travaillée avec de l’acide nitrique, ce qui la rend plus poreuse comme si la pierre était en passe de se détruire. Les effets visibles peuvent également s’observer sur des bâtiments, des ponts ou encore la célèbre forteresse de Luxembourg. Ils sont les traces du temps et des évènements. L’acide nitrique est u",
+   "lang": "fr",
+   "works": [
+    {
+     "title": "",
+     "cap": "En transit",
+     "year": null,
+     "img": "https://francoiseartmemo.fr/fam-content/uploads/2023/02/en-transit-2019-eib-institut-250x250.jpg",
+     "full": "https://francoiseartmemo.fr/fam-content/uploads/2023/02/en-transit-2019-eib-institut-250x250.jpg",
+     "page": "https://francoiseartmemo.fr/artiste/10200/"
+    },
+    {
+     "title": "",
+     "cap": "Submergé dans la berceuse",
+     "year": null,
+     "img": "https://francoiseartmemo.fr/fam-content/uploads/2023/03/subm-250x250.jpg",
+     "full": "https://francoiseartmemo.fr/fam-content/uploads/2023/03/subm-250x250.jpg",
+     "page": "https://francoiseartmemo.fr/artiste/10200/"
+    },
+    {
+     "title": "",
+     "cap": "Sous-face du paysage",
+     "year": null,
+     "img": "https://francoiseartmemo.fr/fam-content/uploads/2023/02/sous-face-du-paysage-250x250.jpg",
+     "full": "https://francoiseartmemo.fr/fam-content/uploads/2023/02/sous-face-du-paysage-250x250.jpg",
+     "page": "https://francoiseartmemo.fr/artiste/10200/"
+    },
+    {
+     "title": "",
+     "cap": "Matrioshka brain",
+     "year": null,
+     "img": "https://francoiseartmemo.fr/fam-content/uploads/2023/03/mb6-250x250.jpg",
+     "full": "https://francoiseartmemo.fr/fam-content/uploads/2023/03/mb6-250x250.jpg",
+     "page": "https://francoiseartmemo.fr/artiste/10200/"
+    },
+    {
+     "title": "",
+     "cap": "Ode mécanique",
+     "year": null,
+     "img": "https://francoiseartmemo.fr/fam-content/uploads/2023/02/ode-mcanique-250x250.jpg",
+     "full": "https://francoiseartmemo.fr/fam-content/uploads/2023/02/ode-mcanique-250x250.jpg",
+     "page": "https://francoiseartmemo.fr/artiste/10200/"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://francoiseartmemo.fr/fam-content/uploads/2023/02/en-transit-2019-eib-institut-250x250.jpg"
+  },
+  {
+   "type": "artist",
+   "era": "moderne",
+   "wd": "Q2847879",
+   "id": "fr:André Granet",
+   "name": "André Granet",
+   "desc": "architecte français",
+   "birth": 1881,
+   "death": 1974,
+   "extract": "André Granet, né le 6 mai 1881 à Paris où il est mort le 27 octobre 1974, est un architecte et une personnalité française de l'aéronautique.",
+   "url": "https://fr.wikipedia.org/wiki/Andr%C3%A9_Granet",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "Victoria Coach Station (1)",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Victoria_Coach_Station_%281%29.jpg/960px-Victoria_Coach_Station_%281%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Victoria%20Coach%20Station%20%281%29.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Victoria_Coach_Station_(1).jpg",
+     "file": "victoria coach station (1).jpg"
+    },
+    {
+     "title": "HC GRANET A CIM-Paris-StVincent 2015-11",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/HC_GRANET_A_CIM-Paris-StVincent_2015-11.jpg/960px-HC_GRANET_A_CIM-Paris-StVincent_2015-11.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/HC%20GRANET%20A%20CIM-Paris-StVincent%202015-11.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:HC_GRANET_A_CIM-Paris-StVincent_2015-11.jpg",
+     "file": "hc granet a cim-paris-stvincent 2015-11.jpg"
+    },
+    {
+     "title": "Fontaine \"la belle fleur\" à l'exposition coloniale de 1931, par André Granet",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Fontaine_%22la_belle_fleur%22_%C3%A0_l%27exposition_coloniale_de_1931%2C_par_Andr%C3%A9_Granet.jpg/960px-Fontaine_%22la_belle_fleur%22_%C3%A0_l%27exposition_coloniale_de_1931%2C_par_Andr%C3%A9_Granet.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Fontaine%20%22la%20belle%20fleur%22%20%C3%A0%20l%27exposition%20coloniale%20de%201931%2C%20par%20Andr%C3%A9%20Granet.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Fontaine_%22la_belle_fleur%22_%C3%A0_l%27exposition_coloniale_de_1931,_par_Andr%C3%A9_Granet.jpg",
+     "file": "fontaine \"la belle fleur\" à l'exposition coloniale de 1931, par andré granet.jpg"
+    },
+    {
+     "title": "Expo 1931 Theatre eau",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Expo_1931_Theatre_eau.jpg/960px-Expo_1931_Theatre_eau.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Expo%201931%20Theatre%20eau.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Expo_1931_Theatre_eau.jpg",
+     "file": "expo 1931 theatre eau.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Victoria_Coach_Station_%281%29.jpg/960px-Victoria_Coach_Station_%281%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "type": "artist",
+   "era": "ancien",
+   "wd": "Q1063339",
+   "id": "fr:Charles Alexandre Lesueur",
+   "name": "Charles Alexandre Lesueur",
+   "desc": "naturaliste, artiste et explorateur français (1778-1846)",
+   "birth": 1778,
+   "death": 1846,
+   "extract": "Charles-Alexandre Lesueur, né le 1er janvier 1778 au Havre et mort le 12 décembre 1846 à Sainte-Adresse, est un naturaliste, artiste et explorateur français.",
+   "url": "https://fr.wikipedia.org/wiki/Charles_Alexandre_Lesueur",
+   "lang": "fr",
+   "artsy": "charles-alexandre-lesueur",
+   "works": [
+    {
+     "title": "Lebia (L'Ellipsoidea)",
+     "year": 1817,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Alexandre%20Lesueur%2C%20Lebia%20%28L%27Ellipsoidea%29%2C%201817-1821%2C%20NGA%2049109.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Alexandre%20Lesueur%2C%20Lebia%20%28L%27Ellipsoidea%29%2C%201817-1821%2C%20NGA%2049109.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Charles_Alexandre_Lesueur%2C_Lebia_%28L%27Ellipsoidea%29%2C_1817-1821%2C_NGA_49109.jpg",
+     "file": "charles alexandre lesueur, lebia (l'ellipsoidea), 1817-1821, nga 49109.jpg"
+    },
+    {
+     "title": "Cichla, Aenea",
+     "year": 1822,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Alexandre%20Lesueur%2C%20Cichla%2C%20Aenea%2C%201822%2C%20NGA%2042832.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Alexandre%20Lesueur%2C%20Cichla%2C%20Aenea%2C%201822%2C%20NGA%2042832.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Charles_Alexandre_Lesueur%2C_Cichla%2C_Aenea%2C_1822%2C_NGA_42832.jpg",
+     "file": "charles alexandre lesueur, cichla, aenea, 1822, nga 42832.jpg"
+    },
+    {
+     "title": "Exocetus",
+     "year": 1817,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Alexandre%20Lesueur%2C%20Exocetus%2C%201817-1821%2C%20NGA%2049108.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Alexandre%20Lesueur%2C%20Exocetus%2C%201817-1821%2C%20NGA%2049108.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Charles_Alexandre_Lesueur%2C_Exocetus%2C_1817-1821%2C_NGA_49108.jpg",
+     "file": "charles alexandre lesueur, exocetus, 1817-1821, nga 49108.jpg"
+    },
+    {
+     "title": "C. Macrolepidotus",
+     "year": 1817,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Alexandre%20Lesueur%2C%20C.%20Macrolepidotus%2C%201817-1821%2C%20NGA%2049110.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Alexandre%20Lesueur%2C%20C.%20Macrolepidotus%2C%201817-1821%2C%20NGA%2049110.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Charles_Alexandre_Lesueur%2C_C._Macrolepidotus%2C_1817-1821%2C_NGA_49110.jpg",
+     "file": "charles alexandre lesueur, c. macrolepidotus, 1817-1821, nga 49110.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Charles%20Alexandre%20Lesueur%2C%20Lebia%20%28L%27Ellipsoidea%29%2C%201817-1821%2C%20NGA%2049109.jpg?width=520"
+  }
+ ],
+ "stories": [
+  {
+   "type": "story",
+   "id": "fr:Principauté de Sealand",
+   "name": "Principauté de Sealand",
+   "desc": "micronation installée sur Fort Roughs",
+   "extract": "La principauté de Sealand est une micronation non reconnue par la communauté internationale fondée par Paddy Roy Bates en 1967 et installée sur l'ancienne plate-forme militaire britannique Fort Roughs. Initialement hors des eaux territoriales du Royaume-Uni, elle s'y trouve incluse depuis l'extension en 1987 de leur limite de trois (5,601 km) à douze milles nautiques (22,224 km).\nElle est considérée par ses partisans comme une micronation, mais n'est reconnue par aucune des nations membres des Nations unies. Sa population n'excède que rarement cinq habitants et sa surface habitable est de 550 m2 environ, si bien qu'elle est souvent décrite comme le plus petit État au monde par sa superficie.\nElle est située à 10 km des côtes britanniques du Suffolk et est dirigée, depuis 2012, par Michael Bates.",
+   "url": "https://fr.wikipedia.org/wiki/Principaut%C3%A9_de_Sealand",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Flag_of_Sealand.svg/960px-Flag_of_Sealand.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Principauté de Sealand|Principality of Sealand"
+  },
+  {
+   "type": "story",
+   "id": "fr:Tête d'Oliver Cromwell",
+   "name": "Tête d'Oliver Cromwell",
+   "desc": "relique",
+   "extract": "La tête d'Oliver Cromwell est une relique dont la valeur symbolique changea avec le temps. Elle passa dans plusieurs mains de 1685 à 1960. Son authenticité fut remise en question et une étude scientifique fut entreprise dans les années 1930, qui ne parvint pas à confirmer ou infirmer son authenticité.\nAprès la mort d'Oliver Cromwell, le 3 septembre 1658, celui-ci eut droit à une cérémonie funèbre publique à l'abbaye de Westminster, à la manière des rois qui l'avaient précédé. Après avoir défait et exécuté le roi Charles Ier pendant la Première Révolution anglaise, Cromwell était devenu Lord Protecteur, dirigeant du Commonwealth d'Angleterre. Lui succéda alors son fils, Richard Cromwell, qui, bientôt, fut renversé par l'armée en 1659, après la réinstallation de la monarchie et le rappel de Charles II, alors en exil. Le parlement de Charles ordonna l'exhumation de la dépouille de Cromwell de l'abbaye de Westminster, en plus de celles d'autres régicides, dont John Bradshaw et Henry Ireton, pour une exécution posthume, à Tyburn. Après les avoir pendus et laissés suspendus « du matin à quatre heures de l'après-midi », les corps furent découpés et les têtes empalées sur des piques de six mètres, au-dessus du palais de Westminster. En 1685, une tempête brisa la pique, jetant la tête à terre, après quoi elle circula des mains de collectionneurs particuliers à celles de propriétaires de musées, jusqu'au 25 mars 1960, jour où elle fut enterrée au Sidney Sussex College de Cambridge.\nFichée au bout de sa pique au-dessus de l'horizon londonien, la tête constituait un puissant avertissement pour les spectateurs. Au XVIIIe siècle, elle devint une curiosité, une relique. Elle fut admirée, fustigée, puis niée, considérée comme fausse. Après que Thomas Carlyle eut nié l'existence de la tête, déclarant qu'il s'agissait d'une « rumeur frauduleuse » et, après l'apparition d'un nouvel individu prétendant posséder la tête, des analyses scientifiques et archéologiques furent menées, dans le but d'en identifier l'origine. Des tests sans résultats tangibles aboutirent à un rapport détaillé de Karl Pearson et de Geoffrey Morant concluant, qu'après une étude approfondie de la tête et d'autres indices et preuves, l'appartenance de la tête à Cromwell était une « certitude morale ».",
+   "url": "https://fr.wikipedia.org/wiki/T%C3%AAte_d%27Oliver_Cromwell",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Oliver_Cromwell%27s_head%2C_late_1700s.jpg/960px-Oliver_Cromwell%27s_head%2C_late_1700s.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "-|Oliver Cromwell's head"
+  },
+  {
+   "type": "story",
+   "id": "fr:Guerre du seau volé",
+   "name": "Guerre du seau volé",
+   "desc": "",
+   "extract": "La guerre du seau volé ou guerre du seau de chêne (en italien : Guerra della secchia rapita) a eu lieu en 1325, entre les Cités-États rivales de Bologne et de Modène, dans la région d'Émilie-Romagne dans le nord de l'Italie. Cette guerre s'inscrit dans les 300 ans de conflits entre Guelfes et Gibelins.\nModène a remporté la bataille de Zappolino, la seule de cette guerre, et conserve aujourd'hui le seau.\nLe poète du XVIIe siècle Alessandro Tassoni a décrit cet épisode dans le poème héroï-comique Le seau enlevé et a contribué à sa notoriété.",
+   "url": "https://fr.wikipedia.org/wiki/Guerre_du_seau_vol%C3%A9",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Map_Region_of_Emilia_Romagna.svg/960px-Map_Region_of_Emilia_Romagna.svg.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Guerre du Seau|War of the Bucket"
+  }
+ ]
+}
