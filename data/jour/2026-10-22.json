@@ -1,0 +1,185 @@
+{
+ "date": "2026-10-22",
+ "made": "2026-10-22T09:48+02:00",
+ "artists": [
+  {
+   "type": "artist",
+   "era": "contemporain",
+   "src": "c",
+   "id": "c:https://reseau-dda.org/fr/artists/marjolaine-turpin",
+   "url": "https://reseau-dda.org/fr/artists/marjolaine-turpin",
+   "desc": "Née en 1991. Réseau documents d'artistes",
+   "name": "Marjolaine Turpin",
+   "born": 1991,
+   "bornWord": "Née",
+   "ba": false,
+   "srcName": "Réseau documents d'artistes",
+   "note": "Réseau documents d'artistes",
+   "extract": "Née en 1991, Marjolaine Turpin vit et travaille à Clermont-Ferrand, où elle fait partie de l’association Les ateliers. Son travail se tient dans un espace de fragilité qu’elle construit, nourrit et tente de stabiliser. Les conditions qu’elle met en place donnent aux formes l’occasion de se déplacer, de composer un territoire encapsulé où les matières sont mobilisées et se transforment, agissent, parfois à la limite du visible. Les œuvres semblent ne pas vouloir rester tranquilles, elles bougent, lentement. Son obsession de faire persister ce qu’elle capture et remet en production joue avec les processus lents des réactions de matières, et cette observation amène parfois les formes à trouver une fonction, à l’image de relations vivantes, vouées à évoluer.",
+   "lang": "fr",
+   "works": [
+    {
+     "title": "",
+     "cap": "Vue de l’exposition Arpentage , Centre d'art bastille, Grenoble, 2024 Photo : © Christophe Levet",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/artists/marjolaine-turpin/fa9df571cf-1782984040/lesalanguies-christophelevet9-1408x-9714-2048x1560-q80.jpg",
+     "full": "https://reseau-dda.org/media/pages/artists/marjolaine-turpin/fa9df571cf-1782984040/lesalanguies-christophelevet9-1408x-9714-2048x1560-q80.jpg",
+     "page": "https://reseau-dda.org/fr/artists/marjolaine-turpin"
+    },
+    {
+     "title": "",
+     "cap": "Vue de l’exposition 40+1 , CAP Saint Fons, Saint-Fons, 2025 Photo : © Leyre Leon",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/artists/marjolaine-turpin/7e43b7ba16-1782984040/00-marjolaine-turpin-dda-auvergne-rhone-alpes-9717-2048x1560-q80.jpg",
+     "full": "https://reseau-dda.org/media/pages/artists/marjolaine-turpin/7e43b7ba16-1782984040/00-marjolaine-turpin-dda-auvergne-rhone-alpes-9717-2048x1560-q80.jpg",
+     "page": "https://reseau-dda.org/fr/artists/marjolaine-turpin"
+    },
+    {
+     "title": "",
+     "cap": "Vue de l'exposition Et l'ombre , en duo avec Marion Chambinaud, La Chapelle Jeanne d'Arc, Thouars, 2024 Photo : © Nicolas Rouget",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/artists/marjolaine-turpin/777f97d0b7-1782984040/etlombre-mt3-2400x1600-q80-9786-2048x1560-q80.jpg",
+     "full": "https://reseau-dda.org/media/pages/artists/marjolaine-turpin/777f97d0b7-1782984040/etlombre-mt3-2400x1600-q80-9786-2048x1560-q80.jpg",
+     "page": "https://reseau-dda.org/fr/artists/marjolaine-turpin"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://reseau-dda.org/media/pages/artists/marjolaine-turpin/fa9df571cf-1782984040/lesalanguies-christophelevet9-1408x-9714-2048x1560-q80.jpg"
+  },
+  {
+   "type": "artist",
+   "era": "moderne",
+   "wd": "Q5819361",
+   "id": "en:Eduardo Le Monnier",
+   "name": "Eduardo Le Monnier",
+   "desc": "",
+   "birth": 1873,
+   "death": 1931,
+   "extract": "Eduardo Le Monnier (born Edouard Stanislas Louis Le Monnier; 30 September 1873 in Paris – 14 February 1931 in Buenos Aires) was a French architect recognized for his work in Brazil, Uruguay and mostly in Argentina.",
+   "url": "https://en.wikipedia.org/wiki/Eduardo_Le_Monnier",
+   "lang": "en",
+   "artsy": null,
+   "works": [
+    {
+     "title": "Jockey Club Rosario 1",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Jockey_Club_Rosario_1.jpg/960px-Jockey_Club_Rosario_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://en.wikipedia.org/wiki/Special:FilePath/Jockey%20Club%20Rosario%201.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Jockey_Club_Rosario_1.jpg",
+     "file": "jockey club rosario 1.jpg"
+    },
+    {
+     "title": "Eduardo Le monnier",
+     "year": null,
+     "img": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eduardo_Le_monnier.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "full": "https://en.wikipedia.org/wiki/Special:FilePath/Eduardo%20Le%20monnier.JPG?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Eduardo_Le_monnier.JPG",
+     "file": "eduardo le monnier.jpg"
+    },
+    {
+     "title": "Diagonal Norte - Cúpula Bencih - Banco Boston",
+     "year": null,
+     "img": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Diagonal_Norte_-_C%C3%BApula_Bencih_-_Banco_Boston.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "full": "https://en.wikipedia.org/wiki/Special:FilePath/Diagonal%20Norte%20-%20C%C3%BApula%20Bencih%20-%20Banco%20Boston.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Diagonal_Norte_-_C%C3%BApula_Bencih_-_Banco_Boston.jpg",
+     "file": "diagonal norte - cúpula bencih - banco boston.jpg"
+    },
+    {
+     "title": "Buenos Aires - Avenida Alvear - 20090104-g",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Buenos_Aires_-_Avenida_Alvear_-_20090104-g.jpg/960px-Buenos_Aires_-_Avenida_Alvear_-_20090104-g.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://en.wikipedia.org/wiki/Special:FilePath/Buenos%20Aires%20-%20Avenida%20Alvear%20-%2020090104-g.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Buenos_Aires_-_Avenida_Alvear_-_20090104-g.jpg",
+     "file": "buenos aires - avenida alvear - 20090104-g.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Jockey_Club_Rosario_1.jpg/960px-Jockey_Club_Rosario_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "type": "artist",
+   "era": "ancien",
+   "wd": "Q1606961",
+   "id": "fr:Henry Kirke Brown",
+   "name": "Henry Kirke Brown",
+   "desc": "sculpteur américain",
+   "birth": 1814,
+   "death": 1886,
+   "extract": "Henry Kirke Brown (né le 24 février 1814 à Leyden (Massachusetts) – mort le 10 juillet 1886 à Newburgh) est un sculpteur américain.",
+   "url": "https://fr.wikipedia.org/wiki/Henry_Kirke_Brown",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "Statue of Philip Kearny",
+     "year": null,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/U.S.%20Capitol%20Philip%20Kearny%20Statue.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/U.S.%20Capitol%20Philip%20Kearny%20Statue.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:U.S._Capitol_Philip_Kearny_Statue.jpg",
+     "file": "u.s. capitol philip kearny statue.jpg"
+    },
+    {
+     "title": "George Washington",
+     "year": 1856,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Henry%20Kirke%20Brown%20George%20Washington%20statue%20by%20David%20Shankbone.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Henry%20Kirke%20Brown%20George%20Washington%20statue%20by%20David%20Shankbone.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Henry_Kirke_Brown_George_Washington_statue_by_David_Shankbone.jpg",
+     "file": "henry kirke brown george washington statue by david shankbone.jpg"
+    },
+    {
+     "title": "Richard Stockton",
+     "year": null,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/U.S.%20Capitol%20Richard%20Stockton%20Statue.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/U.S.%20Capitol%20Richard%20Stockton%20Statue.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:U.S._Capitol_Richard_Stockton_Statue.jpg",
+     "file": "u.s. capitol richard stockton statue.jpg"
+    },
+    {
+     "title": "Indian Figure in Profile",
+     "year": 1851,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20Figure%20in%20Profile%20MET%20DP306952.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20Figure%20in%20Profile%20MET%20DP306952.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Indian_Figure_in_Profile_MET_DP306952.jpg",
+     "file": "indian figure in profile met dp306952.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/U.S.%20Capitol%20Philip%20Kearny%20Statue.jpg?width=520"
+  }
+ ],
+ "stories": [
+  {
+   "type": "story",
+   "id": "fr:Syndrome de Paris",
+   "name": "Syndrome de Paris",
+   "desc": "trouble psychique affectant les touristes",
+   "extract": "Le syndrome de Paris (パリ症候群, Pari shōkōgun) est un trouble psychologique transitoire rencontré par certaines personnes lors d'un séjour à Paris. Analogue aux syndromes de Stendhal et de Jérusalem, cette affection toucherait plus particulièrement les touristes japonais qui, désemparés par l'écart entre la réalité et leur vision idéalisée de la ville, comme le Montparnasse des Années folles ou le Paris d’Amélie Poulain, se retrouvent désillusionnés et déstabilisés par le fossé culturel entre la France réelle et l'image qu'on s'en fait à l'étranger, notamment au Japon.",
+   "url": "https://fr.wikipedia.org/wiki/Syndrome_de_Paris",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Japonais_a_paris.jpg/960px-Japonais_a_paris.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Syndrome de Paris|Paris syndrome"
+  },
+  {
+   "type": "story",
+   "id": "fr:Topsy",
+   "name": "Topsy",
+   "desc": "éléphante morte en 1903",
+   "extract": "Topsy est une éléphante apprivoisée qui a été exécutée par électrocution le 4 janvier 1903.",
+   "url": "https://fr.wikipedia.org/wiki/Topsy",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Topsy_the_Elephant_shortly_before_her_Electrocution.jpg/960px-Topsy_the_Elephant_shortly_before_her_Electrocution.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Topsy (éléphant)|Topsy (elephant)"
+  },
+  {
+   "type": "story",
+   "id": "fr:Projet Pigeon",
+   "name": "Projet Pigeon",
+   "desc": "projet de recherche militaire",
+   "extract": "Pendant la Seconde Guerre mondiale, le « Project Pigeon » (Projet Pigeon) était un projet du psychologue américain Burrhus F. Skinner qui avait pour but de développer un missile dirigé par un ou plusieurs pigeons. \nLe dispositif reposait sur une lentille optique qui projetait une image de la cible sur un écran placé à l'avant et à l'intérieur du missile. Un pigeon entraîné grâce au principe du conditionnement opérant reconnaissait la cible sur l'écran et devait la picorer. Tant qu'il donnait des coups de bec au centre de la cible, le missile conservait une trajectoire rectiligne. Si le pigeon picorait à côté, cela signifiait que le missile déviait de sa trajectoire. Le système de contrôle rectifiait alors la direction en fonction du choix du pigeon. Trois pigeons étaient supposés se trouver à l'intérieur du missile, le système utilisant la règle de la majorité entre les trois pigeons pour décider de la direction la plus adéquate.\nLe National Defense Research Committee, en dépit de son scepticisme, contribua à hauteur de 25 000 dollars US pour la recherche mais l'idée était, en fin de compte, trop excentrique pour les militaires et fut finalement abandonnée le 8 octobre 1944. Skinner ignorait aussi l'existence de projets secrets sur le radar, une nouvelle technologie qui rendait son invention obsolète.\nAvant cela, les pigeons de la Première Guerre mondiale et ceux utilisés depuis plusieurs siècles avaient connu divers usages militaires. Certaines armées élèvent encore des pigeons pour les utiliser en cas de conflit, en cas de manque d'électricité par exemple. \nD'autres animaux ont aussi été dressés à des fins militaires, comme des dauphins pour la recherche de mines sous-marines dans le cadre du Programme de Mammifères Marins de l’U.S. Navy.",
+   "url": "https://fr.wikipedia.org/wiki/Projet_Pigeon",
+   "lang": "fr",
+   "thumb": null,
+   "key": "Projet Pigeon|Project Pigeon"
+  }
+ ]
+}
