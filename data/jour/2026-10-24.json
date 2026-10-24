@@ -1,0 +1,185 @@
+{
+ "date": "2026-10-24",
+ "made": "2026-10-24T09:30+02:00",
+ "artists": [
+  {
+   "type": "artist",
+   "era": "contemporain",
+   "src": "c",
+   "id": "c:https://francoiseartmemo.fr/artiste/jessica-soueidi/",
+   "url": "https://francoiseartmemo.fr/artiste/jessica-soueidi/",
+   "desc": "Née en 1990. Françoise art memo",
+   "name": "Jessica Soueidi",
+   "born": 1990,
+   "bornWord": "Née",
+   "ba": false,
+   "srcName": "Françoise art memo",
+   "note": "Françoise art memo",
+   "extract": "Née en 1990 à Versailles, Jessica vît et travaille entre Paris et Helsinki. Diplômée de la Haute Ecole des Arts du Rhin de Strasbourg en 2015. ( DNSEP ) Résidences et prix : The Swatch Art Peace Hotel Artist Residency, Shanghai ( 2017, 6 mois )\nMon travail plastique tourne essentiellement autour du dessin et de la peinture. Je m’interroge particulièrement sur l’évolution du statut de la femme dans la société actuelle, dans un monde où son apparence est plus importante que son droit d’exister en tant qu’être humain. A travers les réseaux sociaux, les femmes se créent leur propre personnalité sociale. Si la réalité les empêche de s’exprimer, elles le font sur Instragram par exemple : #womenpower #thug #gangsta. A l’aide de dessins plutôt grands formats, j’aborde la notion de fausse réalité/réalité virtuelle chez les femmes. Il s’en dégage un sentiment à la fois de provocation et de désespoir. Avec un trait simple et énergique, je construis des images qui attirent l’attention du spectateur, il se focalise sur l’expression du visage. C’est une sorte de selfie grand format. Le fusain est un matériau mort et les femmes que je dessine semblent être des fantômes qui prennent vie à travers les yeux du spectateur. L’urgence de produire a toujours fait partie de ma pratique artistique. Je n’ai pas peur de salir, couper, coller ou déchirer mon papier. Ces traces font parties de mon processus de travail. Récemment, j’y ai intégré une technique de ma génération qui est considérée comme un ",
+   "lang": "fr",
+   "works": [
+    {
+     "title": "",
+     "cap": "",
+     "year": null,
+     "img": "https://francoiseartmemo.fr/fam-content/uploads/2017/11/p9251253-min-1024x762.jpg",
+     "full": "https://francoiseartmemo.fr/fam-content/uploads/2017/11/p9251253-min-1024x762.jpg",
+     "page": "https://francoiseartmemo.fr/artiste/jessica-soueidi/"
+    },
+    {
+     "title": "",
+     "cap": "Girl",
+     "year": null,
+     "img": "https://francoiseartmemo.fr/fam-content/uploads/2017/11/girl_charcoalinkandspraypaintonpaper_97x55_2017-min-250x250.jpg",
+     "full": "https://francoiseartmemo.fr/fam-content/uploads/2017/11/girl_charcoalinkandspraypaintonpaper_97x55_2017-min-250x250.jpg",
+     "page": "https://francoiseartmemo.fr/artiste/jessica-soueidi/"
+    },
+    {
+     "title": "",
+     "cap": "Girl",
+     "year": null,
+     "img": "https://francoiseartmemo.fr/fam-content/uploads/2017/11/girl2_charcoalandspraypaintonpaper_97x55_2017-min-250x250.jpg",
+     "full": "https://francoiseartmemo.fr/fam-content/uploads/2017/11/girl2_charcoalandspraypaintonpaper_97x55_2017-min-250x250.jpg",
+     "page": "https://francoiseartmemo.fr/artiste/jessica-soueidi/"
+    },
+    {
+     "title": "",
+     "cap": "Thug",
+     "year": null,
+     "img": "https://francoiseartmemo.fr/fam-content/uploads/2017/11/thug-min-250x250.jpg",
+     "full": "https://francoiseartmemo.fr/fam-content/uploads/2017/11/thug-min-250x250.jpg",
+     "page": "https://francoiseartmemo.fr/artiste/jessica-soueidi/"
+    },
+    {
+     "title": "",
+     "cap": "Mad",
+     "year": null,
+     "img": "https://francoiseartmemo.fr/fam-content/uploads/2017/11/mad_watercolorandoilonpaper_70x50_2017-250x250.jpg",
+     "full": "https://francoiseartmemo.fr/fam-content/uploads/2017/11/mad_watercolorandoilonpaper_70x50_2017-250x250.jpg",
+     "page": "https://francoiseartmemo.fr/artiste/jessica-soueidi/"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://francoiseartmemo.fr/fam-content/uploads/2017/11/p9251253-min-1024x762.jpg"
+  },
+  {
+   "type": "artist",
+   "era": "moderne",
+   "wd": "Q579773",
+   "id": "fr:Francis Bouygues",
+   "name": "Francis Bouygues",
+   "desc": "homme d'affaires et producteur de films français (1922-1993)",
+   "birth": 1922,
+   "death": 1993,
+   "extract": "Francis Bouygues, né le 5 décembre 1922 dans le 17e arrondissement de Paris et mort le 24 juillet 1993 à Saint-Coulomb (Ille-et-Vilaine), est le fondateur du groupe de BTP Bouygues.",
+   "url": "https://fr.wikipedia.org/wiki/Francis_Bouygues",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "Tombe Francis Bouygues, Cimetière de Passy, Paris",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Tombe_Francis_Bouygues%2C_Cimeti%C3%A8re_de_Passy%2C_Paris.jpg/960px-Tombe_Francis_Bouygues%2C_Cimeti%C3%A8re_de_Passy%2C_Paris.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Tombe%20Francis%20Bouygues%2C%20Cimeti%C3%A8re%20de%20Passy%2C%20Paris.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Tombe_Francis_Bouygues,_Cimeti%C3%A8re_de_Passy,_Paris.jpg",
+     "file": "tombe francis bouygues, cimetière de passy, paris.jpg"
+    },
+    {
+     "title": "Bernard Le Grelle entre Wang Yao-Ting Président du Chinese Council for International Trade et Francis Bouygues",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Bernard_Le_Grelle_entre_Wang_Yao-Ting_Pr%C3%A9sident_du_Chinese_Council_for_International_Trade_et_Francis_Bouygues.jpg/960px-Bernard_Le_Grelle_entre_Wang_Yao-Ting_Pr%C3%A9sident_du_Chinese_Council_for_International_Trade_et_Francis_Bouygues.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Bernard%20Le%20Grelle%20entre%20Wang%20Yao-Ting%20Pr%C3%A9sident%20du%20Chinese%20Council%20for%20International%20Trade%20et%20Francis%20Bouygues.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Bernard_Le_Grelle_entre_Wang_Yao-Ting_Pr%C3%A9sident_du_Chinese_Council_for_International_Trade_et_Francis_Bouygues.jpg",
+     "file": "bernard le grelle entre wang yao-ting président du chinese council for international trade et francis bouygues.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Tombe_Francis_Bouygues%2C_Cimeti%C3%A8re_de_Passy%2C_Paris.jpg/960px-Tombe_Francis_Bouygues%2C_Cimeti%C3%A8re_de_Passy%2C_Paris.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "type": "artist",
+   "era": "ancien",
+   "wd": "Q2093113",
+   "id": "fr:Pierre-Nicolas Legrand de Lérant",
+   "name": "Pierre-Nicolas Legrand de Lérant",
+   "desc": "peintre français",
+   "birth": 1758,
+   "death": 1829,
+   "extract": "Pierre-Nicolas Legrand de Lérant ou Pierre-Nicolas Legrand de Sérant, pseudonyme de Pierre-Nicolas Sicot, né à Pont-l’Évêque le 29 mars 1758 et mort à Berne le 11 mai 1829, est un peintre français.",
+   "url": "https://fr.wikipedia.org/wiki/Pierre-Nicolas_Legrand_de_L%C3%A9rant",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "The Apotheosis of Nelson",
+     "year": 1811,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pierre%20Nicolas%20Legrand%20%281758-1829%29%20-%20The%20Apotheosis%20of%20Nelson%20-%20KINCM-2005.5142%20-%20Ferens%20Art%20Gallery.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Pierre%20Nicolas%20Legrand%20%281758-1829%29%20-%20The%20Apotheosis%20of%20Nelson%20-%20KINCM-2005.5142%20-%20Ferens%20Art%20Gallery.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Pierre_Nicolas_Legrand_%281758-1829%29_-_The_Apotheosis_of_Nelson_-_KINCM-2005.5142_-_Ferens_Art_Gallery.jpg",
+     "file": "pierre nicolas legrand (1758-1829) - the apotheosis of nelson - kincm-2005.5142 - ferens art gallery.jpg"
+    },
+    {
+     "title": "Une bonne action n’est jamais oubliée",
+     "year": 1794,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Good%20deed%20legrand.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Good%20deed%20legrand.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Good_deed_legrand.jpg",
+     "file": "good deed legrand.jpg"
+    },
+    {
+     "title": "Joseph Cange, messenger of Saint-Lazare prison.",
+     "year": 1795,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Joseph%20Change%20IMG%202332.JPG?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Joseph%20Change%20IMG%202332.JPG?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Joseph_Change_IMG_2332.JPG",
+     "file": "joseph change img 2332.jpg"
+    },
+    {
+     "title": "Lady Charlotte Webster",
+     "year": 1821,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pierre%20Nicolas%20Legrand%20%281758-1829%29%20-%20Lady%20Charlotte%20Webster%20-%2088227213%20-%20Battle%20Abbey.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Pierre%20Nicolas%20Legrand%20%281758-1829%29%20-%20Lady%20Charlotte%20Webster%20-%2088227213%20-%20Battle%20Abbey.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Pierre_Nicolas_Legrand_%281758-1829%29_-_Lady_Charlotte_Webster_-_88227213_-_Battle_Abbey.jpg",
+     "file": "pierre nicolas legrand (1758-1829) - lady charlotte webster - 88227213 - battle abbey.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Pierre%20Nicolas%20Legrand%20%281758-1829%29%20-%20The%20Apotheosis%20of%20Nelson%20-%20KINCM-2005.5142%20-%20Ferens%20Art%20Gallery.jpg?width=520"
+  }
+ ],
+ "stories": [
+  {
+   "type": "story",
+   "id": "fr:Ferdinand Waldo Demara",
+   "name": "Ferdinand Waldo Demara",
+   "desc": "escroc américain",
+   "extract": "Ferdinand Waldo Demara, Jr. né le 21 décembre 1921 à Lawrence (Massachusetts) et mort le 7 juin 1982 à Anaheim en Californie, est un fabulateur américain connu pour de nombreuses impostures parfaitement réussies.\nIl s'est notamment fait passer pour un médecin de bord, ingénieur civil, shérif adjoint, gardien de prison, docteur en psychologie, employé d'hôpital, avocat, expert pédiatrique, moine bénédictin, moine cistercien, éditeur, cancérologue, et enseignant. Il n'a jamais obtenu (ni recherché) d'argent en faisant cela, mais juste une respectabilité temporaire.\nLes employeurs de Ferdinand Waldo Demara ne le suspectaient pas et étaient même contents de lui. Demara a affirmé posséder une mémoire photographique et est réputé pour avoir une intelligence supérieure à la normale. Il était apparemment capable de mémoriser les techniques nécessaires à ses impostures à partir de manuels et avait deux règles de vie : Un accusateur doit apporter des preuves et Quand il y a danger, attaque. Il explique que sa seule motivation était de « s'amuser, juste s'amuser ».\nSa vie a inspiré le film Le Roi des imposteurs avec Tony Curtis dans son rôle, et il a servi d'inspiration pour le personnage de Jarod dans la série Le Caméléon.",
+   "url": "https://fr.wikipedia.org/wiki/Ferdinand_Waldo_Demara",
+   "lang": "fr",
+   "thumb": null,
+   "key": "Ferdinand Waldo Demara|Ferdinand Waldo Demara"
+  },
+  {
+   "type": "story",
+   "id": "fr:Inconnue d'Isdal",
+   "name": "Inconnue d'Isdal",
+   "desc": "affaire policière norvégienne",
+   "extract": "L'inconnue d'Isdal (en norvégien : Isdalskvinnen) est une affaire policière norvégienne non élucidée concernant le cadavre d'une jeune femme non identifiée, retrouvée morte en 1970 dans la vallée de l'Isdalen près de Bergen en Norvège.\nLe rapport officiel conclut à un suicide mais cette conclusion reste très controversée. L'affaire a été décrite comme l'un des plus profonds mystères de la Norvège, où son souvenir reste encore vivace de nos jours. Une tentative de résolution de l’énigme est relancée en décembre 2016 par un journal norvégien et à l'aide de techniques modernes. D'après leurs conclusions, l'espionnage militaire semble au cœur de l'affaire. L’inconnue pourrait être d'origine allemande, française ou belge.\nDepuis 1995 le crime, s'il y en a eu un, est désormais prescrit par la justice norvégienne.",
+   "url": "https://fr.wikipedia.org/wiki/Inconnue_d%27Isdal",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Isdalen.JPG/960px-Isdalen.JPG?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Femme d'Isdal|Isdal Woman"
+  },
+  {
+   "type": "story",
+   "id": "fr:UVB-76",
+   "name": "UVB-76",
+   "desc": "une station radio militaire Soviétique/Russe basse-fréquence",
+   "extract": "UVB-76 (UZB-76 à l'origine) (УВБ76 en russe) était l'indicatif d'une station de radio à ondes courtes, et par métonymie la station elle-même qui continue d'exister aujourd'hui. L'indicatif a changé plusieurs fois : en septembre 2010 il devint MDZhB (МДЖБ en russe, orthographe phonétique « Mikhail Dmitri Zhenya Boris »), puis en septembre 2015 ZhUOZ (ЖУОЗ en russe, orthographe phonétique « Zhenya Ulyana Olga Zinaida »). La station émet généralement sur la fréquence 4 625 kHz (fréquences non répertoriées pour les radioamateurs) (en mode BLS). Elle transmet un bourdonnement environ 25 fois par minute, toute la journée. Elle est en activité presque sans interruption depuis les premières émissions, entre 1976 et 1982. De par le son entendu, cette station a reçu le surnom de The Buzzer.\nEn 2026, le rôle de la station, qui est exploitée par l'armée russe, n'est toujours pas connu du grand public.",
+   "url": "https://fr.wikipedia.org/wiki/UVB-76",
+   "lang": "fr",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/83/Uvb76antenna.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "key": "UVB-76|UVB-76"
+  }
+ ]
+}
