@@ -1,0 +1,153 @@
+{
+ "date": "2026-11-04",
+ "made": "2026-11-04T10:35+01:00",
+ "artists": [
+  {
+   "type": "artist",
+   "era": "contemporain",
+   "src": "c",
+   "id": "c:https://www.fondationfrances.com/artistes/liu-bolin/",
+   "url": "https://www.fondationfrances.com/artistes/liu-bolin/",
+   "desc": "Né en 1973. Fondation Francès",
+   "name": "Liu Bolin",
+   "born": 1973,
+   "bornWord": "Né",
+   "ba": false,
+   "srcName": "Fondation Francès",
+   "note": "Fondation Francès",
+   "extract": "Né en 1973 à Shandong, Chine. Vit et travaille à Pékin, Chine.\nSculpteur de formation, Liu Bolin développe une pratique de performance inédite : l’art du camouflage. Peignant son corps aux couleurs des environnements dans lesquels il se place, il se fond entièrement dans le décor. Ce dialogue entre corps et paysage devient une forme d’expression politique. Ses œuvres traduisent une volonté profonde de dénoncer les pressions sociales et politiques qui pèsent sur son pays. Plusieurs fois critiqué par le gouvernement chinois, expulsé de son logement et banni pour son type d’expression plastique, Liu Bolin élabore un art engagé qui interroge notre rapport au corps, au pouvoir et à la société.",
+   "lang": "fr",
+   "works": [
+    {
+     "title": "",
+     "cap": "",
+     "year": null,
+     "img": "https://www.fondationfrances.com/fondation-frances/ff_uploads/2016/03/BOLIN-Liu-Olympic-Emblem-Hiding-in-the-City-NÂ°60-BD-150x150.jpg",
+     "full": "https://www.fondationfrances.com/fondation-frances/ff_uploads/2016/03/BOLIN-Liu-Olympic-Emblem-Hiding-in-the-City-NÂ°60-BD-150x150.jpg",
+     "page": "https://www.fondationfrances.com/artistes/liu-bolin/"
+    },
+    {
+     "title": "",
+     "cap": "N°60 of Hiding in the City (N°1 of Olympic Emblem)",
+     "year": null,
+     "img": "https://www.fondationfrances.com/fondation-frances/ff_uploads/2016/03/BOLIN-Liu-Olympic-Emblem-Hiding-in-the-City-NÂ°60-BD.jpg",
+     "full": "https://www.fondationfrances.com/fondation-frances/ff_uploads/2016/03/BOLIN-Liu-Olympic-Emblem-Hiding-in-the-City-NÂ°60-BD.jpg",
+     "page": "https://www.fondationfrances.com/artistes/liu-bolin/"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://www.fondationfrances.com/fondation-frances/ff_uploads/2016/03/BOLIN-Liu-Olympic-Emblem-Hiding-in-the-City-NÂ°60-BD-150x150.jpg"
+  },
+  {
+   "type": "artist",
+   "era": "moderne",
+   "wd": "Q70804",
+   "id": "fr:Adolph Goldschmidt",
+   "name": "Adolph Goldschmidt",
+   "desc": "historien de l'art allemand",
+   "birth": 1863,
+   "death": 1944,
+   "extract": "Aldolph Goldschmidt est un critique, professeur et historien de l'art allemand né le 15 janvier 1863 à Hambourg et mort le 5 janvier 1944 à Bâle.",
+   "url": "https://fr.wikipedia.org/wiki/Adolph_Goldschmidt",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "Porträt von Adolph Goldschmidt",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Portr%C3%A4t_von_Adolph_Goldschmidt.jpg/960px-Portr%C3%A4t_von_Adolph_Goldschmidt.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Portr%C3%A4t%20von%20Adolph%20Goldschmidt.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Portr%C3%A4t_von_Adolph_Goldschmidt.jpg",
+     "file": "porträt von adolph goldschmidt.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Portr%C3%A4t_von_Adolph_Goldschmidt.jpg/960px-Portr%C3%A4t_von_Adolph_Goldschmidt.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "type": "artist",
+   "era": "ancien",
+   "wd": "Q18577194",
+   "id": "en:William Hannan (painter)",
+   "name": "William Hannan",
+   "desc": "Scottish painter",
+   "birth": 1725,
+   "death": 1772,
+   "extract": "William Hannan (1725–1772) was a Scottish drawer (artists) and decorative painter.",
+   "url": "https://en.wikipedia.org/wiki/William_Hannan_(painter)",
+   "lang": "en",
+   "artsy": null,
+   "works": [
+    {
+     "title": "Landscape with Elegant Figures and a Barge",
+     "year": null,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20Hannan%20%281720-1772%29%20%28attributed%20to%29%20-%20Landscape%20with%20Elegant%20Figures%20and%20a%20Barge%20-%20640%20-%20Chequers.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20Hannan%20%281720-1772%29%20%28attributed%20to%29%20-%20Landscape%20with%20Elegant%20Figures%20and%20a%20Barge%20-%20640%20-%20Chequers.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:William_Hannan_%281720-1772%29_%28attributed_to%29_-_Landscape_with_Elegant_Figures_and_a_Barge_-_640_-_Chequers.jpg",
+     "file": "william hannan (1720-1772) (attributed to) - landscape with elegant figures and a barge - 640 - chequers.jpg"
+    },
+    {
+     "title": "West Wycombe Park with Walton Bridge",
+     "year": null,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20Hannan%20%281720-1772%29%20-%20West%20Wycombe%20Park%20with%20Walton%20Bridge%20-%203723%20-%20Government%20Art%20Collection.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20Hannan%20%281720-1772%29%20-%20West%20Wycombe%20Park%20with%20Walton%20Bridge%20-%203723%20-%20Government%20Art%20Collection.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:William_Hannan_%281720-1772%29_-_West_Wycombe_Park_with_Walton_Bridge_-_3723_-_Government_Art_Collection.jpg",
+     "file": "william hannan (1720-1772) - west wycombe park with walton bridge - 3723 - government art collection.jpg"
+    },
+    {
+     "title": "Panoramic View of Plymouth from the South East",
+     "year": null,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20Hannan%20%281720-1772%29%20-%20Panoramic%20View%20of%20Plymouth%20from%20the%20South%20East%20-%20PLYMG.1968.35%20-%20The%20Box.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20Hannan%20%281720-1772%29%20-%20Panoramic%20View%20of%20Plymouth%20from%20the%20South%20East%20-%20PLYMG.1968.35%20-%20The%20Box.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:William_Hannan_%281720-1772%29_-_Panoramic_View_of_Plymouth_from_the_South_East_-_PLYMG.1968.35_-_The_Box.jpg",
+     "file": "william hannan (1720-1772) - panoramic view of plymouth from the south east - plymg.1968.35 - the box.jpg"
+    },
+    {
+     "title": "A View of the Lake at West Wycombe Park and the Temple of Daphne",
+     "year": 1761,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20Hannan%20%281720-1772%29%20-%20A%20View%20of%20the%20Lake%20at%20West%20Wycombe%20Park%20and%20the%20Temple%20of%20Daphne%20-%201507059%20-%20National%20Trust.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20Hannan%20%281720-1772%29%20-%20A%20View%20of%20the%20Lake%20at%20West%20Wycombe%20Park%20and%20the%20Temple%20of%20Daphne%20-%201507059%20-%20National%20Trust.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:William_Hannan_%281720-1772%29_-_A_View_of_the_Lake_at_West_Wycombe_Park_and_the_Temple_of_Daphne_-_1507059_-_National_Trust.jpg",
+     "file": "william hannan (1720-1772) - a view of the lake at west wycombe park and the temple of daphne - 1507059 - national trust.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20Hannan%20%281720-1772%29%20%28attributed%20to%29%20-%20Landscape%20with%20Elegant%20Figures%20and%20a%20Barge%20-%20640%20-%20Chequers.jpg?width=520"
+  }
+ ],
+ "stories": [
+  {
+   "type": "story",
+   "id": "fr:Hans le Malin",
+   "name": "Hans le Malin",
+   "desc": "cheval",
+   "extract": "Hans le Malin (en allemand : Kluger Hans) est un cheval, élevé et présenté en démonstration en Allemagne au début du XXe siècle. Considéré comme ayant une « intelligence supérieure », il devient célèbre dans toute l'Europe et met la communauté scientifique de l'époque en émoi. Ce cheval semble, en effet, pouvoir répondre à toutes sortes de questions : « En tapant du sabot, Hans était capable d'additionner, de soustraire, de multiplier et de diviser. Hans pouvait épeler, lire, et résoudre des problèmes d’harmonie musicale ». Son premier propriétaire, Wilhelm von Osten, l'éduque au calcul et à la lecture en toute bonne foi. Face à la controverse suscitée par la réalité de l'intelligence de Hans, plusieurs scientifiques étudient son cas.\nOskar Pfungst, un psychologue allemand qui a enquêté sur le cas de Hans, finit par découvrir ce qui deviendra en psychologie le l'« effet Hans le Malin » (en anglais : Clever Hans phenomenon ou Clever Hans effect). Hans ne possède pas de capacité particulière en calcul ou en lecture. Il interprète des signaux corporels émis inconsciemment par son maître ou par les personnes qui l'interrogent. Le cas de « Hans le Malin » suscite toujours un intérêt particulier, notamment parmi les psychologues.",
+   "url": "https://fr.wikipedia.org/wiki/Hans_le_Malin",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Hans_1910.jpg/960px-Hans_1910.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Hans le Malin|Clever Hans"
+  },
+  {
+   "type": "story",
+   "id": "fr:Hugh Glass",
+   "name": "Hugh Glass",
+   "desc": "trappeur américain (1783-1833)",
+   "extract": "Hugh Glass, né vers 1783, probablement en Pennsylvanie, et mort en 1833, est un trappeur américain. Il est connu pour la prouesse qu'il accomplit en 1823 dans le Dakota du Sud : gravement blessé par un grizzli, sans arme et laissé pour mort, il parvint en effet à gagner le Fort Kiowa, distant de plus de 300 kilomètres, en six semaines.\nSon histoire a été plusieurs fois adaptée au cinéma, la dernière en 2015 sous le titre The Revenant avec Leonardo DiCaprio dans le rôle principal.",
+   "url": "https://fr.wikipedia.org/wiki/Hugh_Glass",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Hugh_Glass_News_Article.jpg/960px-Hugh_Glass_News_Article.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Hugh Glass|Hugh Glass"
+  },
+  {
+   "type": "story",
+   "id": "fr:Mary Celeste",
+   "name": "Mary Celeste",
+   "desc": "navire retrouvé abandonné dans l'océan Atlantique en 1872",
+   "extract": "La Mary Celeste (souvent appelée à tort Marie Celeste) est un brick-goélette américain découvert abandonné au large des Açores le 4 décembre 1872. Le navire, qui a quitté New York un mois plus tôt, a le gréement endommagé et la cale partiellement inondée mais est toujours en état de naviguer. Sa cargaison d'alcool dénaturé est quasiment intacte tout comme l'intérieur des cabines mais aucun membre de son équipage n'est retrouvé. Le mystère entourant la disparition des marins n'a jamais été résolu et la Mary Celeste reste l'un des exemples les plus connus de vaisseau fantôme.\nLancé au Canada sous le nom d'Amazon, en 1861, le navire est acheté par des armateurs américains en 1868. Il est renommé et navigue sans incident notable jusqu'en 1872. Découvert par le brick-goélette britannique Dei Gratia, la Mary Celeste est remorquée jusqu'à Gibraltar où le tribunal maritime étudie diverses explications, dont une tentative d'escroquerie, une mutinerie de l'équipage ou un acte de piraterie, sans parvenir à en prouver aucune. Après ces audiences, la Mary Celeste continue à naviguer avec de nouveaux propriétaires mais elle ne se sépare jamais de sa réputation de navire maudit. En 1885, son capitaine l'échoue volontairement sur un récif sur la côte d'Haïti lors d'une tentative de fraude à l'assurance.\nL'absence de certitude encourage les spéculations et les rumeurs qui finissent par obscurcir la réalité des faits d'autant plus que le récit mythifié est popularisé par de nombreuses œuvres de fiction. De nombreuses théories ont été proposées pour expliquer la disparition de l'équipage, dont un acte criminel, la crainte d'une explosion de la cargaison, une trombe, l'attaque d'un calmar géant ou des interventions paranormales.",
+   "url": "https://fr.wikipedia.org/wiki/Mary_Celeste",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Mary_Celeste_as_Amazon_in_1861.jpg/960px-Mary_Celeste_as_Amazon_in_1861.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Mary Celeste|Mary Celeste"
+  }
+ ]
+}
