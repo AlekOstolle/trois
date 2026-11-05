@@ -1,0 +1,169 @@
+{
+ "date": "2026-11-05",
+ "made": "2026-11-05T10:42+01:00",
+ "artists": [
+  {
+   "type": "artist",
+   "era": "contemporain",
+   "src": "c",
+   "id": "c:https://beauxartsparis.fr/fr/Oeuvre/amalia-khalifa-prix-des-amis-des-beaux-arts-2026",
+   "url": "https://beauxartsparis.fr/fr/Oeuvre/amalia-khalifa-prix-des-amis-des-beaux-arts-2026",
+   "desc": "Prix Arthur de Baudry d’Asson, Prix des Amis des Beaux-Arts 2026",
+   "name": "Amalia Khalifa",
+   "born": null,
+   "bornWord": null,
+   "ba": true,
+   "srcName": "Beaux-Arts de Paris",
+   "note": "Prix Arthur de Baudry d’Asson, Prix des Amis des Beaux-Arts 2026",
+   "extract": "Amalia Khalifa vit et travaille à Paris. Elle est diplômée des Beaux-Arts de Paris (DNSAP, 2026) et a effectué un échange à la School of the Art Institute of Chicago (SAIC).\nSa pratique s’ancre dans les notions d’exil, de mémoire et de transmission. Elle s’intéresse aux traces laissées par l’absence et aux formes de mémoire invisibles. À partir de photographies personnelles et d’images cinématographiques, elle construit des figures humaines isolées, prises dans des états d’apparition et d’effacement. Elle travaille par transferts, superpositions et peinture au doigt, transformant l’image en une matière instable et poreuse. La peinture devient un espace de fragmentation où la représentation se défait pour laisser place à des présences en tension.",
+   "lang": "fr",
+   "works": [
+    {
+     "title": "",
+     "cap": "Quand les cendres s’envolent, 2025 Huile sur toile130 × 195 cm",
+     "year": null,
+     "img": "https://beauxartsparis.fr/sites/default/files/2026-06/Amalia-Khalifa.jpg",
+     "full": "https://beauxartsparis.fr/sites/default/files/2026-06/Amalia-Khalifa.jpg",
+     "page": "https://beauxartsparis.fr/fr/Oeuvre/amalia-khalifa-prix-des-amis-des-beaux-arts-2026"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://beauxartsparis.fr/sites/default/files/2026-06/Amalia-Khalifa.jpg"
+  },
+  {
+   "type": "artist",
+   "era": "moderne",
+   "wd": "Q3059775",
+   "id": "fr:Eugène Claudius-Petit",
+   "name": "Eugène Claudius-Petit",
+   "desc": "résistant et politicien français",
+   "birth": 1907,
+   "death": 1989,
+   "extract": "Eugène Petit (il a ajouté par la suite son pseudonyme de résistance « Claudius »), né le 22 mai 1907 à Angers et mort le 24 octobre 1989 à Paris, est un homme politique français. Il participe à de nombreux gouvernements de la IVe République et est l'initiateur du projet urbanistique de Firminy-Vert.",
+   "url": "https://fr.wikipedia.org/wiki/Eug%C3%A8ne_Claudius-Petit",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "Resistance",
+     "year": null,
+     "img": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Resistance.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Resistance.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Resistance.jpg",
+     "file": "resistance.jpg"
+    },
+    {
+     "title": "René Pleven",
+     "year": null,
+     "img": "https://upload.wikimedia.org/wikipedia/commons/d/df/Ren%C3%A9_Pleven.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Ren%C3%A9%20Pleven.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Ren%C3%A9_Pleven.jpg",
+     "file": "rené pleven.jpg"
+    },
+    {
+     "title": "Hémicycle 2 Palais Bourbon scropped and smaller",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/H%C3%A9micycle_2_Palais_Bourbon_scropped_and_smaller.jpg/960px-H%C3%A9micycle_2_Palais_Bourbon_scropped_and_smaller.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/H%C3%A9micycle%202%20Palais%20Bourbon%20scropped%20and%20smaller.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:H%C3%A9micycle_2_Palais_Bourbon_scropped_and_smaller.jpg",
+     "file": "hémicycle 2 palais bourbon scropped and smaller.jpg"
+    },
+    {
+     "title": "Henri Queuille 1945",
+     "year": null,
+     "img": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Henri_Queuille_1945.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Henri%20Queuille%201945.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Henri_Queuille_1945.jpg",
+     "file": "henri queuille 1945.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Resistance.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  {
+   "type": "artist",
+   "era": "ancien",
+   "wd": "Q655535",
+   "id": "fr:Daniel Mytens l'Ancien",
+   "name": "Daniel Mytens l'Ancien",
+   "desc": "peintre néerlandais",
+   "birth": 1590,
+   "death": 1640,
+   "extract": "Daniel Mytens (Delft, c. 1590 – La Haye, 1647/48), connu comme Daniel Mytens l'Ancien, est un peintre hollandais portraitiste, qui exerça son activité principalement en Angleterre.",
+   "url": "https://fr.wikipedia.org/wiki/Daniel_Mytens_l%27Ancien",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "George Villiers (1592-1628), 1st Duke of Buckingham",
+     "year": 1650,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Daniel%20Mytens%20%28c.1590-1647%29%20-%20George%20Villiers%20%281592%E2%80%931628%29%2C%201st%20Duke%20of%20Buckingham%20-%20BHC2583%20-%20Royal%20Museums%20Greenwich.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Daniel%20Mytens%20%28c.1590-1647%29%20-%20George%20Villiers%20%281592%E2%80%931628%29%2C%201st%20Duke%20of%20Buckingham%20-%20BHC2583%20-%20Royal%20Museums%20Greenwich.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Daniel_Mytens_%28c.1590-1647%29_-_George_Villiers_%281592%E2%80%931628%29%2C_1st_Duke_of_Buckingham_-_BHC2583_-_Royal_Museums_Greenwich.jpg",
+     "file": "daniel mytens (c.1590-1647) - george villiers (1592–1628), 1st duke of buckingham - bhc2583 - royal museums greenwich.jpg"
+    },
+    {
+     "title": "James Hamilton, 2nd Marquess of Hamilton (1589-1625)",
+     "year": 1622,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/2ndMarquessOfHamilton.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/2ndMarquessOfHamilton.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:2ndMarquessOfHamilton.jpg",
+     "file": "2ndmarquessofhamilton.jpg"
+    },
+    {
+     "title": "Thomas Howard (1585–1646), Earl of Arundel",
+     "year": 1630,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Daniel%20Mytens%20%28c.1590-1647%29%20-%20Thomas%20Howard%20%281585%E2%80%931646%29%2C%20Earl%20of%20Arundel%20-%20LEEAG.PA.1947.0019.0001%20-%20Temple%20Newsam.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Daniel%20Mytens%20%28c.1590-1647%29%20-%20Thomas%20Howard%20%281585%E2%80%931646%29%2C%20Earl%20of%20Arundel%20-%20LEEAG.PA.1947.0019.0001%20-%20Temple%20Newsam.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Daniel_Mytens_%28c.1590-1647%29_-_Thomas_Howard_%281585%E2%80%931646%29%2C_Earl_of_Arundel_-_LEEAG.PA.1947.0019.0001_-_Temple_Newsam.jpg",
+     "file": "daniel mytens (c.1590-1647) - thomas howard (1585–1646), earl of arundel - leeag.pa.1947.0019.0001 - temple newsam.jpg"
+    },
+    {
+     "title": "Lionel Cranfield, 1st Earl of Middlesex (1575-1645)",
+     "year": 1622,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/1stEarlOfMiddlesex.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/1stEarlOfMiddlesex.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:1stEarlOfMiddlesex.jpg",
+     "file": "1stearlofmiddlesex.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Daniel%20Mytens%20%28c.1590-1647%29%20-%20George%20Villiers%20%281592%E2%80%931628%29%2C%201st%20Duke%20of%20Buckingham%20-%20BHC2583%20-%20Royal%20Museums%20Greenwich.jpg?width=520"
+  }
+ ],
+ "stories": [
+  {
+   "type": "story",
+   "id": "fr:Darvaza",
+   "name": "Darvaza",
+   "desc": "village au Turkémistan",
+   "extract": "Darvaza (en turkmène : Derweze, signifiant « portail ») est un village du Turkménistan situé au milieu du désert du Karakoum, à 260 kilomètres au nord d'Achgabat. Une grande partie du village a été rasée en 2002 sur ordre du Président Saparmurat Niazov et l'endroit est désormais quasiment inhabité. La zone a été transformée en réserve naturelle de 90 000 hectares en 2013.\nLe site est connu pour la Porte de l'Enfer et un autre cratère contenant de l'eau turquoise.",
+   "url": "https://fr.wikipedia.org/wiki/Darvaza",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Derweze%E6%9D%91%E5%BA%9F%E5%A2%9F2011.jpg/960px-Derweze%E6%9D%91%E5%BA%9F%E5%A2%9F2011.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Cratère de Darvaza|Darvaza gas crater"
+  },
+  {
+   "type": "story",
+   "id": "fr:Guerre du cochon",
+   "name": "Guerre du cochon",
+   "desc": "confrontation en 1859 entre les États-Unis et l'Empire britannique",
+   "extract": "La guerre du cochon (en anglais : Pig War) est un affrontement (escalade militaire) qui a lieu entre le 15 juin et octobre 1859, entre les États-Unis et l'Empire britannique sur la frontière entre ces deux entités en Amérique du Nord britannique, dans l'actuelle zone des îles San Juan. Le territoire en litige était cet archipel qui se situe entre l'île de Vancouver et le continent nord-américain. Finalement, un compromis est trouvé sur la base du souhait américain.\nLa guerre du cochon est ainsi appelée parce qu'elle a été déclenchée par un coup de feu sur un cochon qui fut la seule victime de la « guerre ».",
+   "url": "https://fr.wikipedia.org/wiki/Guerre_du_cochon",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/PigWar-boundaries.png/960px-PigWar-boundaries.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Guerre du Cochon|Pig War (1859)"
+  },
+  {
+   "type": "story",
+   "id": "fr:Old Tom",
+   "name": "Old Tom",
+   "desc": "",
+   "extract": "Old Tom est une orque née vers 1895 et morte le 17 septembre 1930 dans la baie Twofold, au large d’Eden, au sud de la Nouvelle-Galles du Sud en Australie. D’une longueur de 6,7 mètres pour 6 tonnes, elle collaborait avec les pêcheurs de la région en rabattant les baleines. Elle et son pod prenaient la langue et les lèvres des proies, les pêcheurs récupéraient le reste.\nOld Tom fut retrouvé morte le 17 septembre 1930. Son âge fut estimé à environ 35 ans, et non à 80 ans comme la population locale l’affirmait. Son squelette est conservé au Musée des orques d’Eden.",
+   "url": "https://fr.wikipedia.org/wiki/Old_Tom",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Killer_whale_squeleton.jpg/960px-Killer_whale_squeleton.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "-|Old Tom (orca)"
+  }
+ ]
+}
