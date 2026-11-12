@@ -1,0 +1,169 @@
+{
+ "date": "2026-11-12",
+ "made": "2026-11-12T11:00+01:00",
+ "artists": [
+  {
+   "type": "artist",
+   "era": "contemporain",
+   "src": "c",
+   "id": "c:https://reseau-dda.org/fr/artists/laetitia-bourget",
+   "url": "https://reseau-dda.org/fr/artists/laetitia-bourget",
+   "desc": "Réseau documents d'artistes",
+   "name": "Laetitia Bourget",
+   "born": null,
+   "bornWord": null,
+   "ba": false,
+   "srcName": "Réseau documents d'artistes",
+   "note": "Réseau documents d'artistes",
+   "extract": "Plasticienne polyvalente, mes recherches m’amènent à m’initier sans cesse à de nouvelles pratiques, explorer la matière du vivant dans mes réalisations plastiques, et la matière de la vie dans mes textes. J’ai commencé par travailler la matière première que m’offrait mon corps, c’était ce que j’avais de plus vivant sous la main, dans l’environnement urbain que j’habitais alors, il y a 25 ans. Depuis j’ai pleinement investi mes conditions de vie, ma manière d’habiter le monde, de me nourrir et de cultiver la relation. J’ai pris place parmi mes frères-soeurs arbres, plantes, rivières, animaux, insectes, champignons, vent, pluie, minéraux, bactéries, avec lesquels je vis et travaille, dans l’émerveillement, la gratitude et, c’est là le plus difficiles des apprentissages en tant qu’humain, la réciprocité. Mes recherches artistiques sont à la fois le reflet et le moteur de ce cheminement. J’ai auto-construit mon habitat et développé une grande palette d’activités de production, de collecte, et d’échanges variées pour répondre à mes besoins et à ceux de ma famille de manière autonome et respectueuse. Je cultive l’alliance et la coopération dans ce mode de vie que je développe depuis une quinzaine d’années, comme dans ma pratique artistique.",
+   "lang": "fr",
+   "works": [
+    {
+     "title": "",
+     "cap": "La très grande éclosion , 2024 Sang menstruel et pigments végétaux sur papier, 150 x 150 cm © Laetitia Bourget",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/artists/laetitia-bourget/b0aaf717c7-1724750399/eclosion-vegetale-6951-2048x1560-q80.jpg",
+     "full": "https://reseau-dda.org/media/pages/artists/laetitia-bourget/b0aaf717c7-1724750399/eclosion-vegetale-6951-2048x1560-q80.jpg",
+     "page": "https://reseau-dda.org/fr/artists/laetitia-bourget"
+    },
+    {
+     "title": "",
+     "cap": "Paysage migratoire , 2021 Sang menstruel et pigments végétaux (baies de troène, phytolaque, peau d'oignon jaune, cassis) sur papier 30 x 21 cm © Laetitia Bourget",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/artists/laetitia-bourget/e5274dbcf9-1724750399/chemin-migratoire-4-6952-2048x1560-q80.jpg",
+     "full": "https://reseau-dda.org/media/pages/artists/laetitia-bourget/e5274dbcf9-1724750399/chemin-migratoire-4-6952-2048x1560-q80.jpg",
+     "page": "https://reseau-dda.org/fr/artists/laetitia-bourget"
+    },
+    {
+     "title": "",
+     "cap": "Sculptures excréments , 1997 à 2001 Inclusions d'exréments humains dans la résine polyester 8 x 10 x 3,5 cm © Laetitia Bourget",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/artists/laetitia-bourget/f53f4ec84e-1724750399/sculptures-excrements-1997-2001b-6953-2048x1560-q80.jpg",
+     "full": "https://reseau-dda.org/media/pages/artists/laetitia-bourget/f53f4ec84e-1724750399/sculptures-excrements-1997-2001b-6953-2048x1560-q80.jpg",
+     "page": "https://reseau-dda.org/fr/artists/laetitia-bourget"
+    },
+    {
+     "title": "",
+     "cap": "",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/artist-events/depasser-la-ligne/cf8cd4a428-1789545293/csmafficheexpoautomne20260143bba3f111-10214-160x120-crop-1.jpg",
+     "full": "https://reseau-dda.org/media/pages/artist-events/depasser-la-ligne/cf8cd4a428-1789545293/csmafficheexpoautomne20260143bba3f111-10214-160x120-crop-1.jpg",
+     "page": "https://reseau-dda.org/fr/artists/laetitia-bourget"
+    },
+    {
+     "title": "",
+     "cap": "",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/artworks/la-tres-grande-eclosion/feb794da35-1724753657/la-tres-grande-eclosion-acrylique-45-x-13m-2024-6947-160x120-crop-1.jpg",
+     "full": "https://reseau-dda.org/media/pages/artworks/la-tres-grande-eclosion/feb794da35-1724753657/la-tres-grande-eclosion-acrylique-45-x-13m-2024-6947-160x120-crop-1.jpg",
+     "page": "https://reseau-dda.org/fr/artists/laetitia-bourget"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://reseau-dda.org/media/pages/artists/laetitia-bourget/b0aaf717c7-1724750399/eclosion-vegetale-6951-2048x1560-q80.jpg"
+  },
+  {
+   "type": "artist",
+   "era": "moderne",
+   "wd": "Q21457542",
+   "id": "fr:James Proudfoot (peintre)",
+   "name": "James Proudfoot",
+   "desc": "",
+   "birth": 1908,
+   "death": 1971,
+   "extract": "James Proudfoot (3 mars 1908 à Perth - 15 juillet 1971 à Londres), est un peintre britannique d'origine écossaise, connu pour ses portraits et ses paysages. Il a travaillé à Londres de 1937 à 1971.",
+   "url": "https://fr.wikipedia.org/wiki/James_Proudfoot_(peintre)",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "Mona Lisa detail eyes",
+     "year": null,
+     "img": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Mona_Lisa_detail_eyes.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Mona%20Lisa%20detail%20eyes.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Mona_Lisa_detail_eyes.jpg",
+     "file": "mona lisa detail eyes.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Mona_Lisa_detail_eyes.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  {
+   "type": "artist",
+   "era": "ancien",
+   "wd": "Q3531432",
+   "id": "fr:Tompkins H. Matteson",
+   "name": "Tompkins H. Matteson",
+   "desc": "peintre américain",
+   "birth": 1813,
+   "death": 1884,
+   "extract": "Tompkins H. Matteson (Peterboro, État de New York, 9 mai 1813 - Sherburne, État de New York, 2 février 1884) est un peintre américain spécialisé dans la peinture d'histoire.",
+   "url": "https://fr.wikipedia.org/wiki/Tompkins_H._Matteson",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "The Examination of a Witch",
+     "year": 1853,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Examination%20of%20a%20Witch%20-%20Tompkins%20Matteson.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Examination%20of%20a%20Witch%20-%20Tompkins%20Matteson.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Examination_of_a_Witch_-_Tompkins_Matteson.jpg",
+     "file": "examination of a witch - tompkins matteson.jpg"
+    },
+    {
+     "title": "Spirit of '76",
+     "year": 1845,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tompkins%20H.%20Matteson%20-%20Spirit%20of%20%2776%20-%202017.59%20-%20Detroit%20Institute%20of%20Arts.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Tompkins%20H.%20Matteson%20-%20Spirit%20of%20%2776%20-%202017.59%20-%20Detroit%20Institute%20of%20Arts.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Tompkins_H._Matteson_-_Spirit_of_%2776_-_2017.59_-_Detroit_Institute_of_Arts.jpg",
+     "file": "tompkins h. matteson - spirit of '76 - 2017.59 - detroit institute of arts.jpg"
+    },
+    {
+     "title": "The Meeting of Hetty and Hist",
+     "year": 1857,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Meeting%20of%20Hetty%20and%20Hist%20LACMA%20M.2003.66.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Meeting%20of%20Hetty%20and%20Hist%20LACMA%20M.2003.66.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:The_Meeting_of_Hetty_and_Hist_LACMA_M.2003.66.jpg",
+     "file": "the meeting of hetty and hist lacma m.2003.66.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Examination%20of%20a%20Witch%20-%20Tompkins%20Matteson.jpg?width=520"
+  }
+ ],
+ "stories": [
+  {
+   "type": "story",
+   "id": "fr:Automates Jaquet-Droz",
+   "name": "Automates Jaquet-Droz",
+   "desc": "",
+   "extract": "Parmi les nombreux automates réalisés par la famille Jaquet-Droz, les automates Jaquet-Droz désignent trois pièces fabriquées (la quatrième est aujourd'hui perdue) par Pierre Jaquet-Droz, son fils Henri-Louis et Jean-Frédéric Leschot entre 1767 et 1774 : la Musicienne, le Dessinateur et l'Écrivain. Les trois automates sont parfaitement fonctionnels ; ils peuvent être admirés au Musée d'art et d'histoire de Neuchâtel en Suisse, et une démonstration de leur fonctionnement est faite le premier dimanche de chaque mois. On peut les considérer comme de lointains ancêtres des robots modernes.",
+   "url": "https://fr.wikipedia.org/wiki/Automates_Jaquet-Droz",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Automates1.jpg/960px-Automates1.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Automates Jaquet-Droz|Jaquet-Droz automata"
+  },
+  {
+   "type": "story",
+   "id": "fr:Mike le poulet sans tête",
+   "name": "Mike le poulet sans tête",
+   "desc": "attraction de foire",
+   "extract": "Mike le poulet sans tête (en anglais : Mike the Headless Chicken), aussi surnommé Miracle Mike, est un coq wyandotte qui aurait vécu 18 mois après que sa tête eut été coupée, le 10 septembre 1945.\nSon histoire est parfois considérée comme un canular, et son propriétaire l'a emmené à l'université de l'Utah à Salt Lake City pour démentir la rumeur. Il est encore aujourd'hui impossible de confirmer l'histoire.",
+   "url": "https://fr.wikipedia.org/wiki/Mike_le_poulet_sans_t%C3%AAte",
+   "lang": "fr",
+   "thumb": null,
+   "key": "Mike le poulet sans tête|Mike the Headless Chicken"
+  },
+  {
+   "type": "story",
+   "id": "fr:Station de nombres",
+   "name": "Station de nombres",
+   "desc": "Stations radio ondes courtes émettant uniquement des nombres",
+   "extract": "Une station de nombres est une station radio d'origine incertaine et dont le signal, généralement émis en ondes courtes, consiste en des suites de nombres ou de lettres souvent groupés par 5, codés en Morse ou en alphabet radio. Lors des émissions phoniques, ces séquences sont énoncées par des voix artificielles. Il existe des stations de nombres dans de nombreuses langues.",
+   "url": "https://fr.wikipedia.org/wiki/Station_de_nombres",
+   "lang": "fr",
+   "thumb": null,
+   "key": "Station de nombres|Numbers station"
+  }
+ ]
+}
