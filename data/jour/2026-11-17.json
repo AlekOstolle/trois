@@ -1,0 +1,153 @@
+{
+ "date": "2026-11-17",
+ "made": "2026-11-17T11:55+01:00",
+ "artists": [
+  {
+   "type": "artist",
+   "era": "contemporain",
+   "src": "c",
+   "id": "c:https://reseau-dda.org/fr/artists/fernanda-sanchez-paredes",
+   "url": "https://reseau-dda.org/fr/artists/fernanda-sanchez-paredes",
+   "desc": "Réseau documents d'artistes",
+   "name": "Fernanda Sánchez-Paredes",
+   "born": null,
+   "bornWord": null,
+   "ba": false,
+   "srcName": "Réseau documents d'artistes",
+   "note": "Réseau documents d'artistes",
+   "extract": "Le travail de Fernanda Sánchez Paredes se structure en séries photographiques développées pendant des résidences ou bien lors des déplacements personnels de l’artiste. S’il n’y a pas à rechercher une uniformité dans les thématiques ou les sujets traités, s’exprime néanmoins, dans le travail de Fernanda Sánchez Paredes, un vif intérêt pour le paysage - tout particulièrement le paysage façonné par la main de l’homme. Dans une époque de néo-ruralisme, Fernanda Sánchez Paredes interroge dans ses séries photographiques la notion de pittoresque, le rapport à l’animal, la dichotomie entre sauvage et domestique, selon une démarche à mi-chemin entre la photographie documentaire et la plasticienne. La relation à la peinture caractérise l’ensemble de sa production et se révèle à travers un traitement singulier de la lumière et une approche très personnelle de la composition (par des grandes profondeurs de champs notamment). Construisant une narration basée sur une cartographie personnelle, elle ne restitue pas une vision univoque du paysage, mais arrête son regard sur les détails, précaires, fragiles - relevant tant de l’instant que de l’observation prolongée - et parvient à re-enchanter ces territoires de notre environnement (plus ou moins) immédiat.",
+   "lang": "fr",
+   "works": [
+    {
+     "title": "",
+     "cap": "Château de Vincennes , 2015 Photographie, 100 x 100 cm. Série Futur antérieur",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/artists/fernanda-sanchez-paredes/cfd8916ac4-1663599607/chateaudevincennes-jpg-1-3731-2048x1560-q80.jpg",
+     "full": "https://reseau-dda.org/media/pages/artists/fernanda-sanchez-paredes/cfd8916ac4-1663599607/chateaudevincennes-jpg-1-3731-2048x1560-q80.jpg",
+     "page": "https://reseau-dda.org/fr/artists/fernanda-sanchez-paredes"
+    },
+    {
+     "title": "",
+     "cap": "Escassefort , 2020 Photographie. Série Les heures bleues",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/artists/fernanda-sanchez-paredes/2ddf4cb637-1772100362/sanchez-paredes-heures-bleues-lhb-escassefort-2020-9181-2048x1560-q80.jpg",
+     "full": "https://reseau-dda.org/media/pages/artists/fernanda-sanchez-paredes/2ddf4cb637-1772100362/sanchez-paredes-heures-bleues-lhb-escassefort-2020-9181-2048x1560-q80.jpg",
+     "page": "https://reseau-dda.org/fr/artists/fernanda-sanchez-paredes"
+    },
+    {
+     "title": "",
+     "cap": "Musée du Louvre I , 2015 Photographie. Série Musées imaginaires",
+     "year": null,
+     "img": "https://reseau-dda.org/media/pages/artists/fernanda-sanchez-paredes/dfb7c80c28-1772100362/sanchez-paredes-musee-imaginaire-louvre-i-2015-9182-2048x1560-q80.jpg",
+     "full": "https://reseau-dda.org/media/pages/artists/fernanda-sanchez-paredes/dfb7c80c28-1772100362/sanchez-paredes-musee-imaginaire-louvre-i-2015-9182-2048x1560-q80.jpg",
+     "page": "https://reseau-dda.org/fr/artists/fernanda-sanchez-paredes"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://reseau-dda.org/media/pages/artists/fernanda-sanchez-paredes/cfd8916ac4-1663599607/chateaudevincennes-jpg-1-3731-2048x1560-q80.jpg"
+  },
+  {
+   "type": "artist",
+   "era": "moderne",
+   "wd": "Q4859757",
+   "id": "fr:Barbro Östlihn",
+   "name": "Barbro Östlihn",
+   "desc": "artiste suédoise",
+   "birth": 1930,
+   "death": 1995,
+   "extract": "Barbro Östlihn, née le 20 mai 1930 et morte le 27 janvier 1995, est une artiste suédoise. Elle est l'une des seules femmes incluse dans l'exposition historique de pop art à la Hayward Gallery de Londres en 1969.",
+   "url": "https://fr.wikipedia.org/wiki/Barbro_%C3%96stlihn",
+   "lang": "fr",
+   "artsy": "barbro-ostlihn",
+   "works": [
+    {
+     "title": "Mondrianlike",
+     "year": null,
+     "img": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Mondrianlike.png?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Mondrianlike.png?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Mondrianlike.png",
+     "file": "mondrianlike.png"
+    },
+    {
+     "title": "Mona Lisa detail eyes",
+     "year": null,
+     "img": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Mona_Lisa_detail_eyes.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Mona%20Lisa%20detail%20eyes.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Mona_Lisa_detail_eyes.jpg",
+     "file": "mona lisa detail eyes.jpg"
+    },
+    {
+     "title": "Barbro Östlihn",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Barbro_%C3%96stlihn.jpg/960px-Barbro_%C3%96stlihn.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Barbro%20%C3%96stlihn.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Barbro_%C3%96stlihn.jpg",
+     "file": "barbro östlihn.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Mondrianlike.png?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  {
+   "type": "artist",
+   "era": "ancien",
+   "wd": "Q1397207",
+   "id": "fr:William John Burchell",
+   "name": "William John Burchell",
+   "desc": "naturaliste britannique (1781-1863)",
+   "birth": 1781,
+   "death": 1863,
+   "extract": "William John Burchell est un naturaliste britannique, né le 23 juillet 1781 à Fulham et mort le 23 mars 1863 à Mexico.",
+   "url": "https://fr.wikipedia.org/wiki/William_John_Burchell",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "On the River, Near Santos,  Brazil",
+     "year": 1835,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20John%20Burchell%20-%20On%20the%20River%2C%20near%20Santos%2C%20Brazil.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20John%20Burchell%20-%20On%20the%20River%2C%20near%20Santos%2C%20Brazil.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:William_John_Burchell_-_On_the_River%2C_near_Santos%2C_Brazil.jpg",
+     "file": "william john burchell - on the river, near santos, brazil.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/William%20John%20Burchell%20-%20On%20the%20River%2C%20near%20Santos%2C%20Brazil.jpg?width=520"
+  }
+ ],
+ "stories": [
+  {
+   "type": "story",
+   "id": "fr:Derinkuyu",
+   "name": "Derinkuyu",
+   "desc": "district de Turquie",
+   "extract": "Derinkuyu, mot qui signifie « puits profond », est le nom d'une ville et d'un district de la province de Nevşehir, en Anatolie centrale (Turquie). Selon le recensement de 2000, le district comptait 24 631 habitants et la ville 11 092.\nSituée en Cappadoce, Derinkuyu est connue pour sa cité souterraine, la plus grande de Turquie.",
+   "url": "https://fr.wikipedia.org/wiki/Derinkuyu",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Derinkuyu_Underground_City.JPG/960px-Derinkuyu_Underground_City.JPG?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Derinkuyu|Derinkuyu underground city"
+  },
+  {
+   "type": "story",
+   "id": "fr:Monsieur Mangetout",
+   "name": "Monsieur Mangetout",
+   "desc": "artiste français",
+   "extract": "Monsieur Mangetout, de son vrai nom Michel Lotito, né le 16 juin 1950 à Villard-Bonnot (Isère) et mort le 25 juin 2007 à Grenoble (Isère), est un artiste de cabaret français. Il est renommé pour sa capacité à manger les choses les plus indigestes comme le métal, le verre, le caoutchouc, etc.",
+   "url": "https://fr.wikipedia.org/wiki/Monsieur_Mangetout",
+   "lang": "fr",
+   "thumb": null,
+   "key": "Michel Lotito|Michel Lotito"
+  },
+  {
+   "type": "story",
+   "id": "fr:Tulipomanie",
+   "name": "Tulipomanie",
+   "desc": "bulle spéculative ayant marqué l'histoire des bourses de valeur (Pays-Bas ; 1634-1637)",
+   "extract": "La tulipomanie (en néerlandais : tulpenmanie ; en anglais : tulip mania) est le soudain engouement pour les tulipes dans le nord des Provinces-Unies au milieu du XVIIe siècle, qui entraîna l'augmentation démesurée puis l'effondrement des cours du bulbe de tulipe : ce qu’on appelle la « crise de la tulipe » en histoire économique. Au plus fort de la tulipomanie, en février 1637, des offres de vente pour un bulbe se négociaient pour un montant égal à dix fois le salaire annuel d’un artisan spécialisé. Certains historiens ont qualifié cette crise de « première bulle spéculative » de l’histoire. Elle est restée dans les mémoires, tout au long de l'histoire des bourses de valeurs.\nL’épisode connut un regain d'intérêt en 1841 avec la parution d’un ouvrage intitulé Extraordinary Popular Delusions and the Madness of Crowds (« Extraordinaires illusions populaires et la folie des foules ») du romancier et poète britannique Charles Mackay. Mackay affirmait qu’à une certaine époque, un bulbe de Semper augustus pouvait s’échanger contre cinq hectares de terre. Il prétendait également que de nombreux investisseurs avaient été ruinés par la chute des cours, chute qui aurait ébranlé toute l’économie néerlandaise. Bien que l’ouvrage de Mackay soit devenu un classique fréquemment réédité, sa version des faits est aujourd’hui contestée. Les économistes modernes considèrent que la crise de la tulipe n’a pas été aussi spectaculaire que le voudrait Mackay, certains allant même jusqu’à douter de la réalité d’une véritable bulle spéculative, tandis que l'historienne Anne Goldgar a montré qu'il ne s'agissait pas d'une crise sur un marché comptant mais de ventes à termes qui, dans un état encore peu développé des techniques financières, s'est transformé en marché d'options. Aucun argent n'a « disparu ».\nL’étude de cette crise est difficile en raison de la pauvreté des données d’époque et du fait que ces données proviennent pour la plupart de sources partisanes dénonçant la spéculation de façon caricaturale. Certains économistes modernes, écartant la théorie de l’hystérie spéculative, proposent des modèles mathématiques qui ne font plus appel aux phénomènes de contagion psychologique pour expliquer l’envolée des cours de la tulipe. Ils observent que des phénomènes analogues se sont produits à d’autres époques sur le prix des plantes d’ornement, notamment la jacinthe dont le cours s’est élevé de façon rapide après son introduction sur le marché pour s’effondrer ensuite. D’autres auteurs font remarquer que la montée des prix coïncide avec l’annonce d’un décret parlementaire prévoyant que les contrats à terme pourraient être annulés à peu de frais ; une telle mesure aurait diminué le risque pour les acheteurs qui n’auraient eu alors aucune raison d’hésiter à s’engager pour des sommes exorbitantes. Ces explications sont cependant loin de faire l’unanimité.",
+   "url": "https://fr.wikipedia.org/wiki/Tulipomanie",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Tooneel_van_Flora_Handel_der_Floristen_in_Amsterdam_1637_%28Tulip_mania%29.png/960px-Tooneel_van_Flora_Handel_der_Floristen_in_Amsterdam_1637_%28Tulip_mania%29.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Tulipomanie|Tulip mania"
+  }
+ ]
+}
