@@ -1,0 +1,185 @@
+{
+ "date": "2026-11-18",
+ "made": "2026-11-18T11:27+01:00",
+ "artists": [
+  {
+   "type": "artist",
+   "era": "contemporain",
+   "src": "c",
+   "id": "c:https://zidoun-bossuyt.com/artists/mike-lee/",
+   "url": "https://zidoun-bossuyt.com/artists/mike-lee/",
+   "desc": "Né·e en 1983. Zidoun-Bossuyt Gallery",
+   "name": "Z&B",
+   "born": 1983,
+   "bornWord": null,
+   "ba": false,
+   "srcName": "Zidoun-Bossuyt Gallery",
+   "note": "Zidoun-Bossuyt Gallery",
+   "extract": "Mike Lee is a New York based artist who conveys contemporary social attitudes and anxieties through simplified silhouettes of the human form. By avoiding detail and blurring identity, his iconic figures amplify the emotive undertones of his own biographical narratives. These stylized forms are universally relatable and deeply cathartic reflections of the artists own life. His inspiration comes from the people and the spaces that surround him in his daily life.\nMike Lee was born in 1983 in Placentia, CA, USA. He received his BFA in 2006 from Otis College of Art and Design, Los Angeles, CA, USA. His work has been exhibited in galleries across Los Angeles, New York, Tokyo including exhibitions at the Japanese American National Museum in Los Angeles, California, USA, the Honolulu Museum of Art in Honolulu, Hawaii, USA, and the Vincent Price Art Museum in Los Angeles, California, USA. Mike Lee is also an active member of RVMP, a collaborative art group featuring Robert MacKenzie, and Vincent and Peter Nguyen. In 2012, he self-published his first book, entitled ‘Bodega’. Mike Lee has worked for various film and commercial studios which includes: Blue Sky Studios, Psyop, LucasArts, Buck and Hornet. He currently lives and works in Brooklyn, NY, USA.",
+   "lang": "fr",
+   "works": [
+    {
+     "title": "",
+     "cap": "Mike LEE",
+     "year": null,
+     "img": "https://zidoun-bossuyt.com/wp-content/uploads/2024/02/Mike_Lee_Landscape_01_b-2-scaled.jpg",
+     "full": "https://zidoun-bossuyt.com/wp-content/uploads/2024/02/Mike_Lee_Landscape_01_b-2-scaled.jpg",
+     "page": "https://zidoun-bossuyt.com/artists/mike-lee/"
+    },
+    {
+     "title": "",
+     "cap": "WORKS",
+     "year": null,
+     "img": "https://zidoun-bossuyt.com/wp-content/uploads/2024/02/LEE-003_Five-Vases_cropped.jpg",
+     "full": "https://zidoun-bossuyt.com/wp-content/uploads/2024/02/LEE-003_Five-Vases_cropped.jpg",
+     "page": "https://zidoun-bossuyt.com/artists/mike-lee/"
+    },
+    {
+     "title": "",
+     "cap": "WORKS",
+     "year": null,
+     "img": "https://zidoun-bossuyt.com/wp-content/uploads/2024/02/LEE-001_Goodwife.jpg",
+     "full": "https://zidoun-bossuyt.com/wp-content/uploads/2024/02/LEE-001_Goodwife.jpg",
+     "page": "https://zidoun-bossuyt.com/artists/mike-lee/"
+    },
+    {
+     "title": "",
+     "cap": "WORKS",
+     "year": null,
+     "img": "https://zidoun-bossuyt.com/wp-content/uploads/2024/02/LEE-002_Revelator.jpg",
+     "full": "https://zidoun-bossuyt.com/wp-content/uploads/2024/02/LEE-002_Revelator.jpg",
+     "page": "https://zidoun-bossuyt.com/artists/mike-lee/"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://zidoun-bossuyt.com/wp-content/uploads/2024/02/Mike_Lee_Landscape_01_b-2-scaled.jpg"
+  },
+  {
+   "type": "artist",
+   "era": "moderne",
+   "wd": "Q2158858",
+   "id": "fr:Robert Stanley (peintre)",
+   "name": "Robert Stanley",
+   "desc": "peintre américain",
+   "birth": 1932,
+   "death": 1997,
+   "extract": "Robert Stanley, né le 3 janvier 1932 à Yonkers et mort le 15 novembre 1997 à New York, est un artiste pop américain qui peint à partir de photographies.",
+   "url": "https://fr.wikipedia.org/wiki/Robert_Stanley_(peintre)",
+   "lang": "fr",
+   "artsy": "bob-stanley",
+   "works": [
+    {
+     "title": "Mondrianlike",
+     "year": null,
+     "img": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Mondrianlike.png?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Mondrianlike.png?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Mondrianlike.png",
+     "file": "mondrianlike.png"
+    },
+    {
+     "title": "Mona Lisa detail eyes",
+     "year": null,
+     "img": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Mona_Lisa_detail_eyes.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Mona%20Lisa%20detail%20eyes.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Mona_Lisa_detail_eyes.jpg",
+     "file": "mona lisa detail eyes.jpg"
+    },
+    {
+     "title": "Bob Stanley and Andy Warhol",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Bob_Stanley_and_Andy_Warhol.jpg/960px-Bob_Stanley_and_Andy_Warhol.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Bob%20Stanley%20and%20Andy%20Warhol.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Bob_Stanley_and_Andy_Warhol.jpg",
+     "file": "bob stanley and andy warhol.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Mondrianlike.png?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  },
+  {
+   "type": "artist",
+   "era": "ancien",
+   "wd": "Q16675908",
+   "id": "fr:Sebastiano Corbellini",
+   "name": "Sebastiano Corbellini",
+   "desc": "",
+   "birth": 1650,
+   "death": null,
+   "extract": "Sebastiano Corbellini est un peintre italien du XVIIe siècle qui fut actif à Rome vers 1650.",
+   "url": "https://fr.wikipedia.org/wiki/Sebastiano_Corbellini",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "La Naissance de Vénus .",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Venus_botticelli_detail.jpg/960px-Venus_botticelli_detail.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Venus%20botticelli%20detail.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Venus_botticelli_detail.jpg",
+     "file": "venus botticelli detail.jpg"
+    },
+    {
+     "title": "Peintre",
+     "year": null,
+     "img": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Peintre.png?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Peintre.png?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Peintre.png",
+     "file": "peintre.png"
+    },
+    {
+     "title": "Mona Lisa detail eyes",
+     "year": null,
+     "img": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Mona_Lisa_detail_eyes.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Mona%20Lisa%20detail%20eyes.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Mona_Lisa_detail_eyes.jpg",
+     "file": "mona lisa detail eyes.jpg"
+    },
+    {
+     "title": "LouisXIV",
+     "year": null,
+     "img": "https://upload.wikimedia.org/wikipedia/commons/5/58/LouisXIV.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/LouisXIV.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:LouisXIV.jpg",
+     "file": "louisxiv.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Venus_botticelli_detail.jpg/960px-Venus_botticelli_detail.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "stories": [
+  {
+   "type": "story",
+   "id": "fr:Épidémie de fou rire du Tanganyika",
+   "name": "Épidémie de fou rire du Tanganyika",
+   "desc": "phénomène d'hystérie collective en 1962",
+   "extract": "L'épidémie de fou rire du Tanganyika de 1962 a été un phénomène d'hystérie collective, lors de laquelle des adolescentes d'un collège du village de Kashasha, dans la région de la Kagera, ont alterné crises de rires et de pleurs. Ce phénomène a été rapporté dans plusieurs journaux d'époque, et a fait l'objet de plusieurs analyses, notamment d'un journaliste, d'un linguiste et d'un psychiatre, qui malgré certaines remises en cause, confirment et donnent des explications possibles aux faits.\nCette épidémie de rire n'est pas unique en Tanzanie et dans les pays voisins à cette époque.",
+   "url": "https://fr.wikipedia.org/wiki/%C3%89pid%C3%A9mie_de_fou_rire_du_Tanganyika",
+   "lang": "fr",
+   "thumb": null,
+   "key": "Épidémie de rire du Tanganyika|Tanganyika laughter epidemic"
+  },
+  {
+   "type": "story",
+   "id": "fr:Opération Mincemeat",
+   "name": "Opération Mincemeat",
+   "desc": "plan britannique destiné à convaincre Hitler que les Alliés envahiraient les Balkans et la Sardaigne plutôt que la Sicile, début 1943",
+   "extract": "L'opération Mincemeat était un plan britannique organisé par le Système Double Cross durant la Seconde Guerre mondiale, destiné à convaincre le Haut Commandement de la Wehrmacht (OKW) que les Alliés envahiraient les Balkans et la Sardaigne au lieu de la Sicile, qui était leur réel objectif.\nL'opération devait convaincre les Allemands qu'ils détenaient des documents hautement confidentiels, détaillant avec précision les futurs plans d'invasion des Balkans et de la Sardaigne. Ceci afin d'éloigner les troupes allemandes du véritable objectif des Alliés : la Sicile. L'opération fut un succès, car la Wehrmacht transféra des divisions stationnées dans l'île ce qui permit aux Alliés de réussir leur débarquement. Cette manipulation est rapportée dans un livre puis dans les films L'Homme qui n'a jamais existé et La Ruse.",
+   "url": "https://fr.wikipedia.org/wiki/Op%C3%A9ration_Mincemeat",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Major_Martin.jpg/960px-Major_Martin.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Opération Mincemeat|Operation Mincemeat"
+  },
+  {
+   "type": "story",
+   "id": "fr:Clock of the Long Now",
+   "name": "Clock of the Long Now",
+   "desc": "projet d'horloge mécanique censée fonctionner 10 000 ans",
+   "extract": "La Clock of the Long Now, ou Horloge de l'année 10 000, est un projet d'horloge mécanique censée fonctionner 10 000 ans, engagé par la Long Now Foundation.\nLe projet a été élaboré par Danny Hillis en 1986. Le premier prototype d'horloge, d'environ deux mètres de haut, commence à fonctionner le 31 décembre 1999 ; il est exposé au Science Museum de Londres. Depuis décembre 2007, deux autres prototypes sont exposés au Long Now Museum & Store au Fort Mason Center à San Francisco.\nElle est remise à l'heure presque chaque jour, par le Soleil, s'il brille assez fort.",
+   "url": "https://fr.wikipedia.org/wiki/Clock_of_the_Long_Now",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Clock_of_the_Long_Now.JPG/960px-Clock_of_the_Long_Now.JPG?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "-|Clock of the Long Now"
+  }
+ ]
+}
