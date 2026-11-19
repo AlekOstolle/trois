@@ -1,0 +1,177 @@
+{
+ "date": "2026-11-19",
+ "made": "2026-11-19T11:34+01:00",
+ "artists": [
+  {
+   "type": "artist",
+   "era": "contemporain",
+   "src": "c",
+   "id": "c:https://prixjeanfrancoisprat.com/artiste/alexandre-lenoir/",
+   "url": "https://prixjeanfrancoisprat.com/artiste/alexandre-lenoir/",
+   "desc": "Prix Jean-François Prat",
+   "name": "Alexandre Lenoir",
+   "born": null,
+   "bornWord": null,
+   "ba": true,
+   "srcName": "Prix Jean-François Prat",
+   "note": "Prix Jean-François Prat",
+   "extract": "Représentant paysages, intérieurs et bâtiments, les œuvres d’Alexandre Lenoir comportent souvent des personnages aussi éphémères que des souvenirs. Un hédonisme ambigu habite ces visions, puisant dans les identités multiples de l’artiste lui-même. Ses peintures se composent de plusieurs couches de lavages de couleurs combinées à une technique élaborée de pochoir. Dans ce « tremblement du temps » qui accompagne cette procédure complexe, l’instantané photographique qui y a présidé s’efface et l’image exacte se dérobe.\nDiplômé de l’école des Beaux-Arts de Paris (2016), Alexandre Lenoir s’installe à Casablanca en 2018 pour développer davantage sa pratique. De retour à Paris, il est exposé en solo à la Caisse des Dépôts (2021) et à la Fondation Sisley (2020), ainsi qu’en groupe à la Fondation Thalie (2021) et à la Collection Lambert en Avignon (2017).",
+   "lang": "fr",
+   "works": [
+    {
+     "title": "",
+     "cap": "",
+     "year": null,
+     "img": "https://prixjeanfrancoisprat.com/wp-content/uploads/2021/06/Portrait-Alexandre-Lenoir_41643-copie-768x1152.jpg",
+     "full": "https://prixjeanfrancoisprat.com/wp-content/uploads/2021/06/Portrait-Alexandre-Lenoir_41643-copie-768x1152.jpg",
+     "page": "https://prixjeanfrancoisprat.com/artiste/alexandre-lenoir/"
+    },
+    {
+     "title": "",
+     "cap": "Après l’orage, 2020 Acrylique et huile sur toile, 161 x 166 cm Courtesy de l’artiste et d’Almine Rech Photo: Hugard and Vanoverschelde Photography",
+     "year": null,
+     "img": "https://prixjeanfrancoisprat.com/wp-content/uploads/2021/06/Après-lorage-copie-2-400x400.jpg",
+     "full": "https://prixjeanfrancoisprat.com/wp-content/uploads/2021/06/Après-lorage-copie-2-400x400.jpg",
+     "page": "https://prixjeanfrancoisprat.com/artiste/alexandre-lenoir/"
+    },
+    {
+     "title": "",
+     "cap": "Plage grise, 2020 Acrylique et huile sur toile, 195 x 286 cm Courtesy de l’artiste et d’Almine Rech Photo: Hugard and Vanoverschelde Photography",
+     "year": null,
+     "img": "https://prixjeanfrancoisprat.com/wp-content/uploads/2021/06/Plage-grise-copie-2-400x400.jpg",
+     "full": "https://prixjeanfrancoisprat.com/wp-content/uploads/2021/06/Plage-grise-copie-2-400x400.jpg",
+     "page": "https://prixjeanfrancoisprat.com/artiste/alexandre-lenoir/"
+    },
+    {
+     "title": "",
+     "cap": "Bretagne, 2020 Acrylique et huile sur toile, 185 x 275 cm Courtesy de l’artiste et d’Almine Rech Photo: Hugard and Vanoverschelde Photography",
+     "year": null,
+     "img": "https://prixjeanfrancoisprat.com/wp-content/uploads/2021/10/Capture-d’écran-2021-10-01-à-00.49.12-400x400.png",
+     "full": "https://prixjeanfrancoisprat.com/wp-content/uploads/2021/10/Capture-d’écran-2021-10-01-à-00.49.12-400x400.png",
+     "page": "https://prixjeanfrancoisprat.com/artiste/alexandre-lenoir/"
+    },
+    {
+     "title": "",
+     "cap": "Sans Titre, 2017 Acrylic and oil on canvas, 73.6 x 73.6 in. / 187 x 187 cm Courtesy de l’artiste Photo: Frédéric Clad",
+     "year": null,
+     "img": "https://prixjeanfrancoisprat.com/wp-content/uploads/2021/10/IMG_6119-400x400.jpg",
+     "full": "https://prixjeanfrancoisprat.com/wp-content/uploads/2021/10/IMG_6119-400x400.jpg",
+     "page": "https://prixjeanfrancoisprat.com/artiste/alexandre-lenoir/"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://prixjeanfrancoisprat.com/wp-content/uploads/2021/06/Portrait-Alexandre-Lenoir_41643-copie-768x1152.jpg"
+  },
+  {
+   "type": "artist",
+   "era": "moderne",
+   "wd": "Q96401599",
+   "id": "fr:Gaston Chabal",
+   "name": "Gaston Chabal",
+   "desc": "architecte français",
+   "birth": 1882,
+   "death": 1965,
+   "extract": "Gaston Chabal (né le 17 août 1882 à Brest - mort dans la même ville le 1er juillet 1965) est un architecte brestois. Il réalise de nombreux bâtiments à Brest, Morgat, et d'autres villes du Finistère.",
+   "url": "https://fr.wikipedia.org/wiki/Gaston_Chabal",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "Landerneau - centre culturel Family",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Landerneau_-_centre_culturel_Family.jpg/960px-Landerneau_-_centre_culturel_Family.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Landerneau%20-%20centre%20culturel%20Family.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Landerneau_-_centre_culturel_Family.jpg",
+     "file": "landerneau - centre culturel family.jpg"
+    },
+    {
+     "title": "Brest - banque de France",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Brest_-_banque_de_France.jpg/960px-Brest_-_banque_de_France.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Brest%20-%20banque%20de%20France.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Brest_-_banque_de_France.jpg",
+     "file": "brest - banque de france.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Landerneau_-_centre_culturel_Family.jpg/960px-Landerneau_-_centre_culturel_Family.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "type": "artist",
+   "era": "ancien",
+   "wd": "Q4170769",
+   "id": "fr:Alexandre Postels",
+   "name": "Alexandre Postels",
+   "desc": "naturaliste et illustrateur russe",
+   "birth": 1801,
+   "death": 1871,
+   "extract": "Alexandre Philippovitch Postels (en russe : Александр Филиппович Постельс), né le 24 août 1801 à Dorpat et mort le 28 juin 1871 à Vyborg, est un naturaliste, phycologue, minéralogiste et peintre naturaliste allemand de la Baltique, sujet de l'Empire russe.",
+   "url": "https://fr.wikipedia.org/wiki/Alexandre_Postels",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "Litkemap",
+     "year": null,
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Litkemap.jpg/960px-Litkemap.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Litkemap.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Litkemap.jpg",
+     "file": "litkemap.jpg"
+    },
+    {
+     "title": "Laminaria00",
+     "year": null,
+     "img": "https://upload.wikimedia.org/wikipedia/commons/7/77/Laminaria00.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Laminaria00.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Laminaria00.jpg",
+     "file": "laminaria00.jpg"
+    },
+    {
+     "title": "Journal-des-chemins-de-fer-image-titre",
+     "year": null,
+     "img": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Journal-des-chemins-de-fer-image-titre.png?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+     "full": "https://fr.wikipedia.org/wiki/Special:FilePath/Journal-des-chemins-de-fer-image-titre.png?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Journal-des-chemins-de-fer-image-titre.png",
+     "file": "journal-des-chemins-de-fer-image-titre.png"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Litkemap.jpg/960px-Litkemap.jpg?utm_source=fr.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
+ ],
+ "stories": [
+  {
+   "type": "story",
+   "id": "fr:Tsutomu Yamaguchi",
+   "name": "Tsutomu Yamaguchi",
+   "desc": "survivant japonais des bombardements d'Hihoshima et Nagazaki",
+   "extract": "Tsutomu Yamaguchi (山口 彊, Yamaguchi Tsutomu) est un ingénieur japonais né le 16 mars 1916 et mort le 4 janvier 2010 d'un cancer de l'estomac. Il est la seule personne reconnue comme ayant survécu aux deux bombardements atomiques d'Hiroshima et de Nagasaki.",
+   "url": "https://fr.wikipedia.org/wiki/Tsutomu_Yamaguchi",
+   "lang": "fr",
+   "thumb": null,
+   "key": "Tsutomu Yamaguchi|Tsutomu Yamaguchi"
+  },
+  {
+   "type": "story",
+   "id": "fr:Eben Byers",
+   "name": "Eben Byers",
+   "desc": "entrepreneur américain",
+   "extract": "Eben Byers, né Ebenezer McBurney Byers né le 12 avril 1880 à Pittsburgh et mort le 31 mars 1932 à Manhattan des suites de sa contamination au radium, est un industriel américain.",
+   "url": "https://fr.wikipedia.org/wiki/Eben_Byers",
+   "lang": "fr",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Golfer_Eben_M._Byers.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "key": "Eben Byers|Eben Byers"
+  },
+  {
+   "type": "story",
+   "id": "fr:Message d'Arecibo",
+   "name": "Message d'Arecibo",
+   "desc": "message radio émis vers l'espace en 1974",
+   "extract": "Le message d'Arecibo est un message radio de 1 679 bits émis vers l'espace le 16 novembre 1974 à l'occasion de la transformation du radiotélescope d'Arecibo. Il est envoyé vers l'amas globulaire M13 (plus communément appelé Amas d'Hercule), qui se trouve à environ 22 200 années-lumière.\nLe nombre 1 679 est choisi parce qu'il est semi-premier, c'est-à-dire le produit de deux nombres premiers, et ne peut donc être divisé qu'en 73 lignes et 23 colonnes (ou vice-versa). Cela suppose que ceux qui pourraient le lire choisiront de l'arranger comme un quadrilatère (voir paragraphe « Décodage du message »). L'information arrangée de la première façon ne présente aucun sens alors que si elle est arrangée de la seconde façon, l'image contient des informations à propos de la Terre et de l'humanité. Si on lit de gauche à droite, elle montre les nombres de un à dix, les numéros atomiques de l'hydrogène, du carbone, de l'azote, de l'oxygène et du phosphore, les formules chimiques des sucres et bases dans les nucléotides de l'ADN, les nombres de nucléotides dans l'ADN, sa structure en double hélice, un croquis de l'être humain et sa taille, la population de la Terre, le Système solaire et une image du radiotélescope d'Arecibo donnant son diamètre.\nParce que le message mettra plus de 22 000 ans pour atteindre la destination voulue (de même qu'une éventuelle réponse pour revenir sur Terre), le message d'Arecibo est plus une démonstration de l'avancée technologique de l'Humanité qu'un réel essai d'entrer en contact avec une civilisation extraterrestre.\nLe docteur Frank Drake, créateur de la célèbre équation de Drake, a écrit le message avec l'aide entre autres de Carl Sagan.",
+   "url": "https://fr.wikipedia.org/wiki/Message_d%27Arecibo",
+   "lang": "fr",
+   "thumb": null,
+   "key": "Message d'Arecibo|Arecibo message"
+  }
+ ]
+}
