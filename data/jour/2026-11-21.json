@@ -1,0 +1,201 @@
+{
+ "date": "2026-11-21",
+ "made": "2026-11-21T11:00+01:00",
+ "artists": [
+  {
+   "type": "artist",
+   "era": "contemporain",
+   "src": "c",
+   "id": "c:https://www.maxhetzler.com/artists/leilah-babirye/",
+   "url": "https://www.maxhetzler.com/artists/leilah-babirye",
+   "desc": "Né·e en 1985. Galerie Max Hetzler",
+   "name": "Leilah Babirye",
+   "born": 1985,
+   "bornWord": null,
+   "ba": false,
+   "srcName": "Galerie Max Hetzler",
+   "note": "Galerie Max Hetzler",
+   "extract": "Recognised for her unique sculptures and use of discarded materials, Leilah Babirye (b. 1985) incorporates metals, ceramics and hand-carved wood in her multidisciplinary practice to explore themes of identity, sexuality and queer activism. Babirye, who fled Uganda’s anti-LGBT legislation and hostile political climate, uses her work to address the lived experiences of those in the queer community in Uganda and across Africa. Babirye has cultivated a signature style through her blend of African iconography, such as masks and totems, as well as ‘found’ materials sourced from the streets of New York, to express and celebrate LGBTQ+ stories and identities. Informed by the artist’s own personal history, Babirye’s work often positions mask-like heads and faces as her primary subject matter, referencing her heritage whilst advocating for her community. ‘Reusing materials is important to me, as a person who comes from a background where the LGBTQ community is looked at as trash still today. As an artist, I find beauty in using found materials to showcase and reclaim my community.’ L. Babirye, ‘Leilah Babirye on Reclaiming her Queer Community’, in Art in America , 2021.\nLeilah Babirye, Omulangila NaKattakkesu from the Kuchu Royal Family of Buganda , 2022, wood, wax, glue, acrylic, lags, washers, nails, aluminium and found objects, 210.5 x 57 x 28.5 cm.; 82 7/8 x 22 1/2 x 11 1/4 in. Photo: Nicolas Brasseur",
+   "lang": "fr",
+   "works": [
+    {
+     "title": "",
+     "cap": "LEILAH BABIRYE",
+     "year": null,
+     "img": "https://www.maxhetzler.com/application/files/thumbnails/detail_lg_2x/6316/7420/2623/37659_Babirye_2022_Photo_Nicolas_Brasseur_1_sRGB.jpg",
+     "full": "https://www.maxhetzler.com/application/files/thumbnails/detail_lg_2x/6316/7420/2623/37659_Babirye_2022_Photo_Nicolas_Brasseur_1_sRGB.jpg",
+     "page": "https://www.maxhetzler.com/artists/leilah-babirye"
+    },
+    {
+     "title": "",
+     "cap": "<em>Nkugwa from the Kuchu Mamba (Lungfish) Clan II</em>, 2025",
+     "year": null,
+     "img": "https://www.maxhetzler.com/application/files/thumbnails/detail_md_2x/7117/4609/8945/leb25-69910-photo-def-image-1-srgb-sw.jpg",
+     "full": "https://www.maxhetzler.com/application/files/thumbnails/detail_md_2x/7117/4609/8945/leb25-69910-photo-def-image-1-srgb-sw.jpg",
+     "page": "https://www.maxhetzler.com/artists/leilah-babirye"
+    },
+    {
+     "title": "",
+     "cap": "<em>Abaliisa (The Royal Herdsman from the Kuchu Bunyoro Kingdom)</em>, 2025",
+     "year": null,
+     "img": "https://www.maxhetzler.com/application/files/thumbnails/detail_md_2x/3917/4609/8175/leb25-71542-photo-def-image-1-srgb-sw.jpg",
+     "full": "https://www.maxhetzler.com/application/files/thumbnails/detail_md_2x/3917/4609/8175/leb25-71542-photo-def-image-1-srgb-sw.jpg",
+     "page": "https://www.maxhetzler.com/artists/leilah-babirye"
+    },
+    {
+     "title": "",
+     "cap": "<em>Nakakeeto from the Kuchu Mutima (Heart) Clan</em>, 2023–2024",
+     "year": null,
+     "img": "https://www.maxhetzler.com/application/files/thumbnails/detail_md_2x/2317/4609/9076/leb23-24-67722-photo-jonty-wilde-1-edit-srgb-sw.jpg",
+     "full": "https://www.maxhetzler.com/application/files/thumbnails/detail_md_2x/2317/4609/9076/leb23-24-67722-photo-jonty-wilde-1-edit-srgb-sw.jpg",
+     "page": "https://www.maxhetzler.com/artists/leilah-babirye"
+    },
+    {
+     "title": "",
+     "cap": "",
+     "year": null,
+     "img": "https://www.maxhetzler.com/application/files/thumbnails/detail_md_2x/2617/4601/4822/Installation-view_Leilah-Babirye_GMH-Berlin_Goethestr_2025_photo__def_image_1_sRGB_homeslider.jpg",
+     "full": "https://www.maxhetzler.com/application/files/thumbnails/detail_md_2x/2617/4601/4822/Installation-view_Leilah-Babirye_GMH-Berlin_Goethestr_2025_photo__def_image_1_sRGB_homeslider.jpg",
+     "page": "https://www.maxhetzler.com/artists/leilah-babirye"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://www.maxhetzler.com/application/files/thumbnails/detail_lg_2x/6316/7420/2623/37659_Babirye_2022_Photo_Nicolas_Brasseur_1_sRGB.jpg"
+  },
+  {
+   "type": "artist",
+   "era": "moderne",
+   "wd": "Q1560291",
+   "id": "fr:Günter Anlauf",
+   "name": "Günter Anlauf",
+   "desc": "sculpteur allemand",
+   "birth": 1924,
+   "death": 2000,
+   "extract": "Günter Anlauf (né le 10 février 1924 à Großhartmannsdorf, arrondissement de Bunzlau, province de Basse-Silésie, mort le 25 octobre 2000 à Berlin) est un sculpteur allemand.",
+   "url": "https://fr.wikipedia.org/wiki/G%C3%BCnter_Anlauf",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "Rousseau Column",
+     "year": 1987,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Rousseau%20S%C3%A4ule%20von%20G%C3%BCnter%20Anlauf.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Rousseau%20S%C3%A4ule%20von%20G%C3%BCnter%20Anlauf.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Rousseau_S%C3%A4ule_von_G%C3%BCnter_Anlauf.jpg",
+     "file": "rousseau säule von günter anlauf.jpg"
+    },
+    {
+     "title": "four bears",
+     "year": 1981,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Skulptur%20Moabiter%20Br%C3%BCcke%20%28Moabi%29%20B%C3%A4r%26G%C3%BCnter%20Anlauf%20%261981.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Skulptur%20Moabiter%20Br%C3%BCcke%20%28Moabi%29%20B%C3%A4r%26G%C3%BCnter%20Anlauf%20%261981.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Skulptur_Moabiter_Br%C3%BCcke_%28Moabi%29_B%C3%A4r%26G%C3%BCnter_Anlauf_%261981.jpg",
+     "file": "skulptur moabiter brücke (moabi) bär&günter anlauf &1981.jpg"
+    },
+    {
+     "title": "Uhrensäule",
+     "year": 1984,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Skulptur%20Schulstr%204%20%28Wanns%29%20Uhrens%C3%A4ule%26G%C3%BCnter%20Anlauf%261985.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Skulptur%20Schulstr%204%20%28Wanns%29%20Uhrens%C3%A4ule%26G%C3%BCnter%20Anlauf%261985.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Skulptur_Schulstr_4_%28Wanns%29_Uhrens%C3%A4ule%26G%C3%BCnter_Anlauf%261985.jpg",
+     "file": "skulptur schulstr 4 (wanns) uhrensäule&günter anlauf&1985.jpg"
+    },
+    {
+     "title": "Thüster Nautiliden",
+     "year": 1980,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/1980%20-%20G%C3%BCnter%20Anlauf%20-%20Th%C3%BCster%20Nautiliden.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/1980%20-%20G%C3%BCnter%20Anlauf%20-%20Th%C3%BCster%20Nautiliden.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:1980_-_G%C3%BCnter_Anlauf_-_Th%C3%BCster_Nautiliden.jpg",
+     "file": "1980 - günter anlauf - thüster nautiliden.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Rousseau%20S%C3%A4ule%20von%20G%C3%BCnter%20Anlauf.jpg?width=520"
+  },
+  {
+   "type": "artist",
+   "era": "ancien",
+   "wd": "Q2291371",
+   "id": "fr:Jan van Balen",
+   "name": "Jan van Balen",
+   "desc": "peintre flamand",
+   "birth": 1611,
+   "death": 1654,
+   "extract": "Jan van Balen, né le 21 juillet 1611 à Anvers et mort le 14 mars 1654, est un peintre flamand connu pour ses peintures baroques d'histoire et de sujets allégoriques. Il peint également des paysages et des scènes de genre.",
+   "url": "https://fr.wikipedia.org/wiki/Jan_van_Balen",
+   "lang": "fr",
+   "artsy": null,
+   "works": [
+    {
+     "title": "Nymphs, Satyrs and Cupids",
+     "year": 1660,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Nymphs%2C%20Satyrs%20and%20Cupids%20-%20Nationalmuseum%20-%2022287.tif?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Nymphs%2C%20Satyrs%20and%20Cupids%20-%20Nationalmuseum%20-%2022287.tif?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Nymphs%2C_Satyrs_and_Cupids_-_Nationalmuseum_-_22287.tif",
+     "file": "nymphs, satyrs and cupids - nationalmuseum - 22287.tif"
+    },
+    {
+     "title": "Noah and the Ark",
+     "year": 1637,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Jan%20van%20Balen%20%28c.1611-1654%29%20%28attributed%20to%29%20-%20Noah%20and%20the%20Ark%20-%20BORGM%202007.94.302%20-%20Russell-Cotes%20Art%20Gallery%20%5E%20Museum.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Jan%20van%20Balen%20%28c.1611-1654%29%20%28attributed%20to%29%20-%20Noah%20and%20the%20Ark%20-%20BORGM%202007.94.302%20-%20Russell-Cotes%20Art%20Gallery%20%5E%20Museum.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Jan_van_Balen_%28c.1611-1654%29_%28attributed_to%29_-_Noah_and_the_Ark_-_BORGM_2007.94.302_-_Russell-Cotes_Art_Gallery_%5E_Museum.jpg",
+     "file": "jan van balen (c.1611-1654) (attributed to) - noah and the ark - borgm 2007.94.302 - russell-cotes art gallery ^ museum.jpg"
+    },
+    {
+     "title": "The Baptism of Christ",
+     "year": null,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Jan%20van%20Balen%20-%20Doopsel%20van%20Christus%20-%20925%20-%20Royal%20Museum%20of%20Fine%20Arts%20Antwerp.tiff?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Jan%20van%20Balen%20-%20Doopsel%20van%20Christus%20-%20925%20-%20Royal%20Museum%20of%20Fine%20Arts%20Antwerp.tiff?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Jan_van_Balen_-_Doopsel_van_Christus_-_925_-_Royal_Museum_of_Fine_Arts_Antwerp.tiff",
+     "file": "jan van balen - doopsel van christus - 925 - royal museum of fine arts antwerp.tiff"
+    },
+    {
+     "title": "The Marriage Feast of Peleus and Thetis",
+     "year": 1630,
+     "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Jan%20van%20Balen%20%28c.1611-1654%29%20%28attributed%20to%29%20-%20The%20Marriage%20Feast%20of%20Peleus%20and%20Thetis%20-%2075%20-%20Glasgow%20Museums%20Resource%20Centre.jpg?width=520",
+     "full": "https://commons.wikimedia.org/wiki/Special:FilePath/Jan%20van%20Balen%20%28c.1611-1654%29%20%28attributed%20to%29%20-%20The%20Marriage%20Feast%20of%20Peleus%20and%20Thetis%20-%2075%20-%20Glasgow%20Museums%20Resource%20Centre.jpg?width=1600",
+     "page": "https://commons.wikimedia.org/wiki/File:Jan_van_Balen_%28c.1611-1654%29_%28attributed_to%29_-_The_Marriage_Feast_of_Peleus_and_Thetis_-_75_-_Glasgow_Museums_Resource_Centre.jpg",
+     "file": "jan van balen (c.1611-1654) (attributed to) - the marriage feast of peleus and thetis - 75 - glasgow museums resource centre.jpg"
+    }
+   ],
+   "hasWorks": true,
+   "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Nymphs%2C%20Satyrs%20and%20Cupids%20-%20Nationalmuseum%20-%2022287.tif?width=520"
+  }
+ ],
+ "stories": [
+  {
+   "type": "story",
+   "id": "fr:Demon core",
+   "name": "Demon core",
+   "desc": "surnom donné à une masse subcritique de plutonium",
+   "extract": "Demon core (litt. « cœur de démon ») est le surnom donné à une masse subcritique de plutonium de 6,2 kg mesurant 8,5 cm de diamètre, qui fut source de deux brefs accidents de criticité au Laboratoire national de Los Alamos, en 1945 et en 1946. Son usage était prévu dans le cadre d'une troisième bombe pendant la Seconde Guerre mondiale, mais à la suite de la capitulation du Japon, elle fut utilisée pour des tests de criticité.\nBien que conçu pour avoir une petite marge de sécurité afin d'éviter son explosion, l'appareil devint brièvement supercritique lors de deux expériences différentes visant à s'assurer que le cœur était près du point critique. Chaque fois, il en résulta un grave syndrome d'irradiation aiguë qui entraîna la mort des scientifiques Harry Daghlian et Louis Slotin. Après ces accidents, on fit référence à cette sphère de plutonium en la surnommant « Demon core ».",
+   "url": "https://fr.wikipedia.org/wiki/Demon_core",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Partially-reflected-plutonium-sphere.jpeg/960px-Partially-reflected-plutonium-sphere.jpeg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Demon core|Demon core"
+  },
+  {
+   "type": "story",
+   "id": "fr:Projet Stargate",
+   "name": "Projet Stargate",
+   "desc": "sous-projets du gouvernement fédéral des États-Unis",
+   "extract": "Le projet Stargate est le nom de code d'un des sous-projets du gouvernement fédéral des États-Unis ayant pour objet d'investiguer la réalité et les applications potentielles, tant militaires que civiles, des phénomènes psychiques, plus particulièrement la « vision à distance », une capacité à « voir » psychiquement des évènements, des lieux ou des informations à grande distance.\nCes projets ont été actifs des années 1970 à 1995, et ont suivi la recherche psychique précoce effectuée à l'Institut de recherche de Stanford (SRI), la société américaine pour la recherche psychique et d'autres laboratoires de recherche psychique. En 1995, le projet a été transféré à la CIA et une évaluation rétrospective des résultats a été faite. La CIA a contracté l'American Institutes for Research pour une évaluation.\nLe 30 juin, avant que l'évaluation de l'AIR ne commence, la CIA a fermé le projet Stargate.",
+   "url": "https://fr.wikipedia.org/wiki/Projet_Stargate",
+   "lang": "fr",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/16/Albert_Stubblebine_%28US_Army_major_general%29.jpg?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "key": "Projet Stargate|Stargate Project"
+  },
+  {
+   "type": "story",
+   "id": "fr:Grande Peur",
+   "name": "Grande Peur",
+   "desc": "peur collective pendant la Révolution française",
+   "extract": "La Grande Peur est un mouvement de peur collective qui s'est répandu en France, essentiellement du 20 juillet au 6 août 1789, et s'est prolongé au-delà. Les épisodes de peur sont parfois suivis de révoltes anti-seigneuriales et d’émeutes frumentaires en ville, mais les phénomènes sont disjoints. Ils aboutissent à la création de milices sur tout le territoire, qui, sous la direction de l’Assemblée nationale, évoluent en gardes nationales et au mouvement des fédérations de ces mêmes gardes qui culmine lors de la fête de la Fédération le 14 juillet 1790, moment de reprise en main du mouvement populaire.\nLa Grande Peur et les révoltes anti-seigneuriales simultanées apparaissent en même temps que s'effondre l'autorité de l'Ancien Régime, et elles engendrent un important mouvement d'émigration de la noblesse. Elles provoquent aussi la surprise — et l'inquiétude — des nouvelles autorités politiques et entraînent, en réponse à celles-ci, l'abolition des privilèges.",
+   "url": "https://fr.wikipedia.org/wiki/Grande_Peur",
+   "lang": "fr",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Galerie_Historique_ou_Tableaux_des_%C3%A9v%C3%A8nements_de_la_R%C3%A9volution_fran%C3%A7aise_%281795-1799%29._Insurrection_paysanne%2C_%C3%A9migration_des_Princes_et_des_Courtisans_de_leurs_Ch%C3%A2teaux_de_Campagne_brul%C3%A9s_en_ao%C3%BBt_1789.png/960px-thumbnail.png?utm_source=fr.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "key": "Grande Peur|Great Fear"
+  }
+ ]
+}
